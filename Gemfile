@@ -5,3 +5,4 @@ gem "jekyll"
 gem "compass"
 gem "foreman"
 gem "bootstrap-sass"
+gem 'github-pages', '~> 19'
