@@ -6,7 +6,7 @@ url: "http://waynegraham.github.io/"
 
 # build settings
 markdown: kramdown
-highlighter: true
+highlighter: pygments
 permalink: pretty
 sass:
   sass_dir: _sass
