@@ -1,12 +1,12 @@
 # Site settings
 title: Introduction to Humanities Programming
 description: "An introduction to Humanities Programming course materials for the Humanities Intensive Learning and Teaching (HILT) program."
-baseurl: "/intro-to-dh-programming"
+baseurl: "http://waynegraham.github.io/intro-to-dh-programming"
 url: "http://waynegraham.github.io/"
 
 # build settings
 markdown: kramdown
-pygments: true
+highlighter: true
 permalink: pretty
 sass:
   sass_dir: _sass

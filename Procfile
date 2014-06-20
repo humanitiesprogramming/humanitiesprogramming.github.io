@@ -1,1 +1,1 @@
-web: bundle exec jekyll serve -w
+web: bundle exec jekyll serve -w --baseurl ""
