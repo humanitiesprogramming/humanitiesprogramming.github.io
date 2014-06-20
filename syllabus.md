@@ -4,8 +4,6 @@ title: Syllabus
 description: Course Syllabus
 ---
 
-# Syllabus
-
 <div class="syllabus">
   <div id="day-one">
     <h2>Day One</h2>
