@@ -11,7 +11,7 @@ description: Course Exercises
 * [TryGit](http://waynegraham.github.io/intro-to-dh-programming/)
 
 ## Github
-Create a Github domain for your account.
+[Create a Github domain for your account]({{"/exercises/github.html" prepend: baseurl}})
 
 {% highlight html %}
 <!doctype html>
