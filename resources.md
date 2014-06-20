@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: page
 title: Resources
+description: Course Resources
 ---
 
-# Resources
-
 <div class="bibliography">
-  <h2>Resources</h2>
 
   <h3>Articles</h3>
   <ul>
@@ -36,13 +34,13 @@ title: Resources
     <li>E. Holgaard, Smooth Coffeescript.</li>
     <li>Andy Hunt, Pragmatic Thinking and Learning: Refactor Your Wetware, The Pragmatic Programmers (2008).</li>
     <li><a href="http://ruby.learncodethehardway.org/book/">Learn Ruby the Hard Way</a>.</li>
-    <li>Marijn Haverbeke, <a href="http://eloquentjavascript.net/"><i>Eloquent JavaScript</i></a>.</li>
-    <li>Chris Pine, <a href="https://pine.fm/LearnToProgram/"><i>Learn to Program</i></a>.</li>
-    <li>Scott Chacon, <a href="http://git-scm.com/book"><i>Pro Git</i></a>.</li>
-    <li>William Turkel, et. al. <a href="http://programminghistorian.org/"><i>Programming Historian</i></a>.</li>
-    <li>Julie Meloni, <i>Sams Teach Yourself HTML and CSS</i> (2011).</li>
-    <li>Steve Krug, <i>Don't Make Me Think! A Common Sense Approach to Web Usability</i></li>
-    <li>37 Signals, <a href="http://gettingreal.37signals.com/"><i>Getting Real</i></a></li>
+    <li>Marijn Haverbeke, <a href="http://eloquentjavascript.net/">Eloquent JavaScript</a>.</li>
+    <li>Chris Pine, <a href="https://pine.fm/LearnToProgram/">Learn to Program</a>.</li>
+    <li>Scott Chacon, <a href="http://git-scm.com/book">Pro Git</a>.</li>
+    <li>William Turkel, et. al. <a href="http://programminghistorian.org/">Programming Historian</a>.</li>
+    <li>Julie Meloni, Sams Teach Yourself HTML and CSS (2011).</li>
+    <li>Steve Krug, Don't Make Me Think! A Common Sense Approach to Web Usability</li>
+    <li>37 Signals, <a href="http://gettingreal.37signals.com/">Getting Real</a></li>
   </ul>
 </div>
 

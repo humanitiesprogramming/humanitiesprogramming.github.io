@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Exercises
+description: Course Exercises
 ---
 
-# Exercises
 
 

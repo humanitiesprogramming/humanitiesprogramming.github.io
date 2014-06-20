@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: Syllabus
+description: Course Syllabus
 ---
 
 # Syllabus
