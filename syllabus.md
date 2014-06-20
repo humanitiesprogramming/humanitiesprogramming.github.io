@@ -10,7 +10,7 @@ title: Syllabus
     <h2>Day One</h2>
     <ul>
       <li>Introducing the Command line</li>
-      <li>HTML and CSS basics
+      <li>HTML and CSS basics</li>
     </ul>
   </div>
   <div id="day-two">
@@ -19,6 +19,7 @@ title: Syllabus
       <li>Introduction to <code>git</code></li>
       <li>Introduction to <a href="https://github.com">Github</a></li>
       <li>Introduction to Programming Concepts</li>
+      <li>Deploying simple pages</li>
     </ul>
   </div>
   <div id="day-three">
