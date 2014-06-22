@@ -14,8 +14,8 @@ javascript:
 Change to the desktop. List all the directories on the Desktop
 
 {% highlight ruby %}
-cd ~/Desktop
-ls -d */
+$ cd ~/Desktop
+$ ls -d */
 {% endhighlight %}
 
 # More Listing
@@ -23,8 +23,8 @@ ls -d */
 Change to the desktop. List all files and directories, 1 per line.
 
 {% highlight ruby %}
-cd ~/Desktop
-ls
+$ cd ~/Desktop
+$ ls
 {% endhighlight %}
 
 # Making Directories
@@ -32,7 +32,7 @@ ls
 Create a directory named demo.
 
 {% highlight ruby %}
-mkdir demo
+$ mkdir demo
 {% endhighlight %}
 
 # Making Deep Directories
@@ -40,8 +40,8 @@ mkdir demo
 Change to the desktop. Create the following directory structure using one command: demo/foo/bar/praxis
 
 {% highlight ruby %}
-cd ~/Desktop
-mkdir -p demo/foo/bar/praxis
+$ cd ~/Desktop
+$ mkdir -p demo/foo/bar/praxis
 
 {% endhighlight %}
 
@@ -50,6 +50,6 @@ mkdir -p demo/foo/bar/praxis
 Change to the demo folder. Create a file named hello.txt in the demo directory.
 
  {% highlight ruby %}
-cd ~/Desktop/demo
-touch hello.txt
+$ cd ~/Desktop/demo
+$ touch hello.txt
 {% endhighlight %}
