@@ -3,14 +3,14 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
-    compass: {
-      all: {
-        config: 'config.rb'
-      },
-      options: {
-        bundleExec: true
-      }
-    },
+    //compass: {
+      //all: {
+        //config: 'config.rb'
+      //},
+      //options: {
+        //bundleExec: true
+      //}
+    //},
     connect: {
       options: {
         middleware: function (connect) {
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
     },
     exec: {
       build: {
-        cmd: 'jekyll build'
+        cmd: 'jekyll build --baseurl ""'
       }
     },
     watch: {
@@ -93,14 +93,16 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-compass');
+  //grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-exec');
 
-  grunt.registerTask('default', ['connect', 'compass', 'exec:build', 'watch']);
-  grunt.registerTask('anvil', ['compass', 'exec:build', 'watch']);
+  //grunt.registerTask('default', ['connect', 'compass', 'exec:build', 'watch']);
+  grunt.registerTask('default', ['connect', 'exec:build', 'watch']);
+  //grunt.registerTask('anvil', ['compass', 'exec:build', 'watch']);
+  grunt.registerTask('anvil', ['exec:build', 'watch']);
   grunt.registerTask('serve', ['default']);
 
 };

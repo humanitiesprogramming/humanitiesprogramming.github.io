@@ -5,32 +5,19 @@ description: Course Exercises
 ---
 
 ## Command Line
+* [Command Line]({{ "/exercises/command-line/" | prepend: site.baseurl }})
+
 
 ## Git
 
-* [TryGit](http://waynegraham.github.io/intro-to-dh-programming/)
+* [TryGit](https://try.github.io)
 
 ## Github
-[Create a Github domain for your account]({{ "/exercises/github.html" | prepend: site.baseurl }})
-
-{% highlight html %}
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>[Your Name]</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <p>Hi, my name is [Your Name]</p>
-  </body>
-</html>
-{% endhighlight %}
+* [Create a Github domain for your account]({{ "/exercises/github/" | prepend: site.baseurl }})
 
 ## Ruby
-
+* [Ruby Exercise One]({{ "/exercises/ruby-one/" | prepend: site.baseurl }})
+* [Ruby Exercise Two]({{ "/exercises/ruby-two/" | prepend: site.baseurl }})
 
 
 ## Rails

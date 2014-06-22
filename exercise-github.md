@@ -1,8 +1,8 @@
 ---
 layout: exercise
-exercise: Github Pages
+title: Github Pages
 description: Create a simple Github User repository
-permalink: /exercises/github.html
+permalink: /exercises/github/
 ---
 
 In this exercise we will be creating a new `git` repository **remote** at

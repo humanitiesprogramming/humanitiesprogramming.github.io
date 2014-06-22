@@ -4,6 +4,11 @@ title: Resources
 description: Course Resources
 ---
 
+## Class Resources
+
+* [Ruby Cheatsheet]({{ "/resources/ruby-cheatsheet/" | prepend: site.baseurl }})
+
+
 <div class="bibliography">
 
   <h3>Articles</h3>
