@@ -3,34 +3,53 @@ layout: exercise
 title: Command Line
 description: Command line exercises
 permalink: /exercises/command-line/
+javascript:
+  - /assets/js/hint.js
 ---
 
 ![Drag Folder](http://media.24ways.org/2013/coyier/drag-folder.gif)
 
 # Listing Directories
 
-List all the directories on the Desktop
+Change to the desktop. List all the directories on the Desktop
+
+{% highlight ruby %}
+cd ~/Desktop
+ls -d */
+{% endhighlight %}
 
 # More Listing
 
-List all files and directories, 1 per line
+Change to the desktop. List all files and directories, 1 per line.
+
+{% highlight ruby %}
+cd ~/Desktop
+ls
+{% endhighlight %}
 
 # Making Directories
 
-Create a directory named demo
+Create a directory named demo.
+
+{% highlight ruby %}
+mkdir demo
+{% endhighlight %}
 
 # Making Deep Directories
 
-Create the following directory structure using one command: demo/foo/bar/praxis
+Change to the desktop. Create the following directory structure using one command: demo/foo/bar/praxis
+
+{% highlight ruby %}
+cd ~/Desktop
+mkdir -p demo/foo/bar/praxis
+
+{% endhighlight %}
 
 # Creating Files
 
-Create a file named hello.txt in the demo directory
+Change to the demo folder. Create a file named hello.txt in the demo directory.
 
-# Compressing Files
-
-Create a new tarball of the demo directory
-
-# Celebrate
-
-Brag to your friends that you can do this
+ {% highlight ruby %}
+cd ~/Desktop/demo
+touch hello.txt
+{% endhighlight %}
