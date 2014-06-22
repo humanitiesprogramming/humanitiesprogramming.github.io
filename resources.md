@@ -7,6 +7,8 @@ description: Course Resources
 ## Class Resources
 
 * [Ruby Cheatsheet]({{ "/resources/ruby-cheatsheet/" | prepend: site.baseurl }})
+* [Ruby Style Guide]({{ "/resources/style-guide/" | prepend: site.baseurl }})
+* [Ruby Rules]({{ "/resources/ruby-rules/" | prepend: site.baseurl }})
 
 
 <div class="bibliography">
