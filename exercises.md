@@ -6,7 +6,7 @@ description: Course Exercises
 
 ## Command Line
 * [Command Line Exercises]({{ "/exercises/command-line/" | prepend: site.baseurl }})
-* [Learn Command Line the Hard Way](http://cli.learncodethehardway.org/)
+* [Learn Command Line the Hard Way](http://cli.learncodethehardway.org/book/)
 
 ## Git
 
