@@ -54,9 +54,10 @@ $ cd ~/Desktop/demo
 $ touch hello.txt
 {% endhighlight %}
 
+# Making, Moving, Deleting
+
 Create a new folder called test_projects with three text files in it: test_1, test_2, test_3. Within test_projects, create another folder called files. Move the test files into the new directory. Move into the new directory to make sure it worked. Then delete the test_projects directory.
 
-# Making, Moving, Deleting
 {% highlight bash %}
 $ mkdir test_projects
 $ cd test_projects
