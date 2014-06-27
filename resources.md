@@ -13,6 +13,8 @@ description: Course Resources
 
 <div class="bibliography">
 
+  <h2>Bibliography</h2>
+
   <h3>Articles</h3>
   <ul>
     <li><a href="http://alistapart.com/article/separationdilemma">Separation: The Web Designer's Dilemma</a></li>
