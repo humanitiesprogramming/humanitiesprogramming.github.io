@@ -13,6 +13,10 @@ description: Course Resources
 
 <div class="bibliography">
 
+  ### Cheatsheets
+
+  * [Rails Beginner Cheatsheet](http://www.pragtob.info/rails-beginner-cheatsheet/)
+
   <h3>Articles</h3>
   <ul>
     <li><a href="http://alistapart.com/article/separationdilemma">Separation: The Web Designer's Dilemma</a></li>

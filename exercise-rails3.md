@@ -1,0 +1,122 @@
+---
+layout: exercise
+title: Rails App
+description: Phase Three
+permalink: /exercises/rails-three/
+---
+
+In the last module we built up fields to handle the transcription fields
+we wanted using the scaffolding that Rails provides. This gets us down
+the road quite a ways in creating a new application, but it doesn't
+necessarily look very nice. Since we have to look at this, now is a good
+time to get a bit further in to implementing an updated view from the
+**View** layer using Ruby's built-in ERB templating language.
+
+Don't tell the instructors in the **Introduction to Web Development and
+Design Principals**, but we're going to use a shortcut in our design and
+layout with the [Twitter Bootstrap](http://getbootstrap.com/) CSS
+framework to now only make things look a lot better, but also give us a
+version of the application that works as well on mobile devises as it
+does on the browser.
+
+## Include the CSS
+
+We need to tell the main application layout to include the Twitter
+Bootstrap styles from their [CDN](http://en.wikipedia.org/wiki/Content_delivery_network).
+Open `app/views/layouts/application.html` and add the following under
+the `stylesheet_link_tag` line:
+
+{% highlight ruby %}
+<%= stylesheet_link_tag "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" %>
+<%= stylesheet_link_tag "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" %>
+{% endhighlight %}
+
+Now find the main `yield` section and surround it with a
+`div.container`.
+
+{% highlight ruby %}
+<div class="container">
+  <%= yield %>
+</div>
+{% endhighlight %}
+
+If you're like me, you're impatient and want to see what changed. Start
+up your `rails server` and see if you see anything different at
+[http://localhost:3000/transcriptions/][t].
+
+## JavaScript
+
+Twitter Bootstrap makes use of JavaScript to help with a few
+interactions. Let's add that library in. Again, in the
+`app/views/layouts/application.html` file, just before the `</body>`
+element, add these new `footer` and `script` elements.
+
+{% highlight ruby %}
+<footer>
+  <div class="container">
+    HILT <%= Time.now.year %>
+  </div>
+</footer>
+<%= javascript_include_tag "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" %>
+{% endhighlight %}
+
+If you start your web server up again, you should see the new footer on
+the page, and it should also be loading the `bootstrap` library of
+effects.
+
+## Navigation
+
+We want to add a cool navigation header on the page. We want to include
+a menu option for mobile users that displays all the pages, as well as
+the name of the app and a link to the transcriptions. Below the `body`
+element, and before the `div.container`, add the following.
+
+{% highlight ruby %}
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <%= link_to "Scriba", transcriptions_path, class: 'navbar-brand' %>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <%= link_to "Transcriptions", transcriptions_path %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+{% endhighlight %}
+
+Fire up your browser now and look at [http://localhost:3000/transcriptions][t].
+Does it look correct?
+
+![Bootstrap Header]({{ "/assets/img/exercises/rails-three/bootstrap-header.png" | prepend: site.baseurl }})
+
+Let's fix that now. We need to update the stylesheets for Rails. We
+won't get too much in to **SASS/SCSS** in this course, but it's a
+superset of CSS that has some really cool features added. However, for
+our purposes, we'll keep it "simple" and just write to the SCSS file
+with CSS. Open `app/assets/stylesheets/transcriptions.css.scss` and add
+the following rules:
+
+{% highlight css %}
+body { padding-top: 100px; }
+footer { margin-top: 100px; }
+table, td, th { vertical-align: middle; border: none; }
+th { border-bottom: 1px solid #DDD; }
+{% endhighlight %}
+
+If you refresh your the page of transcrions ([http://localhost:3000/transcriptions][t]),
+you should see something that looks much better.
+
+![Bootstrap Header]({{ "/assets/img/exercises/rails-three/bootstrap-header-update.png" | prepend: site.baseurl }})
+
+
+[t]: http://localhost:3000/transcriptions
