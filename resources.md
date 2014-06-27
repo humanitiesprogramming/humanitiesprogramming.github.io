@@ -13,9 +13,11 @@ description: Course Resources
 
 <div class="bibliography">
 
-  ### Cheatsheets
+  <h3>Cheatsheets</h3>
 
-  * [Rails Beginner Cheatsheet](http://www.pragtob.info/rails-beginner-cheatsheet/)
+  <ul>
+    <li><a href="http://www.pragtob.info/rails-beginner-cheatsheet/">Rails Beginner Cheatsheet</a></li>
+  </ul>
 
   <h3>Articles</h3>
   <ul>
