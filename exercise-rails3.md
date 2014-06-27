@@ -119,4 +119,24 @@ you should see something that looks much better.
 ![Bootstrap Header]({{ "/assets/img/exercises/rails-three/bootstrap-header-update.png" | prepend: site.baseurl }})
 
 
+## Git
+
+Now that the main components are working and we have the content
+working, it's a good time to add and commit the changes to `git`.
+
+{% highlight bash %}
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+      modified:   app/assets/stylesheets/transcriptions.css.scss
+      modified:   app/views/layouts/application.html.erb$ git commit
+$ git add app
+$ git commit -m "Added Twitter Bootstrap for the views"
+[master f14d44a] Added Twitter Bootstrap for the views
+ 2 files changed, 36 insertions(+)
+{% endhighlight %}
+
 [t]: http://localhost:3000/transcriptions
