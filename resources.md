@@ -9,15 +9,9 @@ description: Course Resources
 * [Ruby Cheatsheet]({{ "/resources/ruby-cheatsheet/" | prepend: site.baseurl }})
 * [Ruby Style Guide]({{ "/resources/style-guide/" | prepend: site.baseurl }})
 * [Ruby Rules]({{ "/resources/ruby-rules/" | prepend: site.baseurl }})
-
+* [Rails Beginner Cheatsheet](http://www.pragtob.info/rails-beginner-cheatsheet/)
 
 <div class="bibliography">
-
-  <h3>Cheatsheets</h3>
-
-  <ul>
-    <li><a href="http://www.pragtob.info/rails-beginner-cheatsheet/">Rails Beginner Cheatsheet</a></li>
-  </ul>
 
   <h3>Articles</h3>
   <ul>
