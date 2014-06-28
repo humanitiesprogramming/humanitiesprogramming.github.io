@@ -26,7 +26,7 @@ Bootstrap styles from their [CDN](http://en.wikipedia.org/wiki/Content_delivery_
 Open `app/views/layouts/application.html` and add the following under
 the `stylesheet_link_tag` line:
 
-{% highlight ruby %}
+{% highlight rhtml %}
 <%= stylesheet_link_tag "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" %>
 <%= stylesheet_link_tag "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" %>
 {% endhighlight %}
@@ -34,14 +34,14 @@ the `stylesheet_link_tag` line:
 Now find the main `yield` section and surround it with a
 `div.container`.
 
-{% highlight ruby %}
+{% highlight rhtml %}
 <div class="container">
   <%= yield %>
 </div>
 {% endhighlight %}
 
 If you're like me, you're impatient and want to see what changed. Start
-up your `rails server` and see if you see anything different at
+up your server (`bin/rails server`) and see if you see anything different at
 [http://localhost:3000/transcriptions/][t].
 
 ## JavaScript
@@ -51,7 +51,7 @@ interactions. Let's add that library in. Again, in the
 `app/views/layouts/application.html` file, just before the `</body>`
 element, add these new `footer` and `script` elements.
 
-{% highlight ruby %}
+{% highlight rhtml %}
 <footer>
   <div class="container">
     HILT <%= Time.now.year %>
@@ -64,6 +64,8 @@ If you start your web server up again, you should see the new footer on
 the page, and it should also be loading the `bootstrap` library of
 effects.
 
+> **Question**: What does `Time.now.year` do? Why might this be better than manually typing out "2014"?
+
 ## Navigation
 
 We want to add a cool navigation header on the page. We want to include
@@ -71,7 +73,7 @@ a menu option for mobile users that displays all the pages, as well as
 the name of the app and a link to the transcriptions. Below the `body`
 element, and before the `div.container`, add the following.
 
-{% highlight ruby %}
+{% highlight rhtml %}
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -124,7 +126,7 @@ you should see something that looks much better.
 Now that the main components are working and we have the content
 working, it's a good time to add and commit the changes to `git`.
 
-{% highlight bash %}
+{% highlight console %}
 $ git status
 On branch master
 Changes not staged for commit:

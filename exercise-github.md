@@ -28,7 +28,7 @@ you just created.
 In the terminal, create a new directory (`mkdir`) and navigate to it
 (`cd`).
 
-{% highlight html %}
+{% highlight console %}
 $ mkdir -p ~/projects/
 $ cd projects
 {% endhighlight %}
@@ -40,7 +40,7 @@ right-hand side, you'll see a section that says "**SSH** clone URL".
 Copy the contents, or just replace the following with your valid
 information.
 
-{% highlight bash %}
+{% highlight console %}
 $ git clone git@github.com:username/username.github.io.git
 $ cd username.github.io
 {% endhighlight %}
@@ -51,7 +51,7 @@ We can check out the contents of the directory. We should have a
 directory with just a single file. We can check this in the terminal by
 listing (`ls`) the files in the directory.
 
-{% highlight bash %}
+{% highlight console %}
 $ ls
 README.md
 {% endhighlight %}
@@ -67,13 +67,13 @@ simple web page and push it back to Github.
 Create a new file with your name in it in the terminal using the
 concatenate command (`cat`) and output redirection (`>`).
 
-{% highlight bash %}
+{% highlight console %}
 $ echo "Hello, my name is Sparticus!" > index.html
 {% endhighlight %}
 
 Now we need to check the status of the repository.
 
-{% highlight bash %}
+{% highlight console %}
 $ git status
 On branch master
 Untracked files:
@@ -88,7 +88,7 @@ Reading the message, we see we need to run `git add` since this is a new
 file. If we run `git
 status` after adding the file, we'll see its status has changed.
 
-{% highlight bash %}
+{% highlight console %}
 d$ git add index.html
 $ git status
 On branch master
@@ -102,7 +102,7 @@ Git now knows that you want to track the file, but we have to now
 actually commit the change to the database, with a message about what we
 did at this point.
 
-{% highlight bash %}
+{% highlight console %}
 $ git commit -m "My first commit declaring that I am Sparticus" index.html
 [master e48bd94] My first commit declaring that I am Sparticus
  1 file changed, 1 insertion(+)
@@ -112,7 +112,7 @@ $ git commit -m "My first commit declaring that I am Sparticus" index.html
 Now we can push the master branch of the repository to Github. When we cloned the repository, `git`
 automagically set a remote of "origin" for us.
 
-{% highlight bash %}
+{% highlight console %}
 $ git push origin master
 Counting objects: 8, done.
 Delta compression using up to 8 threads.

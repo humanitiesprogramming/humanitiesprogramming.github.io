@@ -13,7 +13,7 @@ javascript:
 
 Change to the desktop. List all the directories on the Desktop
 
-{% highlight bash %}
+{% highlight console %}
 $ cd ~/Desktop
 $ ls -d */
 {% endhighlight %}
@@ -22,7 +22,7 @@ $ ls -d */
 
 Change to the desktop. List all files and directories, 1 per line.
 
-{% highlight bash %}
+{% highlight console %}
 $ cd ~/Desktop
 $ ls
 {% endhighlight %}
@@ -31,7 +31,7 @@ $ ls
 
 Create a directory named demo.
 
-{% highlight bash %}
+{% highlight console %}
 $ mkdir demo
 {% endhighlight %}
 
@@ -39,7 +39,7 @@ $ mkdir demo
 
 Change to the desktop. Create the following directory structure using one command: demo/foo/bar/praxis
 
-{% highlight bash %}
+{% highlight console %}
 $ cd ~/Desktop
 $ mkdir -p demo/foo/bar/praxis
 
@@ -49,7 +49,7 @@ $ mkdir -p demo/foo/bar/praxis
 
 Change to the demo folder. Create a file named hello.txt in the demo directory.
 
- {% highlight bash %}
+ {% highlight console %}
 $ cd ~/Desktop/demo
 $ touch hello.txt
 {% endhighlight %}
@@ -58,7 +58,7 @@ $ touch hello.txt
 
 Create a new folder called test_projects with three text files in it: test_1, test_2, test_3. Within test_projects, create another folder called files. Move the test files into the new directory. Move into the new directory to make sure it worked. Then delete the test_projects directory.
 
-{% highlight bash %}
+{% highlight console %}
 $ mkdir test_projects
 $ cd test_projects
 $ touch test_1.txt

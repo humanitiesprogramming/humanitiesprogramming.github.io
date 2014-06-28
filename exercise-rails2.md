@@ -23,8 +23,8 @@ For **scripta** we need to have a `title`, `description`, `picture`, and
 **string** and the `description` and `transcription` will be a **text**
 data type.
 
-{% highlight bash %}
-$ rails generate scaffold transcription title:string description:text picture:string transcription:text
+{% highlight console %}
+$ bin/rails generate scaffold transcription title:string description:text picture:string transcription:text
 {% endhighlight %}
 
 You will see a lot of output as Rails generates the files needed,
@@ -37,8 +37,8 @@ After these files are created, there is one additional step that you
 have to do if you add, or change, a model. We have to tell the database
 to update itself based on the change so it knows how to save the data.
 
-{% highlight bash %}
-$ rake db:migrate
+{% highlight console %}
+$ bin/rake db:migrate
 == 20140627192049 CreateTranscriptions: migrating =============================
 -- create_table(:transcriptions)
    -> 0.0009s
@@ -48,8 +48,8 @@ $ rake db:migrate
 Now that the database knows about the changes, we can start the web
 server up and see what happend.
 
-{% highlight bash %}
-$ rails server
+{% highlight console %}
+$ bin/rails server
 {% endhighlight %}
 
 Now open your browser to [http://localhost:3000](http://localhost:3000).
@@ -67,7 +67,7 @@ We have a working feature, so its a good time to check if there were new
 files generated (there were), add them to `git`, and commit them to the
 database.
 
-{% highlight bash %}
+{% highlight console %}
 $ git status
 ...
 $ git add .
