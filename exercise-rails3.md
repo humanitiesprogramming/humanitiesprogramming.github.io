@@ -144,4 +144,25 @@ $ git commit -m "Added Twitter Bootstrap for the views"
  2 files changed, 36 insertions(+)
 {% endhighlight %}
 
+## Scaffold Styles
+
+So your app doesn't use browser defaults, Rails adds a few styles when you run
+the `scaffold` generator. However, we have some better styles for much of what
+we want to do from Twitter Bootstrap. Let's just go ahead and remove the
+generated file. We'll use the `git` command to do this.
+
+{% highlight console %}
+$ git rm app/assets/stylesheets/scaffolds.css.scss
+rm 'app/assets/stylesheets/scaffolds.css.scss'
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+  deleted:    app/assets/stylesheets/scaffolds.css.scss
+$ git commit -m "Removed generated scaffold styles"
+{% endhighlight %}
+
+> If you start the server up again, and look at the [transcriptions][t], does this look any different?
+
 [t]: http://localhost:3000/transcriptions

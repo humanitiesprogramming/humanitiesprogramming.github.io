@@ -24,4 +24,5 @@ description: Course Exercises
 * [Exercise One: Creating a New App]({{ "/exercises/rails-one/" | prepend: site.baseurl }})
 * [Exercise Two: Creating Transcription Scaffold]({{ "/exercises/rails-two/" | prepend: site.baseurl }})
 * [Exercise Three: A Little Design]({{ "/exercises/rails-three/" | prepend: site.baseurl }})
+* [Exercise Four: Image Uploads]({{ "/exercises/rails-four/" | prepend: site.baseurl }})
 
