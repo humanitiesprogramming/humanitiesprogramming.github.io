@@ -3,6 +3,8 @@ layout: exercise
 title: Rails App
 description: Phase Three
 permalink: /exercises/rails-three/
+javascript:
+  - /assets/js/catchup.js
 ---
 
 In the last module we built up fields to handle the transcription fields
@@ -96,6 +98,8 @@ element, and before the `div.container`, add the following.
 </nav>
 {% endhighlight %}
 
+{% gist waynegraham/50d282f4ea72f56e2c7b %}
+
 Fire up your browser now and look at [http://localhost:3000/transcriptions][t].
 Does it look correct?
 
@@ -119,7 +123,6 @@ If you refresh your the page of transcrions ([http://localhost:3000/transcriptio
 you should see something that looks much better.
 
 ![Bootstrap Header]({{ "/assets/img/exercises/rails-three/bootstrap-header-update.png" | prepend: site.baseurl }})
-
 
 ## Git
 
