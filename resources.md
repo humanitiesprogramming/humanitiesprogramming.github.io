@@ -20,6 +20,7 @@ description: Course Resources
     <li><a href="http://alistapart.com/article/separationdilemma">Separation: The Web Designer's Dilemma</a></li>
     <li><a href="http://alistapart.com/article/responsive-web-design">Responsive Web Design</a></li>
     <li><a href="http://www.w3.org/MarkUp/Guide/">Getting Started with HTML</a></li>
+    <li><a href="http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&chunk.id=ss1-3-1&toc.depth=1&toc.id=ss1-3-1&brand=default">How the Computer Works</a></li>
   </ul>
 
   <h3>Tutorials</h3>
