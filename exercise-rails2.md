@@ -1,6 +1,6 @@
 ---
 layout: exercise
-title: Rails App
+title: Rails App - Creating Transcription Scaffold
 description: Phase Two
 permalink: /exercises/rails-two/
 ---

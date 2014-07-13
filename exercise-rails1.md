@@ -1,6 +1,6 @@
 ---
 layout: exercise
-title: Rails App
+title: Rails App - Creating a New App
 description: Phase One
 permalink: /exercises/rails-one/
 ---

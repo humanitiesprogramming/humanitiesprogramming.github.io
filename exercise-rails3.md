@@ -1,6 +1,6 @@
 ---
 layout: exercise
-title: Rails App
+title: Rails App - A Little Design
 description: Phase Three
 permalink: /exercises/rails-three/
 javascript:
