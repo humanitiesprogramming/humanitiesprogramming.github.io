@@ -17,7 +17,7 @@ time to get a bit further in to implementing an updated view from the
 Don't tell the instructors in the **Introduction to Web Development and
 Design Principals**, but we're going to use a shortcut in our design and
 layout with the [Twitter Bootstrap](http://getbootstrap.com/) CSS
-framework to now only make things look a lot better, but also give us a
+framework to not only make things look a lot better, but also to give us a
 version of the application that works as well on mobile devises as it
 does on the browser.
 
@@ -25,7 +25,7 @@ does on the browser.
 
 We need to tell the main application layout to include the Twitter
 Bootstrap styles from their [CDN](http://en.wikipedia.org/wiki/Content_delivery_network).
-Open `app/views/layouts/application.html` and add the following under
+Open `app/views/layouts/application.html.erb` and add the following under
 the `stylesheet_link_tag` line:
 
 {% highlight rhtml %}
@@ -50,7 +50,7 @@ up your server (`bin/rails server`) and see if you see anything different at
 
 Twitter Bootstrap makes use of JavaScript to help with a few
 interactions. Let's add that library in. Again, in the
-`app/views/layouts/application.html` file, just before the `</body>`
+`app/views/layouts/application.html.erb` file, just before the `</body>`
 element, add these new `footer` and `script` elements.
 
 {% highlight rhtml %}

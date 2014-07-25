@@ -46,14 +46,14 @@ $ bin/rake db:migrate
 {% endhighlight %}
 
 Now that the database knows about the changes, we can start the web
-server up and see what happend.
+server up and see what happened.
 
 {% highlight console %}
 $ bin/rails server
 {% endhighlight %}
 
 Now open your browser to [http://localhost:3000](http://localhost:3000).
-What happend?
+What happened?
 
 Ok, we'll fix that later, but now point your browser [http://localhost:3000/transcriptions](http://localhost:3000/transcriptions). You should see something like the following:
 
@@ -76,7 +76,7 @@ $ git commit -m "Added initial trascription scaffold"
 
 ## Summary
 We extended the application here with the Rails scaffold system to allow
-us to add/update/delete/view transcriptions that we create. We ran in to
+us to add/update/delete/view transcriptions that we create. We ran into
 some issues, for instance the default page is an info page without a lot
 of information in it, and right now, anyone can add transcriptions.
 Furthermore, let's face it, the CSS looks a bit, well, blah. We'll start
@@ -86,5 +86,5 @@ You may have also noticed that we've managed to build a web application,
 up to this point, without ever actually opening a text editor. We've
 relied pretty heavily on the conventions and generators that Rails
 provides for us to build a functioning web application. Don't worry,
-we'll be getting in to the code very soon.
+we'll be getting into the code very soon.
 

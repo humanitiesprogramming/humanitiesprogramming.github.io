@@ -8,7 +8,7 @@ permalink: /exercises/rails-one/
 # Creating a New Application
 
 We're going to create a new Rails application named *scriba*. First we
-need to createa a `projects` directory. Don't forget about the [Rails
+need to create a `projects` directory. Don't forget about the [Rails
 Beginner Cheatsheet](http://www.pragtob.info/rails-beginner-cheatsheet/)
 in case you get stuck.
 
@@ -39,7 +39,7 @@ that the directory is there, you can **change the directory** to
 
 {% highlight console %}
 $ ls
-$ cd project
+$ cd projects
 {% endhighlight %}
 
 ## Create New Rails Application
@@ -86,7 +86,7 @@ then add the generated files, the commit them with a message about what
 we did so far.
 
 {% highlight console %}
-$ git status
+$ git init
 ...
 $ git add .
 $ git commit -m "Generated initial rails application"
