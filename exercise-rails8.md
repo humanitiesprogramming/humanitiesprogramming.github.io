@@ -1,7 +1,7 @@
 ---
 layout: exercise
 title: Rails App
-description: Phase Eight - User Experience
+description: Phase Eight - SCSS Introd
 permalink: /exercises/rails-eight/
 javascript:
   - /assets/js/catchup.js
@@ -224,7 +224,19 @@ it.
 </div>
 {% endhighlight %}
 
+If you navigate to the home page, you should see something like this:
 
+![Add Code]({{ "/assets/img/exercises/rails-eight/box.png" | prepend: site.baseurl  }})
+
+## Summary
+We just went through some of the things that SCSS, which is included with
+Rails, allows you to do. Just remember, if you don't get the language,
+plain-old CSS works in these files too. This is especially useful if you're
+taking an older CSS implementation to migrate in to a Rails application. This
+section went over some of the ways you can use the SCSS to add styles to your
+site, and in the next module, we'll update the user interface and use custom
+(and styles built in from Twitter Bootstrap) to improve how users interact with
+the application.
 
 [fonts]: https://www.google.com/fonts
 [stylesheet_link_tag]: http://apidock.com/rails/ActionView/Helpers/AssetTagHelper/stylesheet_link_tag
