@@ -8,7 +8,7 @@ javascript:
 ---
 
 In this module, we will refine the routes, or how the URLs in the
-application act as well as creating a static page that contains info
+application act, as well as create a static page that contains info
 about the **Scriba** application.
 
 If you look at the [http://localhost:3000][t] webpage (with your server

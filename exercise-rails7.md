@@ -51,7 +51,7 @@ config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
 Now we need to edit the application view to hold an alert for us. Edit
 `app/views/layouts/application.html.erb` and add the following just before
-the line that reads `<% yield %>`.
+the line that reads `<%= yield %>`.
 
 {% highlight rhtml %}
 <% flash.each do |name, msg| %>
