@@ -28,8 +28,8 @@ description: Course Exercises
 * [Exercise Seven: Adding Users]({{ "/exercises/rails-seven/" | prepend: site.baseurl }})
 * [Exercise Eight: SCSS Introduction]({{ "/exercises/rails-eight/" | prepend: site.baseurl }})
 * [Exercise Nine: User Experience]({{ "/exercises/rails-nine/" | prepend: site.baseurl }})
-* [Exercise Nine: Deploying to Heroku]({{ "/exercises/rails-ten/" | prepend: site.baseurl }})
-* [Exercise Ten: Adding User Comments]({{ "/exercises/rails-eleven/" | prepend: site.baseurl }})
-* [Exercise Eleven: Testing with RSpec]({{ "/exercises/rails-twelve/" | prepend: site.baseurl }})
-* [Exercise Twelve: Continious Integration]({{ "/exercises/rails-thirteen/" | prepend: site.baseurl }})
+* [Exercise Ten: Deploying to Heroku]({{ "/exercises/rails-ten/" | prepend: site.baseurl }})
+* [Exercise Eleven: Adding User Comments]({{ "/exercises/rails-eleven/" | prepend: site.baseurl }})
+* [Exercise Twelve: Testing with RSpec]({{ "/exercises/rails-twelve/" | prepend: site.baseurl }})
+* [Exercise Thirteen: Continious Integration]({{ "/exercises/rails-thirteen/" | prepend: site.baseurl }})
 
