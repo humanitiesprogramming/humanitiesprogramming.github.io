@@ -181,7 +181,7 @@ to github!
 
 {% highlight console %}
 $ git add .
-$ git commit -am Implements comments on the Transcription"
+$ git commit -am "Implements comments on the Transcription"
 $ git push origin master
 {% endhighlight %}
 
