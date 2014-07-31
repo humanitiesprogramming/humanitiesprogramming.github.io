@@ -71,5 +71,5 @@ $ mv test_3 files
 $ cd files
 $ ls
 $ cd ..
-$ rmdir -rf test_projects
+$ rm -rf test_projects
 {% endhighlight %}
