@@ -7,10 +7,10 @@ javascript:
   - /assets/js/catchup.js
 ---
 
-Let's take a little bit of time to improve the overall look, and feel, of the
+Let's take a little bit of time to improve the overall look and feel of the
 site. We won't get very deep in to this aspect (there's another entire course
 here just on this aspect of software development), but we can at least make
-a few things flow a bit better, and also explore SASS a bit.
+a few things flow a bit better and also explore SASS a bit.
 
 ## Fonts
 
