@@ -13,7 +13,8 @@ application in a year when (and trust me, it's **when** not *if*) you need to
 fix something. One of the biggest challenges to these fixes is that you can
 sometimes fix one part of you application, but break another.
 
-So how do you guard against this? One way is to write "tests" that allow you to
+So how do you guard against this? One way is to write ["tests"]({{ "/assets/img/testing_cat.jpg" | prepend: site.baseurl }})
+ that allow you to
 not only state the intent of your code, but also automates the system
 validating that the code does what you intend.
 
