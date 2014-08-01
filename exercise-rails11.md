@@ -12,7 +12,7 @@ it on a server for people to look at. This can be a rather complex task, but we
 will use a service that is specifically designed to make this a relatively
 painless task.
 
-The [Heroku][heroku] service is what's know and a **platform as a service**
+The [Heroku][heroku] service is a **platform**
 that allows you to run web applications written in most of the popular web
 languages.
 
@@ -22,7 +22,7 @@ For this, we need to follow the [Heroku Quickstart Guide][quickstart].
 
 ## Prepping Scriba
 
-Heroku works with git, which makes deploying a snap. However, ther are a few
+Heroku works with git, which makes deploying a snap. However, there are a few
 things we need to do to make this work better.
 
 ### Ignore Files
@@ -213,7 +213,7 @@ this application, here are some useful links for implementing this:
 
 ## Summary
 You now have an application you can share with your friends and family. And,
-without getinging in to a "back in my day" talk, this is one of the simplest
+without getting into a "back in my day" talk, this is one of the simplest
 ways to deploy an application, but it's not the only way. Similar services to
 heroku (if you don't have your own IT staff) include:
 
