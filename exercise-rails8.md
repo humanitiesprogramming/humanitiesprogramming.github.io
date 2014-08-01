@@ -1,7 +1,7 @@
 ---
 layout: exercise
 title: Rails App
-description: Phase Eight - SCSS Introd
+description: Phase Eight - SCSS Introduction
 permalink: /exercises/rails-eight/
 javascript:
   - /assets/js/catchup.js
@@ -73,7 +73,8 @@ changes get applied?
 ## SCSS Variables
 
 CSS as a language only provides text-based rules for browsers. However, this
-makes you type a lot of things over and over. This is where SCSS (and other
+makes you type a lot of things over and over. This is where ["SCSS"]({{ "/assets/img/scss_cat.jpg" | prepend: site.baseurl }})
+ (and other
 CSS preprocessors like [less][less]) help you be more productive and have fewer
 issues in your development cycle. There are a few things like this that you
 will find that you use throughout your application, like **colors** and

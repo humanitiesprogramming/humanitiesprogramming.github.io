@@ -17,7 +17,7 @@ description: Course Syllabus
     <ul>
       <li>Introduction to <code>git</code></li>
       <li>Introduction to <a href="https://github.com">Github</a></li>
-      <li>Introduction to Programming Concepts</li>
+      <li>Introduction to <a href= "{{ "/assets/img/php_kitten.jpg" | prepend: site.baseurl }}">Programming Concepts</a></li>
       <li>Deploying simple pages</li>
     </ul>
   </div>

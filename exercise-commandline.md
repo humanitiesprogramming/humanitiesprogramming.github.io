@@ -11,7 +11,7 @@ javascript:
 
 # Listing Directories
 
-Change to the desktop. List all the directories on the Desktop
+Change to the desktop. List all the directories on the Desktop.
 
 {% highlight console %}
 $ cd ~/Desktop
