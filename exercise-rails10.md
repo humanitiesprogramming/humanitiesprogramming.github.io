@@ -69,7 +69,7 @@ end
 
 We need a form for adding comments, as well as updating the `Transcription`
 controller to know how to save and display a comment. Open
-`app/views/transcription.html.erb`.
+`app/views/transcriptions/show.html.erb`.
 
 {% highlight rhtml %}
 <div class="row">
