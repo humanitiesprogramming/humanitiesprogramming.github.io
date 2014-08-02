@@ -16,7 +16,7 @@ sometimes fix one part of you application, but break another.
 
 So how do you guard against this? One way is to write ["tests"]({{ "/assets/img/testing_cat.jpg" | prepend: site.baseurl }})
  that allow you to
-not only state the intent of your code, but also automates the system
+not only state the intent of your code, but also to automate the system
 validating that the code does what you intend.
 
 > If you find yourself inheriting an application, writing tests is a good way
