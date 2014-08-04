@@ -8,7 +8,7 @@ description: Course Syllabus
   <div id="day-one">
     <h2>Day One</h2>
     <ul>
-      <li>[Introduction]({{ "assets/slides/hilt-intro.pdf" | prepend: site.baseurl }})</li>
+      <li><a href="{{"/assets/slides/hilt-intro.pdf" | prepend: site.baseurl }}">Introduction</a></li>
       <li>Introducing the Command line</li>
       <li>HTML and CSS basics</li>
     </ul>
@@ -25,9 +25,9 @@ description: Course Syllabus
   <div id="day-three">
     <h2>Day Three: Ruby</h2>
     <ul>
-      <li>[Programming Concepts I]({{ "assets/slides/hilt-programming-i.pdf" | prepend: site.baseurl }})</li>
-      <li>[Programming Concepts II]({{ "assets/slides/hilt-programming-ii.pdf" | prepend: site.baseurl }})</li>
-      <li>[Programming Concepts III]({{ "assets/slides/hilt-programming-iii.pdf" | prepend: site.baseurl }})</li>
+      <li><a href="{{ "/assets/slides/hilt-programming-i.pdf" | prepend: site.baseurl }}">Programming Concepts I</a></li>
+      <li><a href="{{ "/assets/slides/hilt-programming-ii.pdf" | prepend: site.baseurl"}}>Programming Concepts II</a></li>
+      <li><a href="{{ "/assets/slides/hilt-programming-ii.pdf" | prepend: site.baseurl }}">Programming Concepts III</a></li>
     </ul>
   </div>
   <div id="day-four">
