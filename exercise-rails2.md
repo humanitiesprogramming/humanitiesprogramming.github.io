@@ -57,7 +57,7 @@ What happened?
 
 Ok, we'll fix that later, but now point your browser [http://localhost:3000/transcriptions](http://localhost:3000/transcriptions). You should see something like the following:
 
-![Transcriptions]({{ "/assets/img/exercises/rails-two/transcriptions-scaffold.png" | prepend: site.baseurl }})
+![Transcriptions]({{ "/assets/img/exercises/rails-two/transcriptions-scaffold.png" | prepend: site.baseurl }}){: .img-responsive}
 
 Click around in the site now and create a few transcriptions. When
 you're done, you can stop the server with `ctrl-c`.

@@ -103,7 +103,8 @@ element, and before the `div.container`, add the following.
 Fire up your browser now and look at [http://localhost:3000/transcriptions][t].
 Does it look correct?
 
-![Bootstrap Header]({{ "/assets/img/exercises/rails-three/bootstrap-header.png" | prepend: site.baseurl }})
+![Bootstrap Header]({{ "/assets/img/exercises/rails-three/bootstrap-header.png" | prepend: site.baseurl }}){: .img-responsive}
+
 
 Let's fix that now. We need to update the stylesheets for Rails. We
 won't get too much in to **SASS/SCSS** in this course, but it's a
@@ -122,7 +123,8 @@ th { border-bottom: 1px solid #DDD; }
 If you refresh your the page of transcrions ([http://localhost:3000/transcriptions][t]),
 you should see something that looks much better.
 
-![Bootstrap Header]({{ "/assets/img/exercises/rails-three/bootstrap-header-update.png" | prepend: site.baseurl }})
+![Bootstrap Header]({{ "/assets/img/exercises/rails-three/bootstrap-header-update.png" | prepend: site.baseurl }}){: .img-responsive}
+
 
 ## Git
 
