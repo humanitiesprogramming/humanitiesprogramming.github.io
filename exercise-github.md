@@ -109,8 +109,8 @@ $ git commit -m "My first commit declaring that I am Sparticus" index.html
  create mode 100644 index.html
 {% endhighlight %}
 
-Now we can push the master branch of the repository to Github. When we cloned the repository, `git`
-automagically set a remote of "origin" for us.
+Now we can push the master branch of the repository to Github. When we cloned
+the repository, `git` automagically set a remote of "origin" for us.
 
 {% highlight console %}
 $ git push origin master
