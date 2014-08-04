@@ -65,10 +65,10 @@ We will keep this pretty light, for now. We will create an exceptionally
 simple web page and push it back to Github.
 
 Create a new file with your name in it in the terminal using the
-concatenate command (`cat`) and output redirection (`>`).
+echo command (`echo`) and output redirection (`>`).
 
 {% highlight console %}
-$ echo "Hello, my name is Sparticus!" > index.html
+$ echo "Hello, my name is Sparticus" > index.html
 {% endhighlight %}
 
 Now we need to check the status of the repository.
