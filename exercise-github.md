@@ -41,7 +41,7 @@ Copy the contents, or just replace the following with your valid
 information.
 
 {% highlight console %}
-$ git clone git@github.com:username/username.github.io.git
+$ git clone https://github.com/username/username.github.io.git
 $ cd username.github.io
 {% endhighlight %}
 
