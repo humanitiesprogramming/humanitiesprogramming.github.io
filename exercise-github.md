@@ -30,7 +30,7 @@ In the terminal, create a new directory (`mkdir`) and navigate to it
 
 {% highlight console %}
 $ mkdir -p ~/projects/
-$ cd projects
+$ cd ~/projects
 {% endhighlight %}
 
 ### Clone the Repository
