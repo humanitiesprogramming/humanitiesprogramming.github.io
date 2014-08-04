@@ -86,7 +86,7 @@ Now we need to change the field type of `picture` from `text_field` to
 When you start your server and add a new transcription, you should now
 see a form that looks like this:
 
-![File Upload]({{"/assets/img/exercises/rails-four/file-upload.png" | prepend: site.baseurl }})
+![File Upload]({{"/assets/img/exercises/rails-four/file-upload.png" | prepend: site.baseurl }}){: .img-responsive}
 
 Try uploading a file now! Does it work? Click around, is it doing what
 you expect?

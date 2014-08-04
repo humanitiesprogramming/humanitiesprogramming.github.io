@@ -139,7 +139,7 @@ Under the line
 
 This will add the links for "Sign up | Login" when the user isn't logged in.
 
-![Login]({{ "/assets/img/exercises/rails7/navigation.png" | prepend: site.baseurl  }})
+![Login]({{ "/assets/img/exercises/rails7/navigation.png" | prepend: site.baseurl  }}){: .img-responsive}
 
 What's different when the user is logged in?
 

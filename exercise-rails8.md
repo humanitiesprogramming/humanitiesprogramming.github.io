@@ -20,14 +20,14 @@ font that we can get from [Google Fonts][fonts]. While you can spend a lot of
 time searching for the perfect font, for now just search for "Roboto" and click
 the "Add to Collection" button.
 
-![Font Seach]({{ "/assets/img/exercises/rails-eight/font-search.png" | prepend: site.baseurl  }})
+![Font Seach]({{ "/assets/img/exercises/rails-eight/font-search.png" | prepend: site.baseurl  }}){: .img-responsive}
 
 You can add additional font to a collection, but we can get by with just one for
 now. Click on the "Use" tab and you'll be directed to a page that allows you to
 select which font weights you need for your application. If you scroll down, you
 will see a section **3. Add this code to your website:**.
 
-![Add Code]({{ "/assets/img/exercises/rails-eight/add-code.png" | prepend: site.baseurl  }})
+![Add Code]({{ "/assets/img/exercises/rails-eight/add-code.png" | prepend: site.baseurl  }}){: .img-responsive}
 
 Copy the link from the webpage, then open `app/views/layouts/application.html.erb`.
 Below the `<title>Scriba</title>` line, add the copied content from Google.
@@ -227,7 +227,7 @@ it.
 
 If you navigate to the home page, you should see something like this:
 
-![Add Code]({{ "/assets/img/exercises/rails-eight/box.png" | prepend: site.baseurl  }})
+![Add Code]({{ "/assets/img/exercises/rails-eight/box.png" | prepend: site.baseurl  }}){: .img-responsive}
 
 ## Summary
 We just went through some of the things that SCSS, which is included with

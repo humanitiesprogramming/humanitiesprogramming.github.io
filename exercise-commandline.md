@@ -7,7 +7,7 @@ javascript:
   - /assets/js/hint.js
 ---
 
-![Drag Folder](http://media.24ways.org/2013/coyier/drag-folder.gif)
+![Drag Folder](http://media.24ways.org/2013/coyier/drag-folder.gif){: .img-responsive}
 
 # Listing Directories
 
