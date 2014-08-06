@@ -17,20 +17,79 @@ deploying the application to the web later.
 Since we already created Github accounts, all we need to do here is
 create a new repository and push our code to it.
 
-## Github
+## Create a New GitHub Repository
 
-* Create a new repo
-* Add a README
-* Push to the remote
+* Go to the [new repository page](http://github.com/new) and give your project
+a name (e.g. **scriba**).
+* Give your project a description and make it public.
+* **Do not** select "Initialize this repository with a README"
 
-## Branches
+## Add the GitHub Remote
 
-A sane branching technique
+In the terminal, add a new remote for your repo.
 
-## Shortcuts
+{% highlight console %}
+$ cd ~/projects/scriba
+$ git remote add origin git@github.com:[username]/scriba.git
+$ git remote -v
+{% endhighlight %}
 
-* `hub`
-* `git flow`
+## Push Your Code
+Now you can "publish" the sourcecode of your application.
+
+{% highlight console %}
+$ git push origin master
+{% endhighlight %}
+
+> Does `git push` work?
+
+## Create Issues
+
+Go to your repo's issue tracker at http://github.com/username/scriba/issues.
+
+Add a new issue for your code to add users.
+
+**Title**: Add User Authentication
+**Comment**: Users should be authenticated before they can contribute a
+transcription.
+
+![New Github Issue]({{ "/assets/img/exercises/rails-6/new-issue.png" | prepend: site.baseurl }}){: .img-responsive}
+
+## Working with the Issues Tracker
+
+The issue tracker allows you to not only reference code in a commit, but also
+close particular issues. We'll use this is to close issues in subsequent
+modules, but take a second to skim (not read) about this on the GitHub Help
+article [Closing issues via commit messages][closing].
+
+For now we can create a new fake issue and close it. Create a new issue in the
+web interface to generate the Ruby documentation. After you create the issue,
+note the issue number (most likely #2). Back in your console, run the following
+task:
+
+{% highlight console %}
+$ rake doc:app
+{% endhighlight %}
+
+This will create a new directory (`doc/app`) with all the code documentation
+for the app. Now we can add it to the repository and close it.
+
+{% highlight console %}
+$ git status
+$ git add doc
+$ git status
+$ git commit -m "Adds documentation for the project. closes #2"
+$ git push origin master
+{% endhighlight %}
+
+Now, go to the issue tracker for your project. Is the issue closes? What does
+it show?
 
 ## Summary
+In this exercise, we set up a new repository and added an exhisting **git
+remote** to it. We also set up issue/feature tracking, and used an awesome
+feature to work with the issue tracker directly from the commit messages.
+This is an exceptionally handy feature and helps you work with more than one
+person, or need to track various ideas and bugs as they pop up.
 
+[closing]: https://help.github.com/articles/closing-issues-via-commit-messages

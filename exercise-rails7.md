@@ -7,7 +7,9 @@ javascript:
   - /assets/js/catchup.js
 ---
 
-Users are important for you a
+Users are important for your application as they'll be contributing the data.
+We need to make sure this is as simple for users to contribute as possible, but
+keep track of individual users.
 
 ## Devise
 For this exercise, we'll be using the `devise` gem to manage user
