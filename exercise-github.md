@@ -30,7 +30,7 @@ In the terminal, create a new directory (`mkdir`) and navigate to it
 
 {% highlight console %}
 $ mkdir -p ~/projects/
-$ cd projects
+$ cd ~/projects
 {% endhighlight %}
 
 ### Clone the Repository
@@ -41,7 +41,7 @@ Copy the contents, or just replace the following with your valid
 information.
 
 {% highlight console %}
-$ git clone git@github.com:username/username.github.io.git
+$ git clone https://github.com/username/username.github.io.git
 $ cd username.github.io
 {% endhighlight %}
 
@@ -65,7 +65,7 @@ We will keep this pretty light, for now. We will create an exceptionally
 simple web page and push it back to Github.
 
 Create a new file with your name in it in the terminal using the
-echo command (`echo`) and output redirection (`>`).
+concatenate command (`echo`) and output redirection (`>`).
 
 {% highlight console %}
 $ echo "Hello, my name is Sparticus" > index.html
@@ -109,8 +109,8 @@ $ git commit -m "My first commit declaring that I am Sparticus" index.html
  create mode 100644 index.html
 {% endhighlight %}
 
-Now we can push the master branch of the repository to Github. When we cloned the repository, `git`
-automagically set a remote of "origin" for us.
+Now we can push the master branch of the repository to Github. When we cloned
+the repository, `git` automagically set a remote of "origin" for us.
 
 {% highlight console %}
 $ git push origin master
