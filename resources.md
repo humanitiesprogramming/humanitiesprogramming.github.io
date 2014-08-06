@@ -10,9 +10,9 @@ description: Course Resources
 * [Ruby Style Guide]({{ "/resources/style-guide/" | prepend: site.baseurl }})
 * [Ruby Rules]({{ "/resources/ruby-rules/" | prepend: site.baseurl }})
 * [Rails Beginner Cheatsheet](http://www.pragtob.info/rails-beginner-cheatsheet/)
-* [Command Line]({{ "/assets/slides/resources/cli_slides.pptx" | prepend:site.baseurl }})
-* [HTML/CSS]({{ "/assets/slides/html_slides.pptx" | prepend:site.baseurl }})
-* [Git]({{ "/assets/slides/git_slides.pptx" | prepend:site.baseurl }})
+* [Command Line]({{ "/assets/slides/resources/cli.pdf" | prepend:site.baseurl }})
+* [HTML/CSS]({{ "/assets/slides/html.pdf" | prepend:site.baseurl }})
+* [Git]({{ "/assets/slides/git.pdf" | prepend:site.baseurl }})
 
 <div class="bibliography">
 
