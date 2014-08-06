@@ -17,6 +17,7 @@ description: Course Exercises
 ## Ruby
 * [Ruby Exercise One]({{ "/exercises/ruby-one/" | prepend: site.baseurl }})
 * [Ruby Exercise Two]({{ "/exercises/ruby-two/" | prepend: site.baseurl }})
+* [Debugging Exercises](https://github.com/bmw9t/LRTHW/tree/master/broken_exercises)
 
 ## Rails
 * [Exercise One: Creating a New App]({{ "/exercises/rails-one/" | prepend: site.baseurl }})
