@@ -60,7 +60,7 @@ The `transcription#show` view needs some work too. We can make this look a lot
 better, separating the metadata (title and description) from the actual content
 (image and transcription). We can also update the notice (for when a new item
 has been created, or a current item has been updated). Open
-`app/view/transcription/show.html.erb` and replace with the following:
+`app/views/transcription/show.html.erb` and replace with the following:
 
 {% highlight rhtml %}
 <% unless notice.nil? %>
