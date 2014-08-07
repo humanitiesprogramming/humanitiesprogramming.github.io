@@ -7,7 +7,9 @@ javascript:
   - /assets/js/catchup.js
 ---
 
-Users are important for you a
+Users are important for your application as they'll be contributing the data.
+We need to make sure this is as simple for users to contribute as possible, but
+keep track of individual users.
 
 ## Devise
 For this exercise, we'll be using the `devise` gem to manage user
@@ -213,7 +215,9 @@ anything you might like to change about the image?
 ## What time is it?
 
 That's right, it's time to add and commit the changes to git. It's also a
-good time to push to the Github remote (just in case your computer fails).
+good time to push to the Github remote (just in case your computer fails). We
+can also close the open issue (should be #1). Be sure to add "closes #1" to
+your commit message.
 
 ## Summary
 
