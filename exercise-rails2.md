@@ -24,7 +24,7 @@ For **scripta** we need to have a `title`, `description`, `picture`, and
 data type.
 
 {% highlight console %}
-$ bin/rails generate scaffold transcription user_name:string description:text picture:string transcription:text
+$ bin/rails generate scaffold transcription title:string description:text picture:string transcription:text
 {% endhighlight %}
 
 You will see a lot of output as Rails generates the files needed,
