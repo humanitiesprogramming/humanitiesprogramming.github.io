@@ -30,7 +30,7 @@ your `Gemfile` in the text editor and add the this line:
 gem 'carrierwave'
 {% endhighlight %}
 
-Now that we've declared the dependency, we can install it with
+Note: when you modify your gemfile you need to restart your server. Now that we've declared the dependency, we can install it with
 `bundler`.
 
 {% highlight console %}
