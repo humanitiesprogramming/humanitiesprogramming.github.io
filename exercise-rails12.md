@@ -67,7 +67,7 @@ $ bundle binstubs rspec-core
 
 Let's write a test for our Transcription object. Rspec runs tests in the `spec`
 directory that are suffixed with `_spec.rb`. Let's write a test for our
-Transcription model. Create a new file `spec/models/transcription_spec.rb`. In
+Transcription model. Create a new file `spec/models/transcription_spec.rb` (you will have to create the `models` directory to make the path function. In
 it, add the following:
 
 {% highlight ruby %}
