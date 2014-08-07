@@ -18,13 +18,13 @@ We're going to use Rails' scaffolding functionality as a starting point
 for this application. This will generate all the necessary code for our
 **CRUD** operations (Create, Read, Update, and Delete).
 
-For **scripta** we need to have a `title`, `description`, `picture`, and
+For **scripta** we need to have a `title`, `user_name`, `description`, `picture`, and
 `transcription` field. The `title` and `picture` fields will be a
 **string** and the `description` and `transcription` will be a **text**
 data type.
 
 {% highlight console %}
-$ bin/rails generate scaffold transcription title:string description:text picture:string transcription:text
+$ bin/rails generate scaffold transcription title:string user_name:string description:text picture:string transcription:text
 {% endhighlight %}
 
 You will see a lot of output as Rails generates the files needed,

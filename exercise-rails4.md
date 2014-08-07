@@ -223,7 +223,7 @@ $ ls -la public/uploads/transcription/picture/2/
 
 Awesome, now we have access to the additional features from CarriewWave
 to provide a thumbnail. We can use this in the `transcriptions.index`
-view to show a thumbnail next to the user_name.
+view to show a thumbnail next to the title.
 
 Open the `app/views/transcriptions/index.html.erb`. We can then update
 the view table to use the thumbnail. We'll use the same `picture_url`
@@ -232,7 +232,7 @@ method, but pass the `:thumb` symbol to retrieve the thumbnail version.
 {% highlight rhtml %}
 <% @transcriptions.each do |transcription| %>
   <tr>
-    <td><%= transcription.user_name %></td>
+    <td><%= transcription.title %></td>
     <td><%= transcription.description %></td>
     <td><%= image_tag transcription.picture_url(:thumb) if transcription.picture.present? %></td>
     <td><%= link_to 'Show', transcription %></td>
