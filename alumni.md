@@ -3,9 +3,22 @@ layout: home
 title: Digital Humanities Programming
 descrption: Alumni from the Digital Humanities Programming Course
 permalink: /alumni/
+css:
+  - //vjs.zencdn.net/4.7/video-js.css
+external-javascript:
+  - //vjs.zencdn.net/4.7/video.js
 ---
 
 # 2014 Alumni
+
+<video id="hilt2014" class="video-js vjs-default-skin"
+  controls preload="auto" width="640" height="264"
+  poster="http://video-js.zencoder.com/oceans-clip.png">
+  <source src="https://www.dropbox.com/s/uhp107r77w6r7de/20140808_154401.mp4" type='video/mp4' />
+ <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+</video>
+
+
 
 * Kevin Smith @KevinG_Smith
 * Nora Andrews @NorahLAndrews
