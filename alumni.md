@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: exercise
 title: Digital Humanities Programming
 descrption: Alumni from the Digital Humanities Programming Course
 permalink: /alumni/
@@ -7,18 +7,19 @@ css:
   - //vjs.zencdn.net/4.7/video-js.css
 external-javascript:
   - //vjs.zencdn.net/4.7/video.js
+
 ---
+<style>
+</style>
 
 # 2014 Alumni
-
-<video id="hilt2014" class="video-js vjs-default-skin" controls
- preload="auto" width="640" height="264" data-setup="{}">
- <source src="https://dl.dropboxusercontent.com/u/70943159/20140808_154401.mp4" type='video/mp4'>
- <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-</video>
-
-
-
+<div class="videocontent">
+  <video id="hilt2014" width="auto" height="500" class="video-js vjs-default-skin" controls
+   preload="auto" data-setup="{}">
+   <source src="https://dl.dropboxusercontent.com/u/70943159/20140808_154401.mp4" type='video/mp4'>
+   <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+  </video>
+</div>
 
 
 
@@ -26,22 +27,22 @@ external-javascript:
 * Kevin Smith @KevinG_Smith
 * Nora Andrews @NorahLAndrews
 * Michelle Tiedje 	@michelletiedje
-* Zoe LeBlanc 		@Zoe_LeBlanc
-* Abby Schreiber 	@abschreiber
+* Zoe LeBlanc 		@Zoe_LeBlanc https://github.com/ZoeLeBlanc
+* Abby Schreiber 	@abschreiber https://github.com/abschreiber http://abbybschreiber.com
 * Steve Anderson 	@sgahistory
 * Arden Kirkland 	@ardeninred
 * Yuko Nakamura 	@yukonakamura_
-* Ethan Reed		 	@reedeth
+* Ethan Reed		 	@reedeth https://github.com/reedeth
 * Andrew Keener 	@keenera
 * Angela Galvan 		@galvan_as
 * Ben Digle 			@bendigle
-* Jacob Heil 			@dr_heil
+* Jacob Heil 			@dr_heil https://github.com/jacobheil http://digitalscholarship.ohio5.org
 * Jenifer Barthe
-* Tatiana Ausema 	@modernmatters
-* Lee Zickel 			@bewmaynes
+* Tatiana Ausema 	@modernmatters https://github.com/tausema
+* Lee Zickel 			@bewmaynes https://github.com/bewmaynes
 * Crystal Hall
 * Bradley Nelson 	@bradleymnelson
-* Trevor Berman 		@TGBerman
+* Trevor Berman 		@TGBerman https://github.com/burningbee
 
 
 # 2013 Alumni
@@ -57,5 +58,7 @@ external-javascript:
 </li><li> Susan Henthorn (<a rel="nofollow" class="external text" href="https://github.com/henthornsk">Github</a>)
 </li><li>Elizabeth Cornell (<a rel="nofollow" class="external text" href="https://github.com/ecornell1">Github</a>, <a rel="nofollow" class="external text" href="https://twitter.com">Twitter</a>)
 </li></ul>
+
+
 
 
