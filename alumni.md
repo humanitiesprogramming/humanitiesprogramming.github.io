@@ -1,5 +1,5 @@
 ---
-layout: exercise
+layout: default
 title: Digital Humanities Programming
 descrption: Alumni from the Digital Humanities Programming Course
 permalink: /alumni/
@@ -9,25 +9,55 @@ external-javascript:
   - //vjs.zencdn.net/4.7/video.js
 
 ---
-<style>
-</style>
-
-# 2014 Alumni
-<div class="videocontent">
-  <video id="hilt2014" width="auto" height="500" class="video-js vjs-default-skin" controls
-   preload="auto" data-setup="{}">
-   <source src="https://dl.dropboxusercontent.com/u/70943159/20140808_154401.mp4" type='video/mp4'>
-   <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-  </video>
+<div id="blue">
+<div class="container">
+<div class="row centered">
+    <div class="col-lg-8 col-lg-offset-2">
+    <h4>2014 Alumni</h4>
+    <p>HILT Final Presentation</p>
+    <div class="videocontent">
+      <video id="hilt2014" width="auto" height="500" class="video-js vjs-default-skin" controls
+        preload="auto" data-setup="{}">
+        <source src="https://dl.dropboxusercontent.com/u/70943159/20140808_154401.mp4" type='video/mp4'>
+        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+        </video>
+        </div>
+      </div>
+      </div>
+   </div>
 </div>
 
+<div class="container w">
+<div class="row centered">
+    <div class="col-lg-3">
+      <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+      <h4>Kevin Smith</h4>
+      <p><a href="" class="fa fa-twitter">@KevenG_Smith</a></p>
+      </div>
+    <div class="col-lg-3">
+      <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+      <h4>Nora Andrews</h4>
+      <p><a href="" class="fa fa-twitter">@NorahLAndrews</a></p>
+      </div>
+
+    <div class="col-lg-3">
+      <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+      <h4>Michelle Tiedje </h4>
+      <p><a href="" class="fa fa-twitter">@michelletiedje</a></p>
+    </div>
+
+    <div class="col-lg-3">
+      <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+      <h4>Zoe LeBlanc  </h4>
+      <p>
+        <a href="" class="fa fa-twitter">@Zoe_LeBlanc</a><br/>
+        <a href="https://github.com/ZoeLeBlanc" class="fa fa-github">ZoeLeBlanc</a>
+      </p>
+    </div>
 
 
-
-* Kevin Smith @KevinG_Smith
-* Nora Andrews @NorahLAndrews
-* Michelle Tiedje 	@michelletiedje
-* Zoe LeBlanc 		@Zoe_LeBlanc https://github.com/ZoeLeBlanc
+  </div>
+</div>
 * Abby Schreiber 	@abschreiber https://github.com/abschreiber http://abbybschreiber.com
 * Steve Anderson 	@sgahistory
 * Arden Kirkland 	@ardeninred
@@ -45,7 +75,7 @@ external-javascript:
 * Trevor Berman 		@TGBerman https://github.com/burningbee
 
 
-# 2013 Alumni
+<h4>2013 Alumni</h4>
 
 <ul><li> Steve Henry (<a rel="nofollow" class="external text" href="https://github.com/spurioso">Github</a>, <a rel="nofollow" class="external text" href="https://twitter.com/SHHHenry">Twitter</a>)
 </li><li> Colette L (<a rel="nofollow" class="external text" href="https://github.com/csl1">Github</a>, <a rel="nofollow" class="external text" href="https://twitter.com/librarylettie">Twitter</a>)
@@ -60,5 +90,5 @@ external-javascript:
 </li></ul>
 
 
-
+</div>
 
