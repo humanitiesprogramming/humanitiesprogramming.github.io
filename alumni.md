@@ -59,44 +59,102 @@ external-javascript:
       </div>
       </div>
       <div class="row centered">
-      <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
-        <h4>Abby Schreiber</h4>
-        <p><a href="" class="fa fa-twitter">@abschreiber</a><br><a href="https://github.com/abschreiber" class="fa fa-github">abschreiber</a></p>
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Abby Schreiber</h4>
+          <p><a href="" class="fa fa-twitter">@abschreiber</a><br><a href="https://github.com/abschreiber" class="fa fa-github">abschreiber</a></p>
         </div>
-      <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
-        <h4>Steve Anderson</h4>
-        <p><a href="" class="fa fa-twitter">@sgahistory</a></p>
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Steve Anderson</h4>
+          <p><a href="" class="fa fa-twitter">@sgahistory</a></p>
+         </div>
+
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Arden Kirkland</h4>
+          <p><a href="" class="fa fa-twitter">@ardeninred</a></p>
         </div>
 
-      <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
-        <h4>Arden Kirkland</h4>
-        <p><a href="" class="fa fa-twitter">@ardeninred</a></p>
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Yuko Nakamura</h4>
+          <p>
+            <a href="" class="fa fa-twitter">@yukonakamura_</a><br/>
+          </p>
+        </div>
+      </div>
+      <div class="row centered">
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Ethan Reed</h4>
+          <p><a href="" class="fa fa-twitter">@reedeth</a><br><a href="https://github.com/reedeth" class="fa fa-github">reedeth</a></p>
+        </div>
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Steve Anderson</h4>
+          <p><a href="" class="fa fa-twitter">@sgahistory</a></p>
+         </div>
+
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Andrew Keener</h4>
+          <p><a href="" class="fa fa-twitter">@keenera</a></p>
+        </div>
+
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Angela Galvan</h4>
+          <p>
+            <a href="" class="fa fa-twitter">@galvan_as</a><br/>
+          </p>
+        </div>
       </div>
 
-      <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
-        <h4>Yuko Nakamura</h4>
-        <p>
-          <a href="" class="fa fa-twitter">@yukonakamura_</a><br/>
-        </p>
+      <div class="row centered">
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Ben Dingle</h4>
+          <p><a href="" class="fa fa-twitter">@bendigle</a></p>
+        </div>
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Jacob Heil</h4>
+          <p><a href="" class="fa fa-twitter">@dr_heil</a><br/><a class="fa fa-github" href="https://github.com/jacobheil ">jacobheil</a></p>
+         </div>
+
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Tatiana Ausema</h4>
+          <p><a href="" class="fa fa-twitter">@modernmatters</a><br/><a href="https://github.com/tausema">tausema</a></p>
+        </div>
+
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Lee Zickel</h4>
+          <p>
+          <a href="" class="fa fa-twitter">@bewmaynes</a><br/><a class="fa fa-github">bewmaynes</a>
+          </p>
+        </div>
+        </div>
+
+    <div class="row centered">
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Bradley Nelson</h4>
+          <p><a href="" class="fa fa-twitter">@bradleymnelson</a></p>
+        </div>
+
+        <div class="col-lg-3">
+          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <h4>Trevor Bergman</h4>
+          <p>
+          <a href="" class="fa fa-twitter">@TGBerman</a><br/><a class="fa fa-github">burningbee</a>
+          </p>
+        </div>
       </div>
-    </div>
+
 </div>
-* Ethan Reed		 	@reedeth https://github.com/reedeth
-* Andrew Keener 	@keenera
-* Angela Galvan 		@galvan_as
-* Ben Digle 			@bendigle
-* Jacob Heil 			@dr_heil https://github.com/jacobheil http://digitalscholarship.ohio5.org
-* Jenifer Barthe
-* Tatiana Ausema 	@modernmatters https://github.com/tausema
-* Lee Zickel 			@bewmaynes https://github.com/bewmaynes
-* Crystal Hall
-* Bradley Nelson 	@bradleymnelson
-* Trevor Berman 		@TGBerman https://github.com/burningbee
-
 
 
 <div id="r">
