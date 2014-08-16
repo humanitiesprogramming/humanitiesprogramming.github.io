@@ -125,7 +125,7 @@ external-javascript:
           <p><a href="" class="fa fa-twitter">@bendigle</a></p>
         </div>
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://en.gravatar.com/userimage/39564299/9d16748048304b665ae09f64ca099ee2.png" width="110" height="110" alt=""/>
           <h4>Jacob Heil</h4>
           <p><a href="" class="fa fa-twitter">@dr_heil</a><br/><a class="fa fa-github" href="https://github.com/jacobheil ">jacobheil</a></p>
          </div>
