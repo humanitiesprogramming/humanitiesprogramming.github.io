@@ -57,7 +57,7 @@ external-javascript:
       </div>
 
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://secure.gravatar.com/avatar/3201bd1ab9896ddf68145c150ab17134.png" width="110" height="110" alt=""/>
         <h4>Zoe LeBlanc  </h4>
         <p>
           <a href="" class="fa fa-twitter">@Zoe_LeBlanc</a><br/>
