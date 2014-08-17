@@ -22,18 +22,13 @@ external-javascript:
 <div id="dg">
 
 <div class="container">
-
   <div class="row centered">
-
-   <div class="videocontent">
-      <video id="hilt2014" width="auto" height="500" class="video-js vjs-default-skin" controls
-        preload="auto" data-setup="{}">
-        <source src="https://dl.dropboxusercontent.com/u/70943159/20140808_154401.mp4" type='video/mp4'>
-        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-        </video>
-        </div>
+    <div class="col-md-12">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="//www.youtube.com/embed/_6G-zEVdloc" frameborder="0" allowfullscreen></iframe>
       </div>
-   </div>
+    </div>
+  </div>
 </div>
 
 
