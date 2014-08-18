@@ -35,9 +35,9 @@ external-javascript:
 <div class="container w">
   <div class="row centered">
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+      <img class="img-circle" src="{{ "/assets/img/alumni/keving_smith.jpg" | prepend: site.baseurl }}" width="110" height="110" alt=""/>
         <h4>Kevin Smith</h4>
-        <p><a href="" class="fa fa-twitter">@KevenG_Smith</a></p>
+        <p><a href="https://twitter.com/KevinG_Smith" class="fa fa-twitter">@KevinG_Smith</a></p>
         </div>
       <div class="col-lg-3">
         <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
@@ -55,7 +55,7 @@ external-javascript:
         <img class="img-circle" src="https://secure.gravatar.com/avatar/3201bd1ab9896ddf68145c150ab17134.png" width="110" height="110" alt=""/>
         <h4>Zoe LeBlanc  </h4>
         <p>
-          <a href="" class="fa fa-twitter">@Zoe_LeBlanc</a><br/>
+          <a href="https://twitter.com/Zoe_LeBlanc" class="fa fa-twitter">@Zoe_LeBlanc</a><br/>
           <a href="https://github.com/ZoeLeBlanc" class="fa fa-github">ZoeLeBlanc</a>
         </p>
       </div>
