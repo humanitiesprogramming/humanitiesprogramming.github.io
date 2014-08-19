@@ -93,9 +93,10 @@ external-javascript:
           <p><a href="" class="fa fa-twitter">@reedeth</a><br><a href="https://github.com/reedeth" class="fa fa-github">reedeth</a></p>
         </div>
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <img class="img-circle" src="http://sgahm.org/sga220-hilt.jpg" width="110" height="110" alt="Steve Anderson"/>
           <h4>Steve Anderson</h4>
-          <p><a href="" class="fa fa-twitter">@sgahistory</a></p>
+          <p><a href="http://twitter.com/sgahistory" class="fa fa-twitter" target="_blank">@sgahistory</a><br>
+          <a href="https://github.com/sgahm" class="fa fa-github" target="_blank">sgahm</a></p>
          </div>
 
         <div class="col-lg-3">
