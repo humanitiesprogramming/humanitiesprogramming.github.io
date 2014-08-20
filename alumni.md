@@ -90,7 +90,7 @@ external-javascript:
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Ethan Reed</h4>
-          <p><a href="https://twitter.com/" class="fa fa-twitter">@reedeth</a><br><a href="https://github.com/reedeth" class="fa fa-github">reedeth</a></p>
+          <p><a href="https://twitter.com/reedeth" class="fa fa-twitter">@reedeth</a><br><a href="https://github.com/reedeth" class="fa fa-github">reedeth</a></p>
         </div>
         <div class="col-lg-3">
           <img class="img-circle" src="http://sgahm.org/sga220-hilt.jpg" width="110" height="110" alt="Steve Anderson"/>
@@ -118,7 +118,7 @@ external-javascript:
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Ben Dingle</h4>
-          <p><a href="https://twitter.com/" class="fa fa-twitter">@bendigle</a></p>
+          <p><a href="https://twitter.com/bendigle" class="fa fa-twitter">@bendigle</a></p>
         </div>
         <div class="col-lg-3">
           <img class="img-circle" src="https://en.gravatar.com/userimage/39564299/9d16748048304b665ae09f64ca099ee2.png" width="110" height="110" alt=""/>
@@ -129,14 +129,14 @@ external-javascript:
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Tatiana Ausema</h4>
-          <p><a href="https://twitter.com/modernmatters" class="fa fa-twitter">@modernmatters</a><br/><a href="https://github.com/tausema">tausema</a></p>
+          <p><a href="https://twitter.com/modernmatters" class="fa fa-twitter">@modernmatters</a><br/><a href="https://github.com/tausema" class="fa fa-github">tausema</a></p>
         </div>
 
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Lee Zickel</h4>
           <p>
-          <a href="https://twitter.com/bewmaynes" class="fa fa-twitter">@bewmaynes</a><br/><a class="fa fa-github">bewmaynes</a>
+          <a href="https://twitter.com/bewmaynes" class="fa fa-twitter">@bewmaynes</a><br/><a class="fa fa-github" href="https://github.com/bewmaynes">bewmaynes</a>
           </p>
         </div>
         </div>
@@ -152,7 +152,7 @@ external-javascript:
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Trevor Bergman</h4>
           <p>
-          <a href="https://twitter.com/TGBerman" class="fa fa-twitter">@TGBerman</a><br/><a class="fa fa-github">burningbee</a>
+          <a href="https://twitter.com/TGBerman" class="fa fa-twitter">@TGBerman</a><br/><a class="fa fa-github" href="https://github.com/burningbee">burningbee</a>
           </p>
         </div>
       </div>
@@ -168,19 +168,86 @@ external-javascript:
       </div>
     </div>
   </div>
+  </div>
+
+<div class="container w">
+  <div class="row centered">
+      <div class="col-lg-3">
+        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <h4>Steve Henry</h4>
+        <p><a href="https://twitter.com/SHHHenry" class="fa fa-twitter">@SHHHenry</a><br/>
+        <a href="https://github.com/spurioso" class="fa fa-github">spurioso</a>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <h4>Colette L</h4>
+        <p><a href="https://twitter.com/librarylettie" class="fa fa-twitter">@librarylettie</a><br/>
+        <a href="https://github.com/csl1" class="fa fa-github">csl1</a>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <h4>Melissa Dalgleish</h4>
+        <p><a href="https://twitter.com/meldalgleish" class="fa fa-twitter">@meldalgleish</a><br/>
+        <a href="https://github.com/melissadalgleish" class="fa fa-github">melissadalgleish</a>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <h4>Alex Galarza</h4>
+        <p><a href="https://twitter.com/galarzaalex" class="fa fa-twitter">@galarzaalex</a><br/>
+        <a href="https://github.com/galarzaalex" class="fa fa-github">galarzaalex</a>
+        </p>
+      </div>
+  </div>
+  <div class="row centered">
+      <div class="col-lg-3">
+        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <h4>Annie Johnson</h4>
+        <p><a href="https://twitter.com/anniekjohn" class="fa fa-twitter">@anniekjohn</a><br/>
+        <a href="https://github.com/anniekjohn" class="fa fa-github">anniekjohn</a>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <h4>Kevin Gunn</h4>
+        <p><a href="https://twitter.com/KevinBGunn" class="fa fa-twitter">@KevinBGunn</a><br/>
+        <a href="https://github.com/KevinGunn" class="fa fa-github">KevinGunn</a>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <h4>Caitlin Wells</h4>
+        <p><a href="https://twitter.com/wellscai" class="fa fa-twitter">@wellscai</a><br/>
+        <a href="https://github.com/wellscai" class="fa fa-github">wellscai</a>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <h4>Cory Duclos</h4>
+        <p><a href="https://twitter.com/coryduclos" class="fa fa-twitter">@coryduclos</a><br/>
+        <a href="https://github.com/coryduclos" class="fa fa-github">coryduclos</a>
+        </p>
+      </div>
+  </div>
+   <div class="row centered">
+      <div class="col-lg-3">
+        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <h4>Susan Henthorn </h4>
+        <a href="https://github.com/henthornsk" class="fa fa-github">henthornsk</a>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <h4>Elizabeth Cornell</h4>
+        <a href="https://github.com/ecornell1" class="fa fa-github">ecornell1</a>
+        </p>
+      </div>
+   </div>
+
 </div>
 
-<ul><li> Steve Henry (<a rel="nofollow" class="external text" href="https://github.com/spurioso">Github</a>, <a rel="nofollow" class="external text" href="https://twitter.com/SHHHenry">Twitter</a>)
-</li><li> Colette L (<a rel="nofollow" class="external text" href="https://github.com/csl1">Github</a>, <a rel="nofollow" class="external text" href="https://twitter.com/librarylettie">Twitter</a>)
-</li><li> Melissa Dalgleish (<a rel="nofollow" class="external text" href="https://github.com/melissadalgleish">Github</a>, <a rel="nofollow" class="external text" href="https://twitter.com/meldalgleish">Twitter</a>)
-</li><li> Alex Galarza (<a rel="nofollow" class="external text" href="https://github.com/galarzaalex">Github</a>, <a rel="nofollow" class="external text" href="http://twitter.com/galarzaalex">Twitter</a>)
-</li><li> Annie Johnson (<a rel="nofollow" class="external text" href="https://github.com/anniekjohn">Github</a>, <a rel="nofollow" class="external text" href="http://twitter.com/anniekjohn">Twitter</a>)
-</li><li> Kevin Gunn (<a rel="nofollow" class="external text" href="https://github.com/KevinGunn">Github</a>, <a rel="nofollow" class="external text" href="http://twitter.com/KevinBGunn">Twitter</a>)
-</li><li> Caitlin Wells (<a rel="nofollow" class="external text" href="https://github.com/wellscai">Github</a>, <a rel="nofollow" class="external text" href="http://twitter.com/wellscai">Twitter</a>)
-</li><li>Cory Duclos (<a rel="nofollow" class="external text" href="http://github.com/coryduclos">Github</a>, <a rel="nofollow" class="external text" href="http://twitter.com/coryduclos">Twitter</a>)
-</li><li> Susan Henthorn (<a rel="nofollow" class="external text" href="https://github.com/henthornsk">Github</a>)
-</li><li>Elizabeth Cornell (<a rel="nofollow" class="external text" href="https://github.com/ecornell1">Github</a>, <a rel="nofollow" class="external text" href="https://twitter.com">Twitter</a>)
-</li></ul>
 
 
 
