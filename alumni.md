@@ -99,9 +99,9 @@ external-javascript:
          </div>
 
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="{{ "/assets/img/alumni/andrew_keener.jpg" | prepend: site.baseurl }}" width="110" height="110" alt=""/>
           <h4>Andrew Keener</h4>
-          <p><a href="" class="fa fa-twitter">@keenera</a></p>
+          <p><a href="https://twitter.com/keenera" class="fa fa-twitter">@keenera</a></p>
         </div>
 
         <div class="col-lg-3">
