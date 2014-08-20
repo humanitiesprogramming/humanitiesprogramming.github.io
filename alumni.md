@@ -42,13 +42,13 @@ external-javascript:
       <div class="col-lg-3">
         <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
         <h4>Nora Andrews</h4>
-        <p><a href="" class="fa fa-twitter">@NorahLAndrews</a></p>
+        <p><a href="https://twitter.com/NorahLAndrews" class="fa fa-twitter">@NorahLAndrews</a></p>
         </div>
 
       <div class="col-lg-3">
         <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
         <h4>Michelle Tiedje </h4>
-        <p><a href="" class="fa fa-twitter">@michelletiedje</a></p>
+        <p><a href="https://twitter.com/michelletiedje" class="fa fa-twitter">@michelletiedje</a></p>
       </div>
 
       <div class="col-lg-3">
@@ -64,25 +64,25 @@ external-javascript:
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Abby Schreiber</h4>
-          <p><a href="" class="fa fa-twitter">@abschreiber</a><br><a href="https://github.com/abschreiber" class="fa fa-github">abschreiber</a></p>
+          <p><a href="http://twitter.com/abschreiber" class="fa fa-twitter">@abschreiber</a><br><a href="https://github.com/abschreiber" class="fa fa-github">abschreiber</a></p>
         </div>
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Steve Anderson</h4>
-          <p><a href="" class="fa fa-twitter">@sgahistory</a></p>
+          <p><a href="https://twitter.com/sgahistory" class="fa fa-twitter">@sgahistory</a></p>
          </div>
 
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Arden Kirkland</h4>
-          <p><a href="" class="fa fa-twitter">@ardeninred</a></p>
+          <p><a href="https://twitter.com/ardeninred" class="fa fa-twitter">@ardeninred</a></p>
         </div>
 
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Yuko Nakamura</h4>
           <p>
-            <a href="" class="fa fa-twitter">@yukonakamura_</a><br/>
+            <a href="https://twitter.com/yukonakamura_" class="fa fa-twitter">@yukonakamura_</a><br/>
           </p>
         </div>
       </div>
@@ -90,13 +90,13 @@ external-javascript:
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Ethan Reed</h4>
-          <p><a href="" class="fa fa-twitter">@reedeth</a><br><a href="https://github.com/reedeth" class="fa fa-github">reedeth</a></p>
+          <p><a href="https://twitter.com/" class="fa fa-twitter">@reedeth</a><br><a href="https://github.com/reedeth" class="fa fa-github">reedeth</a></p>
         </div>
         <div class="col-lg-3">
           <img class="img-circle" src="http://sgahm.org/sga220-hilt.jpg" width="110" height="110" alt="Steve Anderson"/>
           <h4>Steve Anderson</h4>
-          <p><a href="http://twitter.com/sgahistory" class="fa fa-twitter" target="_blank">@sgahistory</a><br>
-          <a href="https://github.com/sgahm" class="fa fa-github" target="_blank">sgahm</a></p>
+          <p><a href="http://twitter.com/sgahistory" class="fa fa-twitter">@sgahistory</a><br>
+          <a href="https://github.com/sgahm" class="fa fa-github">sgahm</a></p>
          </div>
 
         <div class="col-lg-3">
@@ -109,7 +109,7 @@ external-javascript:
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Angela Galvan</h4>
           <p>
-            <a href="" class="fa fa-twitter">@galvan_as</a><br/>
+            <a href="https://twitter.com/galvan_as" class="fa fa-twitter">@galvan_as</a><br/>
           </p>
         </div>
       </div>
@@ -118,7 +118,7 @@ external-javascript:
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Ben Dingle</h4>
-          <p><a href="" class="fa fa-twitter">@bendigle</a></p>
+          <p><a href="https://twitter.com/" class="fa fa-twitter">@bendigle</a></p>
         </div>
         <div class="col-lg-3">
           <img class="img-circle" src="https://en.gravatar.com/userimage/39564299/9d16748048304b665ae09f64ca099ee2.png" width="110" height="110" alt=""/>
@@ -129,14 +129,14 @@ external-javascript:
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Tatiana Ausema</h4>
-          <p><a href="" class="fa fa-twitter">@modernmatters</a><br/><a href="https://github.com/tausema">tausema</a></p>
+          <p><a href="https://twitter.com/modernmatters" class="fa fa-twitter">@modernmatters</a><br/><a href="https://github.com/tausema">tausema</a></p>
         </div>
 
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Lee Zickel</h4>
           <p>
-          <a href="" class="fa fa-twitter">@bewmaynes</a><br/><a class="fa fa-github">bewmaynes</a>
+          <a href="https://twitter.com/bewmaynes" class="fa fa-twitter">@bewmaynes</a><br/><a class="fa fa-github">bewmaynes</a>
           </p>
         </div>
         </div>
@@ -145,14 +145,14 @@ external-javascript:
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Bradley Nelson</h4>
-          <p><a href="" class="fa fa-twitter">@bradleymnelson</a></p>
+          <p><a href="https://twitter.com/bradleymnelson" class="fa fa-twitter">@bradleymnelson</a></p>
         </div>
 
         <div class="col-lg-3">
           <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
           <h4>Trevor Bergman</h4>
           <p>
-          <a href="" class="fa fa-twitter">@TGBerman</a><br/><a class="fa fa-github">burningbee</a>
+          <a href="https://twitter.com/TGBerman" class="fa fa-twitter">@TGBerman</a><br/><a class="fa fa-github">burningbee</a>
           </p>
         </div>
       </div>
