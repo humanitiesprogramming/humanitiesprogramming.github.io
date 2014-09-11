@@ -79,10 +79,11 @@ external-javascript:
         </div>
 
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://s.gravatar.com/avatar/1760bf1f559cb027a0a40f8ae6779cff?s=80" width="110" height="110" alt=""/>
           <h4>Yuko Nakamura</h4>
           <p>
             <a href="https://twitter.com/yukonakamura_" class="fa fa-twitter">@yukonakamura_</a><br/>
+            <a href="https://github.com/yukonak" class="fa fa-github">yukonak</a>
           </p>
         </div>
       </div>
