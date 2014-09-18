@@ -150,10 +150,10 @@ external-javascript:
         </div>
 
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
-          <h4>Trevor Bergman</h4>
+        <img class="img-circle" src="{{ "/assets/img/alumni/trevor_berman.jpg" | prepend: site.baseurl }}" width="110" height="110" alt=""/>
+          <h4>Trevor Berman</h4>
           <p>
-          <a href="https://twitter.com/TGBerman" class="fa fa-twitter">@TGBerman</a><br/><a class="fa fa-github" href="https://github.com/burningbee">burningbee</a>
+          <a href="https://twitter.com/TGBerman" class="fa fa-twitter">@TGBerman</a><br/><a class="fa fa-github" href="https://github.com/trevorberman">trevorberman</a>
           </p>
         </div>
       </div>
