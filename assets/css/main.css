@@ -6,10 +6,10 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
- 
+
 /* FONTS */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(//fonts.googleapis.com/css?family=Raleway:400,300,700,900);
 
 .answer { cursor: pointer }
 
@@ -25,7 +25,7 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    
+
     margin-top: 70px;
 }
 
@@ -122,7 +122,7 @@ a:after {
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
 }
- 
+
 .tilt:hover {
   -webkit-transform: rotate(-10deg);
      -moz-transform: rotate(-10deg);
@@ -144,7 +144,7 @@ a:after {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -313,13 +313,13 @@ a:after {
 
 .modal-footer {
 	background: #f2f2f2;
-	margin-top: 0px; 
+	margin-top: 0px;
 }
 
 /* ==========================================================================
    Pricing Tables
    ========================================================================== */
-   
+
 .pricing-option {
     padding-bottom: 40px;
 }
