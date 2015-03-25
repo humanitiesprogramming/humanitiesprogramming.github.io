@@ -40,13 +40,13 @@ external-javascript:
         <p><a href="https://twitter.com/KevinG_Smith" class="fa fa-twitter">@KevinG_Smith</a></p>
         </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://pbs.twimg.com/profile_images/378800000776458118/00130de29b6fc3d3df449c9d93dc6571_400x400.jpeg" width="110" height="110" alt=""/>
         <h4>Nora Andrews</h4>
         <p><a href="https://twitter.com/NorahLAndrews" class="fa fa-twitter">@NorahLAndrews</a></p>
         </div>
 
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://pbs.twimg.com/profile_images/2898469913/007b9be9a75b916db5d919a290d36a05_400x400.png" width="110" height="110" alt=""/>
         <h4>Michelle Tiedje </h4>
         <p><a href="https://twitter.com/michelletiedje" class="fa fa-twitter">@michelletiedje</a></p>
       </div>
@@ -62,18 +62,18 @@ external-javascript:
       </div>
       <div class="row centered">
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://pbs.twimg.com/profile_images/576197939808202754/dxR70Rtg_400x400.jpeg" width="110" height="110" alt=""/>
           <h4>Abby Schreiber</h4>
           <p><a href="http://twitter.com/abschreiber" class="fa fa-twitter">@abschreiber</a><br><a href="https://github.com/abschreiber" class="fa fa-github">abschreiber</a></p>
         </div>
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://pbs.twimg.com/profile_images/378800000046574253/be456d0358c1d67d5e84f26017dc61cc_400x400.jpeg" width="110" height="110" alt=""/>
           <h4>Steve Anderson</h4>
           <p><a href="https://twitter.com/sgahistory" class="fa fa-twitter">@sgahistory</a></p>
          </div>
 
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://pbs.twimg.com/profile_images/291538560/ardeninredlogo72sq_400x400" width="110" height="110" alt=""/>
           <h4>Arden Kirkland</h4>
           <p><a href="https://twitter.com/ardeninred" class="fa fa-twitter">@ardeninred</a></p>
         </div>
@@ -89,7 +89,7 @@ external-javascript:
       </div>
       <div class="row centered">
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://pbs.twimg.com/profile_images/378800000705543740/79c0556bc61edfe72b9561376c9854c9_400x400.jpeg" width="110" height="110" alt=""/>
           <h4>Ethan Reed</h4>
           <p><a href="https://twitter.com/reedeth" class="fa fa-twitter">@reedeth</a><br><a href="https://github.com/reedeth" class="fa fa-github">reedeth</a></p>
         </div>
@@ -107,7 +107,7 @@ external-javascript:
         </div>
 
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://pbs.twimg.com/profile_images/574692758981599232/4W8CUVU7_400x400.jpeg" width="110" height="110" alt=""/>
           <h4>Angela Galvan</h4>
           <p>
             <a href="https://twitter.com/galvan_as" class="fa fa-twitter">@galvan_as</a><br/>
@@ -117,7 +117,7 @@ external-javascript:
 
       <div class="row centered">
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://pbs.twimg.com/profile_images/378800000830003242/ca6808863dec4908f707769b06ae61dc_400x400.jpeg" width="110" height="110" alt=""/>
           <h4>Ben Dingle</h4>
           <p><a href="https://twitter.com/bendigle" class="fa fa-twitter">@bendigle</a></p>
         </div>
@@ -128,13 +128,13 @@ external-javascript:
          </div>
 
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
           <h4>Tatiana Ausema</h4>
           <p><a href="https://twitter.com/modernmatters" class="fa fa-twitter">@modernmatters</a><br/><a href="https://github.com/tausema" class="fa fa-github">tausema</a></p>
         </div>
 
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://pbs.twimg.com/profile_images/1194806315/121937_400x400.jpg" width="110" height="110" alt=""/>
           <h4>Lee Zickel</h4>
           <p>
           <a href="https://twitter.com/bewmaynes" class="fa fa-twitter">@bewmaynes</a><br/><a class="fa fa-github" href="https://github.com/bewmaynes">bewmaynes</a>
@@ -144,7 +144,7 @@ external-javascript:
 
     <div class="row centered">
         <div class="col-lg-3">
-          <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://pbs.twimg.com/profile_images/1286984938/Bradley_400x400.jpg" width="110" height="110" alt=""/>
           <h4>Bradley Nelson</h4>
           <p><a href="https://twitter.com/bradleymnelson" class="fa fa-twitter">@bradleymnelson</a></p>
         </div>
@@ -174,28 +174,28 @@ external-javascript:
 <div class="container w">
   <div class="row centered">
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://pbs.twimg.com/profile_images/499304194143043584/TTAgWA58_400x400.jpeg" width="110" height="110" alt=""/>
         <h4>Steve Henry</h4>
         <p><a href="https://twitter.com/SHHHenry" class="fa fa-twitter">@SHHHenry</a><br/>
         <a href="https://github.com/spurioso" class="fa fa-github">spurioso</a>
         </p>
       </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
-        <h4>Colette L</h4>
+        <img class="img-circle" src="https://pbs.twimg.com/profile_images/1182685833/Photo_65_400x400.jpg" width="110" height="110" alt=""/>
+        <h4>Colette Lettie</h4>
         <p><a href="https://twitter.com/librarylettie" class="fa fa-twitter">@librarylettie</a><br/>
         <a href="https://github.com/csl1" class="fa fa-github">csl1</a>
         </p>
       </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://pbs.twimg.com/profile_images/458757759542915072/GwA4HwPJ_400x400.jpeg" width="110" height="110" alt=""/>
         <h4>Melissa Dalgleish</h4>
         <p><a href="https://twitter.com/meldalgleish" class="fa fa-twitter">@meldalgleish</a><br/>
         <a href="https://github.com/melissadalgleish" class="fa fa-github">melissadalgleish</a>
         </p>
       </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://pbs.twimg.com/profile_images/1366124675/Avatar_400x400.jpg" width="110" height="110" alt=""/>
         <h4>Alex Galarza</h4>
         <p><a href="https://twitter.com/galarzaalex" class="fa fa-twitter">@galarzaalex</a><br/>
         <a href="https://github.com/galarzaalex" class="fa fa-github">galarzaalex</a>
@@ -204,28 +204,28 @@ external-javascript:
   </div>
   <div class="row centered">
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://pbs.twimg.com/profile_images/489531201367973888/v3nrG5Rq_400x400.jpeg" width="110" height="110" alt=""/>
         <h4>Annie Johnson</h4>
         <p><a href="https://twitter.com/anniekjohn" class="fa fa-twitter">@anniekjohn</a><br/>
         <a href="https://github.com/anniekjohn" class="fa fa-github">anniekjohn</a>
         </p>
       </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://pbs.twimg.com/profile_images/509886306365620224/Y_0D0_K__400x400.jpeg" width="110" height="110" alt=""/>
         <h4>Kevin Gunn</h4>
         <p><a href="https://twitter.com/KevinBGunn" class="fa fa-twitter">@KevinBGunn</a><br/>
         <a href="https://github.com/KevinGunn" class="fa fa-github">KevinGunn</a>
         </p>
       </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://pbs.twimg.com/profile_images/1273134424/madmen_icon_400x400.jpg" width="110" height="110" alt=""/>
         <h4>Caitlin Wells</h4>
         <p><a href="https://twitter.com/wellscai" class="fa fa-twitter">@wellscai</a><br/>
         <a href="https://github.com/wellscai" class="fa fa-github">wellscai</a>
         </p>
       </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://pbs.twimg.com/profile_images/1565583212/506px-Donquixote_400x400.JPG" width="110" height="110" alt=""/>
         <h4>Cory Duclos</h4>
         <p><a href="https://twitter.com/coryduclos" class="fa fa-twitter">@coryduclos</a><br/>
         <a href="https://github.com/coryduclos" class="fa fa-github">coryduclos</a>
@@ -234,13 +234,13 @@ external-javascript:
   </div>
    <div class="row centered">
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://avatars2.githubusercontent.com/u/3178713?v=3&s=460" width="110" height="110" alt=""/>
         <h4>Susan Henthorn </h4>
         <a href="https://github.com/henthornsk" class="fa fa-github">henthornsk</a>
         </p>
       </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="http://baconmockup.com/110/110" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://avatars0.githubusercontent.com/u/3216380?v=3&s=460" width="110" height="110" alt=""/>
         <h4>Elizabeth Cornell</h4>
         <a href="https://github.com/ecornell1" class="fa fa-github">ecornell1</a>
         </p>
