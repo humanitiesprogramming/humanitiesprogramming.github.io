@@ -81,9 +81,13 @@ at the same time.
 ## Rails Anatomy
 
 If you run `ls` in your scriba directory, you'll notice there are a lot of
-files and directories. Because of the **convention over configuration**
-principal, the following outline what the different parts of what each do the
-in the application.
+files and directories, because of the **convention over configuration**
+principal. **Convention over configuration** simply means that emphasis is
+placed on using already established ways of creating code and where those
+files should be placed, rather than trying to figure those things out from
+scratch. Some assumptions and ways of doing things are already made for you.
+The following outline what the different parts of what each do the in the
+application.
 
 
 <table class="table table-hover">
@@ -158,7 +162,7 @@ in the application.
 
 Now that we have something that is working, it is a good time to get
 everything we have in `git`. We first need to initialize the repository,
-then add the generated files, the commit them with a message about what
+then add the generated files, then commit them with a message about what
 we did so far.
 
 {% highlight console %}
