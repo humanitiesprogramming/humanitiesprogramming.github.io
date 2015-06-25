@@ -38,7 +38,7 @@ $ git remote -v
 Now you can "publish" the sourcecode of your application.
 
 {% highlight console %}
-$ git push origin master
+$ git push -u origin master
 {% endhighlight %}
 
 > Does `git push` work?
