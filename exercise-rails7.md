@@ -16,7 +16,7 @@ For this exercise, we'll be using the `devise` gem to manage user
 authentication for us. First we need to add the gem dependency to the `Gemfile`
 
 {% highlight ruby %}
-gem 'devise', '~> 3.2.4'
+gem 'devise', '~> 3.4.0'
 {% endhighlight %}
 
 And then install the new dependencies.
@@ -68,7 +68,7 @@ the line that reads `<%= yield %>`.
 
 Now we can clean up some of the code. Since we put this on the global
 application layout, we can remove the `notice` elements in the `show` views.
-Open `app/views/transcriptions/show.htmle.erb` and remove the line that reads
+Open `app/views/transcriptions/show.html.erb` and remove the line that reads
 `<p id="notice"><%= notice %></p>`.
 
 ## User Model
@@ -114,7 +114,17 @@ What happens?
 ## Log In Link
 
 We don't want our users to have to guess what the URL for signing in/up is, so
-let's add a link. In `app/views/layouts/application.html.erb` add:
+let's add a link. 
+
+In `app/views/layouts/application.html.erb`, under the line
+
+{% highlight rhtml %}
+<li class="active">
+  <%= link_to "Transcriptions", transcriptions_path %>
+</li>
+{% endhighlight %}
+
+add:
 
 {% highlight rhtml %}
 <li>
@@ -128,14 +138,6 @@ let's add a link. In `app/views/layouts/application.html.erb` add:
       <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
     <% end %>
   </p>
-</li>
-{% endhighlight %}
-
-Under the line
-
-{% highlight rhtml %}
-<li class="active">
-  <%= link_to "Transcriptions", transcriptions_path %>
 </li>
 {% endhighlight %}
 
