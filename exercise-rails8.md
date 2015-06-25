@@ -22,7 +22,7 @@ the "Add to Collection" button.
 
 ![Font Seach]({{ "/assets/img/exercises/rails-eight/font-search.png" | prepend: site.baseurl  }}){: .img-responsive}
 
-You can add additional font to a collection, but we can get by with just one for
+You can add additional fonts to a collection, but we can get by with just one for
 now. Click on the "Use" tab and you'll be directed to a page that allows you to
 select which font weights you need for your application. If you scroll down, you
 will see a section **3. Add this code to your website:**.
@@ -48,7 +48,7 @@ it.  Open up `app/assets/stylesheets/transcriptions.css.scss`. Let's change the
 font family for the CSS children of the `body` element.
 
 {% highlight rhtml %}
-body { padding-top: 100px; font-family: Raleway, sans-serif;}
+body { padding-top: 100px; font-family: Roboto, sans-serif;}
 {% endhighlight %}
 
 Now start your Rails server (`bin/rails server`) if it's not already running.
@@ -143,7 +143,7 @@ in the stylesheet to reuse this code:
 
 ## SCSS Functions
 
-SCSS also has functions that allow you to so a lot of manipulations without
+SCSS also has functions that allow you to do a lot of manipulations without
 having to do the math yourself. Instead of opening up a color wheel and
 figuring out what hex value is 20% darker (or lighter) than a given color, or
 even set a transparancy layer, you can use a function.
@@ -235,7 +235,7 @@ Rails, allows you to do. Just remember, if you don't get the language,
 plain-old CSS works in these files too. This is especially useful if you're
 taking an older CSS implementation to migrate in to a Rails application. This
 section went over some of the ways you can use the SCSS to add styles to your
-site, and in the next module, we'll update the user interface and use custom
+site, and in the next module, we'll update the user interface and use custom styles
 (and styles built in from Twitter Bootstrap) to improve how users interact with
 the application.
 
