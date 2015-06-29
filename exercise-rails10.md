@@ -15,7 +15,7 @@ development).
 
 ## Comments
 
-A comment need to be associated with a particular transcription, and a user. In
+A comment needs to be associated with a particular transcription, and a user. In
 Rails, these associations are handled at the application layer. If you've done
 any database development before, you may have handled this at the database
 layer.
@@ -190,11 +190,11 @@ $ git push origin master
 
 There's a lot of code here, but they're mainly updates to code that Rails
 generated for you. Most of the "work" here is actually going to the [Bootstrap
-documentation][boostrap] to add the appropriate HTML markup and CSS classes to
-produce the desired layout. This exercise did get in to some of the specifics
-of creating associated models in Rails that encapsolates different ideas that
-are *hopefully* easy to reason about. You can now build out many more features
-using these techniques.
+documentation][bootstrap] to find and add the appropriate HTML markup and CSS
+classes to produce the desired layout. This exercise did get in to some of the
+specifics of creating associated models in Rails that encapsulates different
+ideas that are *hopefully* easy to reason about. You can now build out many
+more features using these techniques.
 
 
 
