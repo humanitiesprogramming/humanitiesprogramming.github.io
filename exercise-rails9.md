@@ -80,6 +80,7 @@ has been created, or a current item has been updated). Open
   <div class="col-md-12">
     <h1><%= @transcription.title %></h1>
     <h2>Description:</h2>
+    <p>
       <%= @transcription.description %>
     </p>
   </div>
