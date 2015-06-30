@@ -35,7 +35,7 @@ First we need to add the `rspec` dependency to the `testing` environment for
 our app. Open the `Gemfile` and add the line:
 
 {% highlight ruby %}
-gem 'rspec-rails', '~> 3.0.0', group: [:development, :test]
+gem 'rspec-rails', '~> 3.1.0', group: [:development, :test]
 {% endhighlight %}
 
 Now run `bundle` in the terminal (without production).
@@ -44,7 +44,7 @@ Now run `bundle` in the terminal (without production).
 $ bundle --without production
 {% endhighlight %}
 
-> Powertip: `bundle` has an alias for `bundle install`. Hey, it saves 8 characters...
+> Powertip: `bundle` is an alias for `bundle install`. Hey, it saves typing an extra 8 characters...
 
 Now we can initialize rspec for our application.
 
@@ -61,6 +61,15 @@ a Rails 4 bin stub:
 
 {% highlight console %}
 $ bundle binstubs rspec-core
+{% endhighlight %}
+
+Edit the .rspec file to delete the `--warning` line. We want the output to show
+issues with just our code and not include all of the gems we are using. The
+.rspec file should look like this when done:
+
+{% highlight ruby %}
+--color
+--require spec_helper
 {% endhighlight %}
 
 ## First Test
