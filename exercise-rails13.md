@@ -96,10 +96,12 @@ $ gem install travis
 {% endhighlight %}
 
 Now we use `travis` to configure the actual deployment to heroku. Answer yes to
-the two questions you're asked.
+the two questions you're asked (two additional questions are asked if you are running `travis` for the first time, answer yes to those as well).
 
 {% highlight console %}
 $ travis setup heroku
+Shell completion not installed. Would you like to install it now? |y| 
+Detected repository as waynegraham/scriba, is this correct? |yes| 
 Deploy only from waynegraham/scriba? |yes|
 Encrypt API key? |yes|
 {% endhighlight %}
@@ -119,7 +121,7 @@ deploy:
 
 Most of that is a bunch of scary keys to make sure only *you* (or the people on
 your team) can trigger the deployment of the application. Now, add and commit
-your changes, them push them to github. You can then monitor the activity on
+your changes, then push them to github. You can then monitor the activity on
 the Travis-ci website by executing `travis open`.
 
 ## Summary
@@ -131,7 +133,7 @@ however. You have to be exceptionally disciplined in writing tests that
 actually test the things in your application. If not, you can push code to a
 repository that breaks with a new feature that does not have a test associated
 and crash your application. You can recover from that though in heroku. Just in
-case this happens to you, here's the command to roll back a deployment):
+case this happens to you, here's the command to roll back a deployment:
 
 {% highlight console %}
 $ heroku rollback
