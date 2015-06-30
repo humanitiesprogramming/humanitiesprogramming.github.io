@@ -201,7 +201,7 @@ Student is passing.
 Exams: 50, 51, 0<br/>
 Average: 33<br/>
 Grade: F<br/>
-Student if fails.
+Student is failing.
 
 
 {% highlight ruby %}
