@@ -35,7 +35,7 @@ $ git remote -v
 {% endhighlight %}
 
 ## Push Your Code
-Now you can "publish" the sourcecode of your application.
+Now you can "publish" the source code of your application.
 
 {% highlight console %}
 $ git push -u origin master
@@ -57,9 +57,8 @@ transcription.
 
 ## Working with the Issues Tracker
 
-The issue tracker allows you to not only reference code in a commit, but also
-close particular issues. We'll use this is to close issues in subsequent
-modules, but take a second to skim (not read) about this on the GitHub Help
+The issue tracker allows you not only to reference code in a commit, but also to close particular issues. We'll use this to close issues in subsequent
+modules, but for now take a second to skim (not read) about this on the GitHub Help
 article [Closing issues via commit messages][closing].
 
 For now we can create a new fake issue and close it. Create a new issue in the
@@ -82,7 +81,7 @@ $ git commit -m "Adds documentation for the project. closes #2"
 $ git push origin master
 {% endhighlight %}
 
-Now, go to the issue tracker for your project. Is the issue closes? What does
+Now, go to the issue tracker for your project. Is the issue closed? What does
 it show?
 
 ## Summary
@@ -90,6 +89,6 @@ In this exercise, we set up a new repository and added an exhisting **git
 remote** to it. We also set up issue/feature tracking, and used an awesome
 feature to work with the issue tracker directly from the commit messages.
 This is an exceptionally handy feature and helps you work with more than one
-person, or need to track various ideas and bugs as they pop up.
+person and track various ideas and bugs as they pop up.
 
 [closing]: https://help.github.com/articles/closing-issues-via-commit-messages

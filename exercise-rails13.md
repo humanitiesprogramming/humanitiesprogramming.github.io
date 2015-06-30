@@ -70,7 +70,7 @@ down menu and copy the contents of the text box.
 
 ![Travis-ci Running]({{ "/assets/img/exercises/rails-13/ci-badge.png" | prepend: site.baseurl }}){: .img-responsive}
 
-Open your project's `README.rdoc` file, and paste the text you just copied on
+Open your project's `README.rdoc` file and paste the text you just copied on
 line 2. Your file will look something like this:
 
 {% highlight ruby %}

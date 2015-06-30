@@ -140,7 +140,7 @@ $ git commit -am "Added CarrierWave gem to handle file uploads"
 Right now whenever we look at a view of the information (in the
 `transcription#index` and `transcription#show` views), it simply
 displays a string of the path to the image we've uploaded. Let's change
-that to actually show the image.
+that to show the image.
 
 Let's take care of the `transcription#show` view first. Open
 `app/views/transcriptions/show.html.erb` and the line for the `picture`.
@@ -260,7 +260,7 @@ ignore the child directories. This way we can upload as much test stuff
 as we want, without accidently pushing our test data to the production
 machine.
 
-The first thing we want to do is clear out the files that are in there,
+First we want to clear out the files that are in there
 and reset the database.
 
 {% highlight console %}

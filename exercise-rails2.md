@@ -19,7 +19,7 @@ for this application. This will generate all the necessary code for our
 **CRUD** operations (Create, Read, Update, and Delete).
 
 For **scripta** we need to have a `title`, `user_name`, `description`, `picture`, and
-`transcription` field. The `title`, `user_name` and `picture` fields will be a
+`transcription` field. The `title`, `user_name`, and `picture` fields will be a
 **string** and the `description` and `transcription` will be a **text**
 data type.
 
@@ -31,10 +31,10 @@ You will see a lot of output as Rails generates the files needed,
 including the views (for looking at the data), the files to tell the
 database what to do (the model), and the controller. There are also
 tests and other files that Rails will use to create CSS and JavaScript
-interactions, as well as tests.
+interactions as well as tests.
 
 After these files are created, there is one additional step that you
-have to do if you add, or change, a model. We have to tell the database
+have to do if you add or change a model. We have to tell the database
 to update itself based on the change so it knows how to save the data.
 
 {% highlight console %}

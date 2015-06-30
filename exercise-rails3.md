@@ -11,14 +11,14 @@ In the last module we built up fields to handle the transcription fields
 we wanted using the scaffolding that Rails provides. This gets us down
 the road quite a ways in creating a new application, but it doesn't
 necessarily look very nice. Since we have to look at this, now is a good
-time to get a bit further in to implementing an updated view from the
+time to get a bit further into implementing an updated view from the
 **View** layer using Ruby's built-in ERB templating language.
 
 Don't tell the instructors in the **Introduction to Web Development and
 Design Principals**, but we're going to use a shortcut in our design and
 layout with the [Twitter Bootstrap](http://getbootstrap.com/) CSS
-framework to not only make things look a lot better, but also to give us a
-version of the application that works as well on mobile devises as it
+framework not only to make things look a lot better, but also to give us a
+version of the application that works as well on mobile devices as it
 does in the browser on a computer.
 
 ## Include the CSS
@@ -72,8 +72,8 @@ effects.
 
 We want to add a cool navigation header on the page. We want to include
 a menu option for mobile users that displays all the pages, as well as
-the name of the app and a link to the transcriptions. Below the `body`
-element, and before the `div.container`, add the following.
+the name of the app and a link to the transcriptions. Add the following below the `body`
+element and before the `div.container`.
 
 {% highlight rhtml %}
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">

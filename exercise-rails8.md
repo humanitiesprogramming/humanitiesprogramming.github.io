@@ -120,7 +120,7 @@ the HTML specificiation slightly differently, requiring you to use what are
 known as "vendor prefixes". This is a pain, but SCSS has a conventions known as
 a [mixin][mixin] that allows you to handle this in a more sane manner.
 
-A common use for this are for things like boxes around text that get fancy with
+A common use for this is for things like boxes around text that get fancy with
 rounded corners. In CSS we do this with the `border-radius`, and for each
 element we want to have this styling, we would need to define it for webkit
 (Safari and Chrome), mozilla (Firefox), Internet Explorer (ugh), and a catch-all.
@@ -235,7 +235,7 @@ Rails, allows you to do. Just remember, if you don't get the language,
 plain-old CSS works in these files too. This is especially useful if you're
 taking an older CSS implementation to migrate in to a Rails application. This
 section went over some of the ways you can use the SCSS to add styles to your
-site, and in the next module, we'll update the user interface and use custom styles
+site, and, in the next module, we'll update the user interface and use custom styles
 (and styles built in from Twitter Bootstrap) to improve how users interact with
 the application.
 

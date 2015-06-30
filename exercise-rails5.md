@@ -56,7 +56,7 @@ application, you can check them by running the `bin/rake routes` task.
 
 Another common task you will find yourself needing to do is create
 content that is **static** (not saved to the database). We'll use a
-`rails` generator to create a new controller and view for us, but skip
+`rails` generator to create a new controller and view for us but skip
 creating a model (and database migration).
 
 {% highlight console %}
@@ -80,7 +80,7 @@ $ bin/rails generate controller pages about
 {% endhighlight %}
 
 As you can see from the output, this generated views, tests, and helpers
-for us, but no models. It also wrote to `config/routes.rb` a line to
+for us but no models. It also wrote to `config/routes.rb` a line to
 tell `rails` how to access the code. Now we can update the file.
 
 Open `app/views/pages/about.html.erb` and add some **lorem ipsum** (in
@@ -96,7 +96,7 @@ Now if your server is still running, you can get to the new page at
 
 ## Better Routes
 When we ran the generator for the controller, one of the things it did for us
-is create a new entry in the `config/routes.rb` file. The entry `get
+was create a new entry in the `config/routes.rb` file. The entry `get
 'pages/about'` tells rails what to do when a particular *path* is requested.
 Right now it's a bit of an "ugly" URL since to get here you have to have the
 word "pages" in them. Let's make this look a bit better by updating the
@@ -146,7 +146,7 @@ Go ahead and add the new files, and commit them all with a "good" message.
 ## Summary
 In this module, we created a static pages for our application that don't
 necessarily need to be stored in a database. We used both the rails generator
-and did this manually. You also learned a bit more about how routes work, and
+and did this manually. You also learned a bit more about how routes work and
 also how to create custom routes to make the URLs of your application easier to
 "guess" by users.
 

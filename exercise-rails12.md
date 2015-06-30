@@ -15,8 +15,7 @@ fix something. One of the biggest challenges to these fixes is that you can
 sometimes fix one part of you application, but break another.
 
 So how do you guard against this? One way is to write ["tests"]({{ "/assets/img/testing_cat.jpg" | prepend: site.baseurl }})
- that allow you to
-not only state the intent of your code, but also to automate the system
+ that allow you not only to state the intent of your code, but also to automate the system
 validating that the code does what you intend.
 
 > If you find yourself inheriting an application, writing tests is a good way
@@ -160,8 +159,7 @@ Finished in 0.05028 seconds (files took 1.15 seconds to load)
 
 ## Summary
 
-A very common way (once you've gotten use to the syntax of tests) is to
-actually write a test *before* you write any code. Think of this as writing an
+A very common way (once you've gotten use to the syntax of tests) is actually to write a test *before* you write any code. Think of this as writing an
 outline like you would for a paper. You outline what you expect to cover in
 your paper, then go and write the actual paper. This same technique goes for
 software, but you have the additional benefit of having written a rhubric to
