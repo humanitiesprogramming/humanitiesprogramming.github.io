@@ -64,7 +64,7 @@ puts in_years
 
 # Collections
 
-Create a collection of these authors and the year they kicked the bucket; print the
+Create a collection of these authors and the year they kicked the bucket. Print the
 collection in the following format:
 
 Charles Dickens died in 1870.
@@ -88,7 +88,7 @@ end
 
 A time traveller has suddenly appeared in your classroom!
 
-Create a variable representing the traveller's year of origin (e.g., year = 2000) and greet our strange visitor with a different message if he is from the distant past (before 1900), the present era (1900-2020) or from the far future (beyond 2020).
+Create a variable representing the traveller's year of origin (e.g., year = 2000) and greet our strange visitor with a different message if he is from the distant past (before 1900), the present era (1900-2020), or from the far future (beyond 2020).
 
 {% highlight ruby %}
 
@@ -164,7 +164,7 @@ puts "The word '" + longest + "' is " + longest.length.to_s + " characters long.
 
 # Calculating Grades (ok, let me think about this one)
 
-Write a program that will average 3 numeric exam grades, return an average test score, a corresponding letter grade, and a message stating whether the student is passing.
+Write a program that will average 3 numeric exam grades and return an average test score, a corresponding letter grade, and a message stating whether the student is passing.
 
 <table>
 <tr>
