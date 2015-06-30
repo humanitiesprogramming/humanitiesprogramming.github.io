@@ -40,7 +40,7 @@ external-javascript:
         <p><a href="https://twitter.com/KevinG_Smith" class="fa fa-twitter">@KevinG_Smith</a></p>
         </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="https://pbs.twimg.com/profile_images/378800000776458118/00130de29b6fc3d3df449c9d93dc6571_400x400.jpeg" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://pbs.twimg.com/profile_images/590588013027135488/TlrZKesY.jpg" width="110" height="110" alt=""/>
         <h4>Nora Andrews</h4>
         <p><a href="https://twitter.com/NorahLAndrews" class="fa fa-twitter">@NorahLAndrews</a></p>
         </div>
