@@ -35,9 +35,9 @@ $ cd ~/projects
 
 ### Clone the Repository
 
-Go back to your browser that has the newly create repository. On the
+Go back to your browser that has the newly created repository. On the
 right-hand side, you'll see a section that says "**SSH** clone URL".
-Copy the contents, or just replace the following with your valid
+Copy the contents or just replace the following with your valid
 information.
 
 {% highlight console %}
