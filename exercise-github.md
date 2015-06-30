@@ -98,8 +98,7 @@ Changes to be committed:
 	new file:   index.html
 {% endhighlight %}
 
-Git now knows that you want to track the file, but we have to now
-actually commit the change to the database, with a message about what we
+Git now knows that you want to track the file, but now we actually have to commit the change to the database, with a message about what we
 did at this point.
 
 {% highlight console %}
