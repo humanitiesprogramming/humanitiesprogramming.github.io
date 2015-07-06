@@ -58,7 +58,7 @@ external-javascript:
        <div class="col-lg-3">
       <img class="img-circle" src="https://camo.githubusercontent.com/8234a16941f0d9bd25ad5882e0e7d0f643331983/68747470733a2f2f7261772e6769746875622e636f6d2f736568726775742f6e6f64652d7265747269636f6e2f6d61737465722f6578616d706c65732f696d616765732f6769746875622e706e67" width="110" height="110" alt=""/>
         <h4>Richard Higgins</h4>
-        <p><!--<a href="https://twitter.com/hennesjack" class="fa fa-twitter">@hennesjack</a>--></p>
+        <p><!--<a href="https://twitter.com/hennesjack" class="fa fa-twitter">@hennesjack</a> <br/>--> <a href="https://github.com/rshiggin" class="fa fa-github">rshiggin</a></p>
       </div>
 
 
