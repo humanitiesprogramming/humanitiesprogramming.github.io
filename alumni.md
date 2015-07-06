@@ -30,7 +30,7 @@ external-javascript:
 
      <div class="col-lg-3">
       <img class="img-circle" src="https://pbs.twimg.com/profile_images/543867410944499712/atnhzPjo_400x400.jpeg" width="110" height="110" alt=""/>
-        <h4>Nese Devenot</h4>
+        <h4>Neşe Devenot</h4>
         <p><a href="https://twitter.com/neselsd" class="fa fa-twitter">@neselsd</a></p>
         </div>
 
