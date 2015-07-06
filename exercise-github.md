@@ -35,9 +35,9 @@ $ cd ~/projects
 
 ### Clone the Repository
 
-Go back to your browser that has the newly create repository. On the
+Go back to your browser that has the newly created repository. On the
 right-hand side, you'll see a section that says "**SSH** clone URL".
-Copy the contents, or just replace the following with your valid
+Copy the contents or just replace the following with your valid
 information.
 
 {% highlight console %}
@@ -98,8 +98,7 @@ Changes to be committed:
 	new file:   index.html
 {% endhighlight %}
 
-Git now knows that you want to track the file, but we have to now
-actually commit the change to the database, with a message about what we
+Git now knows that you want to track the file, but now we actually have to commit the change to the database, with a message about what we
 did at this point.
 
 {% highlight console %}

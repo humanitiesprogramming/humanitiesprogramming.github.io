@@ -11,15 +11,15 @@ In the last module we built up fields to handle the transcription fields
 we wanted using the scaffolding that Rails provides. This gets us down
 the road quite a ways in creating a new application, but it doesn't
 necessarily look very nice. Since we have to look at this, now is a good
-time to get a bit further in to implementing an updated view from the
+time to get a bit further into implementing an updated view from the
 **View** layer using Ruby's built-in ERB templating language.
 
 Don't tell the instructors in the **Introduction to Web Development and
 Design Principals**, but we're going to use a shortcut in our design and
 layout with the [Twitter Bootstrap](http://getbootstrap.com/) CSS
-framework to not only make things look a lot better, but also to give us a
-version of the application that works as well on mobile devises as it
-does on the browser.
+framework not only to make things look a lot better, but also to give us a
+version of the application that works as well on mobile devices as it
+does in the browser on a computer.
 
 ## Include the CSS
 
@@ -29,8 +29,8 @@ Open `app/views/layouts/application.html.erb` and add the following under
 the `stylesheet_link_tag` line:
 
 {% highlight rhtml %}
-<%= stylesheet_link_tag "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" %>
-<%= stylesheet_link_tag "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" %>
+<%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" %>
+<%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" %>
 {% endhighlight %}
 
 Now find the main `yield` section and surround it with a
@@ -59,7 +59,7 @@ element, add these new `footer` and `script` elements.
     HILT <%= Time.now.year %>
   </div>
 </footer>
-<%= javascript_include_tag "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" %>
+<%= javascript_include_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" %>
 {% endhighlight %}
 
 If you start your web server up again, you should see the new footer on
@@ -72,8 +72,8 @@ effects.
 
 We want to add a cool navigation header on the page. We want to include
 a menu option for mobile users that displays all the pages, as well as
-the name of the app and a link to the transcriptions. Below the `body`
-element, and before the `div.container`, add the following.
+the name of the app and a link to the transcriptions. Add the following below the `body`
+element and before the `div.container`.
 
 {% highlight rhtml %}
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -110,7 +110,7 @@ Let's fix that now. We need to update the stylesheets for Rails. We
 won't get too much in to **SASS/SCSS** in this course, but it's a
 superset of CSS that has some really cool features added. However, for
 our purposes, we'll keep it "simple" and just write to the SCSS file
-with CSS. Open `app/assets/stylesheets/transcriptions.css.scss` and add
+with CSS. Open `app/assets/stylesheets/transcriptions.scss` and add
 the following rules:
 
 {% highlight css %}
@@ -138,7 +138,7 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-      modified:   app/assets/stylesheets/transcriptions.css.scss
+      modified:   app/assets/stylesheets/transcriptions.scss
       modified:   app/views/layouts/application.html.erb$ git commit
 $ git add app
 $ git commit -m "Added Twitter Bootstrap for the views"
@@ -154,14 +154,14 @@ we want to do from Twitter Bootstrap. Let's just go ahead and remove the
 generated file. We'll use the `git` command to do this.
 
 {% highlight console %}
-$ git rm app/assets/stylesheets/scaffolds.css.scss
-rm 'app/assets/stylesheets/scaffolds.css.scss'
+$ git rm app/assets/stylesheets/scaffolds.scss
+rm 'app/assets/stylesheets/scaffolds.scss'
 $ git status
 On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-  deleted:    app/assets/stylesheets/scaffolds.css.scss
+  deleted:    app/assets/stylesheets/scaffolds.scss
 $ git commit -m "Removed generated scaffold styles"
 {% endhighlight %}
 

@@ -15,8 +15,7 @@ fix something. One of the biggest challenges to these fixes is that you can
 sometimes fix one part of you application, but break another.
 
 So how do you guard against this? One way is to write ["tests"]({{ "/assets/img/testing_cat.jpg" | prepend: site.baseurl }})
- that allow you to
-not only state the intent of your code, but also to automate the system
+ that allow you not only to state the intent of your code, but also to automate the system
 validating that the code does what you intend.
 
 > If you find yourself inheriting an application, writing tests is a good way
@@ -35,7 +34,7 @@ First we need to add the `rspec` dependency to the `testing` environment for
 our app. Open the `Gemfile` and add the line:
 
 {% highlight ruby %}
-gem 'rspec-rails', '~> 3.0.0', group: [:development, :test]
+gem 'rspec-rails', '~> 3.1.0', group: [:development, :test]
 {% endhighlight %}
 
 Now run `bundle` in the terminal (without production).
@@ -44,7 +43,7 @@ Now run `bundle` in the terminal (without production).
 $ bundle --without production
 {% endhighlight %}
 
-> Powertip: `bundle` has an alias for `bundle install`. Hey, it saves 8 characters...
+> Powertip: `bundle` is an alias for `bundle install`. Hey, it saves typing an extra 8 characters...
 
 Now we can initialize rspec for our application.
 
@@ -61,6 +60,15 @@ a Rails 4 bin stub:
 
 {% highlight console %}
 $ bundle binstubs rspec-core
+{% endhighlight %}
+
+Edit the .rspec file to delete the `--warning` line. We want the output to show
+issues with just our code and not include all of the gems we are using. The
+.rspec file should look like this when done:
+
+{% highlight ruby %}
+--color
+--require spec_helper
 {% endhighlight %}
 
 ## First Test
@@ -151,8 +159,7 @@ Finished in 0.05028 seconds (files took 1.15 seconds to load)
 
 ## Summary
 
-A very common way (once you've gotten use to the syntax of tests) is to
-actually write a test *before* you write any code. Think of this as writing an
+A very common way (once you've gotten use to the syntax of tests) is actually to write a test *before* you write any code. Think of this as writing an
 outline like you would for a paper. You outline what you expect to cover in
 your paper, then go and write the actual paper. This same technique goes for
 software, but you have the additional benefit of having written a rhubric to

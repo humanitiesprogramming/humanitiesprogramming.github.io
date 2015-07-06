@@ -24,7 +24,7 @@ in this application.
 ## Libraries
 
 The first thing we need to do is install the `carrierwave` gem. Open
-your `Gemfile` in the text editor and add the this line:
+your `Gemfile` in the text editor and add the this line to the top of the file, after the line including `source 'https://rubygems.org'`:
 
 {% highlight ruby %}
 gem 'carrierwave'
@@ -83,7 +83,7 @@ Now we need to change the field type of `picture` from `text_field` to
 </div>
 {% endhighlight %}
 
-When you start your server and add a new transcription, you should now
+When you restart your server and add a new transcription, you should now
 see a form that looks like this:
 
 ![File Upload]({{"/assets/img/exercises/rails-four/file-upload.png" | prepend: site.baseurl }}){: .img-responsive}
@@ -140,7 +140,7 @@ $ git commit -am "Added CarrierWave gem to handle file uploads"
 Right now whenever we look at a view of the information (in the
 `transcription#index` and `transcription#show` views), it simply
 displays a string of the path to the image we've uploaded. Let's change
-that to actually show the image.
+that to show the image.
 
 Let's take care of the `transcription#show` view first. Open
 `app/views/transcriptions/show.html.erb` and the line for the `picture`.
@@ -260,7 +260,7 @@ ignore the child directories. This way we can upload as much test stuff
 as we want, without accidently pushing our test data to the production
 machine.
 
-The first thing we want to do is clear out the files that are in there,
+First we want to clear out the files that are in there
 and reset the database.
 
 {% highlight console %}
