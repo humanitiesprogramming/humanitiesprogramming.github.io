@@ -28,11 +28,11 @@ external-javascript:
         <p><a href="https://twitter.com/bryjbrown" class="fa fa-twitter">@bryjbrown</a></p>
     </div>
 
-     <div class="col-lg-3">
+     <!-- <div class="col-lg-3">
       <img class="img-circle" src="https://pbs.twimg.com/profile_images/543867410944499712/atnhzPjo_400x400.jpeg" width="110" height="110" alt=""/>
         <h4>Neşe Devenot</h4>
         <p><a href="https://twitter.com/neselsd" class="fa fa-twitter">@neselsd</a></p>
-        </div>
+        </div> -->
 
     <div class="col-lg-3">
       <img class="img-circle" src="https://camo.githubusercontent.com/8234a16941f0d9bd25ad5882e0e7d0f643331983/68747470733a2f2f7261772e6769746875622e636f6d2f736568726775742f6e6f64652d7265747269636f6e2f6d61737465722f6578616d706c65732f696d616765732f6769746875622e706e67" width="110" height="110" alt=""/>
@@ -44,7 +44,15 @@ external-javascript:
       <img class="img-circle" src="https://pbs.twimg.com/profile_images/378800000137014372/8402519133a237484b9f21a3db31b30f_400x400.jpeg" width="110" height="110" alt=""/>
         <h4>Carolyn Heitman</h4>
         <p><a href="https://twitter.com/archaeohumanist" class="fa fa-twitter">@archaeohumanist</a></p>
+        </div>
+
+            <div class="col-lg-3">
+      <img class="img-circle" src="https://camo.githubusercontent.com/8234a16941f0d9bd25ad5882e0e7d0f643331983/68747470733a2f2f7261772e6769746875622e636f6d2f736568726775742f6e6f64652d7265747269636f6e2f6d61737465722f6578616d706c65732f696d616765732f6769746875622e706e67" width="110" height="110" alt=""/>
+        <h4>David Sandor</h4>
+        <p><!-- <a href="https://twitter.com/jordanblairryan" class="fa fa-twitter">@jordanblairryan</a>--></p>
     </div>
+
+
 
   </div>
 
@@ -97,21 +105,6 @@ external-javascript:
         <p><a href="https://twitter.com/jordanblairryan" class="fa fa-twitter">@jordanblairryan</a></p>
     </div>
 
-
-    <div class="col-lg-3">
-      <img class="img-circle" src="https://camo.githubusercontent.com/8234a16941f0d9bd25ad5882e0e7d0f643331983/68747470733a2f2f7261772e6769746875622e636f6d2f736568726775742f6e6f64652d7265747269636f6e2f6d61737465722f6578616d706c65732f696d616765732f6769746875622e706e67" width="110" height="110" alt=""/>
-        <h4>David Sandor</h4>
-        <p><!-- <a href="https://twitter.com/jordanblairryan" class="fa fa-twitter">@jordanblairryan</a>--></p>
-    </div>
-
-  </div>
-
-  <div class="row centered">
-    <div class="col-lg-3">
-      <img class="img-circle" src="https://camo.githubusercontent.com/8234a16941f0d9bd25ad5882e0e7d0f643331983/68747470733a2f2f7261772e6769746875622e636f6d2f736568726775742f6e6f64652d7265747269636f6e2f6d61737465722f6578616d706c65732f696d616765732f6769746875622e706e67" width="110" height="110" alt=""/>
-        <h4>Meghan Wadle</h4>
-        <p><!-- <a href="https://twitter.com/jordanblairryan" class="fa fa-twitter">@jordanblairryan</a>--></p>
-    </div>
 
   </div>
 
