@@ -5,20 +5,26 @@ description: Command Line Commands Covered
 permalink: /exercises/cli_commands/
 ---
 
-cd
+# Command Line Cheatsheet
 
-ls
+{% highlight bash %}
 
-pwd
+$ cd
 
-touch
+$ ls
 
-rm
+$ pwd
 
-mkdir
+$ touch
 
-cp
+$ rm
 
-mv
+$ mkdir
 
-man
+$ cp
+
+$ mv
+
+$ man
+{% endhighlight %}
+
