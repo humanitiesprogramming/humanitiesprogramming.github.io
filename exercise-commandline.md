@@ -65,9 +65,9 @@ $ touch test_1.txt
 $ touch test_2.txt
 $ touch test_3.txt
 $ mkdir files
-$ mv test_1 files.txt
-$ mv test_2 files.txt
-$ mv test_3 files.txt
+$ mv test_1.txt files
+$ mv test_2.txt files
+$ mv test_3.txt files
 $ cd files
 $ ls
 $ cd ..
