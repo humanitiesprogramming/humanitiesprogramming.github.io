@@ -6,10 +6,12 @@ description: Course Exercises
 
 ## Command Line
 * [Command Line Exercises]({{ "/exercises/command-line/" | prepend: site.baseurl }})
+* [Commands Covered]({{ "/exercises/cli_commands" | prepend: site.baseurl }})
 * [Learn Command Line the Hard Way](http://cli.learncodethehardway.org/book/)
 
 ## Git
 * [TryGit](https://try.github.io)
+* [Links for GIt Materials]({{ "/exercises/git_links/" | prepend: site.baseurl }})
 
 ## Github
 * [Create a Github domain for your account]({{ "/exercises/github/" | prepend: site.baseurl }})
