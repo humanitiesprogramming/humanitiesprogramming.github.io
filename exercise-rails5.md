@@ -15,7 +15,7 @@ If you look at the [http://localhost:3000][t] webpage (with your server
 running of course), what do you see? Instead of that file, let's tell
 Rails to serve out our `transcriptions#index` view.
 
-Stop your server (remember any changes to files in the `config`
+Stop your server (remember, any changes to files in the `config`
 directory require you to restart `rails`) and open `config/routes.rb`.
 Update the root path (`root 'welcome#index'`)
 

@@ -29,8 +29,8 @@ Open `app/views/layouts/application.html.erb` and add the following under
 the `stylesheet_link_tag` line:
 
 {% highlight rhtml %}
-<%= stylesheet_link_tag "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" %>
-<%= stylesheet_link_tag "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" %>
+<%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" %>
+<%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" %>
 {% endhighlight %}
 
 Now find the main `yield` section and surround it with a
@@ -59,7 +59,7 @@ element, add these new `footer` and `script` elements.
     HILT <%= Time.now.year %>
   </div>
 </footer>
-<%= javascript_include_tag "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" %>
+<%= javascript_include_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" %>
 {% endhighlight %}
 
 If you start your web server up again, you should see the new footer on

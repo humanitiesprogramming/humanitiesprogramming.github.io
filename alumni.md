@@ -10,14 +10,119 @@ external-javascript:
 
 ---
 <div id="blue">
-<div class="container">
-<div class="row centered">
-    <div class="col-lg-8 col-lg-offset-2">
-      <h4>2014 Alumni</h4>
+  <div class="container">
+    <div class="row centered">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h4>2015 Class</h4>
+      </div>
     </div>
   </div>
+</div>
+
+<div id="dg">
+  <div class="container w">
+  <div class="row centered">
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://pbs.twimg.com/profile_images/618010944325689344/1e3xhaVo_400x400.jpg" width="110" height="110" alt=""/>
+        <h4>Bryan Brown</h4>
+        <p><a href="https://twitter.com/bryjbrown" class="fa fa-twitter">@bryjbrown</a></p>
+    </div>
+
+     <!-- <div class="col-lg-3">
+      <img class="img-circle" src="https://pbs.twimg.com/profile_images/543867410944499712/atnhzPjo_400x400.jpeg" width="110" height="110" alt=""/>
+        <h4>Neşe Devenot</h4>
+        <p><a href="https://twitter.com/neselsd" class="fa fa-twitter">@neselsd</a></p>
+        </div> -->
+
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://camo.githubusercontent.com/8234a16941f0d9bd25ad5882e0e7d0f643331983/68747470733a2f2f7261772e6769746875622e636f6d2f736568726775742f6e6f64652d7265747269636f6e2f6d61737465722f6578616d706c65732f696d616765732f6769746875622e706e67" width="110" height="110" alt=""/>
+        <h4>In Hye Ha</h4>
+        <p><!--<a href="https://twitter.com/neselsd" class="fa fa-twitter">@neselsd</a>--></p>
+    </div>
+
+     <div class="col-lg-3">
+      <img class="img-circle" src="https://pbs.twimg.com/profile_images/378800000137014372/8402519133a237484b9f21a3db31b30f_400x400.jpeg" width="110" height="110" alt=""/>
+        <h4>Carolyn Heitman</h4>
+        <p><a href="https://twitter.com/archaeohumanist" class="fa fa-twitter">@archaeohumanist</a></p>
+        </div>
+
+            <div class="col-lg-3">
+      <img class="img-circle" src="https://camo.githubusercontent.com/8234a16941f0d9bd25ad5882e0e7d0f643331983/68747470733a2f2f7261772e6769746875622e636f6d2f736568726775742f6e6f64652d7265747269636f6e2f6d61737465722f6578616d706c65732f696d616765732f6769746875622e706e67" width="110" height="110" alt=""/>
+        <h4>David Sandor</h4>
+        <p><!-- <a href="https://twitter.com/jordanblairryan" class="fa fa-twitter">@jordanblairryan</a>--></p>
+    </div>
+
+
+
   </div>
+
+  <div class="row centered">
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://pbs.twimg.com/profile_images/2627890579/qorhlztlqkc726p1mrjm_400x400.jpeg" width="110" height="110" alt=""/>
+        <h4>Jack Hennes</h4>
+        <p><a href="https://twitter.com/hennesjack" class="fa fa-twitter">@hennesjack</a></p>
+    </div>
+
+       <div class="col-lg-3">
+      <img class="img-circle" src="https://camo.githubusercontent.com/8234a16941f0d9bd25ad5882e0e7d0f643331983/68747470733a2f2f7261772e6769746875622e636f6d2f736568726775742f6e6f64652d7265747269636f6e2f6d61737465722f6578616d706c65732f696d616765732f6769746875622e706e67" width="110" height="110" alt=""/>
+        <h4>Richard Higgins</h4>
+        <p><!--<a href="https://twitter.com/hennesjack" class="fa fa-twitter">@hennesjack</a> <br/>--> <a href="https://github.com/rshiggin" class="fa fa-github">rshiggin</a></p>
+      </div>
+
+
+      <div class="col-lg-3">
+     <img class="img-circle" src="https://camo.githubusercontent.com/8234a16941f0d9bd25ad5882e0e7d0f643331983/68747470733a2f2f7261772e6769746875622e636f6d2f736568726775742f6e6f64652d7265747269636f6e2f6d61737465722f6578616d706c65732f696d616765732f6769746875622e706e67" width="110" height="110" alt=""/>
+        <h4>Siva Prashant Kumar</h4>
+        <p><!--<a href="https://twitter.com/hennesjack" class="fa fa-twitter">@hennesjack</a>--></p>
+      </div>
+
+
+      <div class="col-lg-3">
+      <img class="img-circle" src="https://pbs.twimg.com/profile_images/3334217314/52472d01e1f91fa41ee250adb5a519a0_400x400.jpeg" width="110" height="110" alt=""/>
+        <h4>Brendan Mackie</h4>
+        <p><a href="https://twitter.com/mackieteacher" class="fa fa-twitter">@mackieteacher</a></p>
+    </div>
+
+
+    </div>
+
+  <div class="row centered">
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://pbs.twimg.com/profile_images/1269555424/stamp-big_400x400.jpg" width="110" height="110" alt=""/>
+        <h4>Scott McGinnis</h4>
+        <p><a href="https://twitter.com/majining" class="fa fa-twitter">@majining</a></p>
+    </div>
+
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://pbs.twimg.com/profile_images/465246161029173248/Fr0d_yXf_400x400.jpeg" width="110" height="110" alt=""/>
+        <h4>Sara Palmer</h4>
+        <p><a href="https://twitter.com/sarepal" class="fa fa-twitter">@sarepal</a></p>
+    </div>
+
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://pbs.twimg.com/profile_images/533445700579643392/rCznV6WO_400x400.jpeg" width="110" height="110" alt=""/>
+        <h4>Jordan Ryan</h4>
+        <p><a href="https://twitter.com/jordanblairryan" class="fa fa-twitter">@jordanblairryan</a></p>
+    </div>
+
+
   </div>
+
+
+
+  </div>
+</div>
+
+
+<div id="blue">
+  <div class="container">
+    <div class="row centered">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h4>2014 Alumni</h4>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div id="dg">
 
@@ -29,7 +134,7 @@ external-javascript:
       </div>
     </div>
   </div>
-</div>
+  </div>
 
 
 <div class="container w">
@@ -42,7 +147,7 @@ external-javascript:
       <div class="col-lg-3">
         <img class="img-circle" src="https://pbs.twimg.com/profile_images/590588013027135488/TlrZKesY.jpg" width="110" height="110" alt=""/>
         <h4>Nora Andrews</h4>
-        <p><a href="https://twitter.com/NorahLAndrews" class="fa fa-twitter">@NorahLAndrews</a></p>
+        <p><a href="" class="fa fa-twitter">@NorahLAndrews</a></p>
         </div>
 
       <div class="col-lg-3">
@@ -107,7 +212,7 @@ external-javascript:
         </div>
 
         <div class="col-lg-3">
-          <img class="img-circle" src="https://pbs.twimg.com/profile_images/574692758981599232/4W8CUVU7_400x400.jpeg" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://pbs.twimg.com/profile_images/614615829888565248/zX8g_F1b.jpg" width="110" height="110" alt=""/>
           <h4>Angela Galvan</h4>
           <p>
             <a href="https://twitter.com/galvan_as" class="fa fa-twitter">@galvan_as</a><br/>
@@ -169,7 +274,7 @@ external-javascript:
       </div>
     </div>
   </div>
-  </div>
+</div>
 
 <div class="container w">
   <div class="row centered">
