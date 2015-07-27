@@ -11,7 +11,6 @@ description: Course Resources
 * [Ruby Rules]({{ "/resources/ruby-rules/" | prepend: site.baseurl }})
 * [Rails Beginner Cheatsheet](http://www.pragtob.info/rails-beginner-cheatsheet/)
 * [Command Line]({{ "/assets/slides/cli.pdf" | prepend:site.baseurl }})
-* [Command Line Commands Covered]({{ "cli_commands.txt" | prepend.site.baseurl }})
 * [HTML/CSS]({{ "/assets/slides/html.pdf" | prepend:site.baseurl }})
 * [Git]({{ "/assets/slides/git.pdf" | prepend:site.baseurl }})
 
