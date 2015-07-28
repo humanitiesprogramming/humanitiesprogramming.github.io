@@ -149,7 +149,7 @@ What's different when the user is logged in?
 
 # One last thing...
 
-We want to force people who are using the app to log, but only if one attempts
+We want to force people who are using the app to log in, but only if they attempt
 to add, or modify, an existing transcription. Open
 `app/controllers/transcription_controller.rb` and add this line (after
 `before_action :set_transcription, only: [:show, :edit, :update, :destroy]`).
