@@ -7,6 +7,13 @@ javascript:
   - /assets/js/hint.js
 ---
 
+These exercises will help you practice debugging your code. There are no problems: only solutions waiting to be found. If you get stuck, try the following to help you figure out what is going on:
+
+1.  Print out variable values at different points in the program to make sure they return what you expect.
+2.  Read the error output in the terminal. It tries to be helpful, but it will often not quite point you towards the problem. It can at least give you a ballpark location in the code and some things to look for.
+3.  Get sections of the code working (see step one) so that you can narrow your search for the problem.
+4.  Ask for help!
+
 # Pirates
 
 Broken:
