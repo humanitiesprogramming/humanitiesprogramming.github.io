@@ -11,7 +11,7 @@ description: Course Exercises
 
 ## Git
 * [TryGit](https://try.github.io)
-* [Links for GIt Materials]({{ "/exercises/git_links/" | prepend: site.baseurl }})
+* [Links for Git Materials]({{ "/exercises/git_links/" | prepend: site.baseurl }})
 
 ## Github
 * [Create a Github domain for your account]({{ "/exercises/github/" | prepend: site.baseurl }})
@@ -20,7 +20,7 @@ description: Course Exercises
 ## Ruby
 * [Ruby Exercise One]({{ "/exercises/ruby-one/" | prepend: site.baseurl }})
 * [Ruby Exercise Two]({{ "/exercises/ruby-two/" | prepend: site.baseurl }})
-* [Debugging Exercises](https://github.com/bmw9t/LRTHW/tree/master/broken_exercises)
+* [Debugging Exercises]({{ "/exercises/broken_ruby/" | prepend: site.baseurl }})
 
 ## Rails
 * [Exercise One: Creating a New App]({{ "/exercises/rails-one/" | prepend: site.baseurl }})
