@@ -97,5 +97,4 @@ puts died(thackeray)
 puts died(trollope)
 puts died(hopkins)
 
-
 {% endhighlight %}
