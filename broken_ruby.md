@@ -45,6 +45,8 @@ end
 
 {% endhighlight %}
 
+<hr/>
+
 # Collections
 
 Broken:
@@ -106,6 +108,7 @@ puts died(hopkins)
 
 {% endhighlight %}
 
+<hr/>
 
 # Branching
 
@@ -159,6 +162,8 @@ end
 
 {% endhighlight %}
 
+<hr/>
+
 # Classes
 
 Broken:
@@ -211,6 +216,8 @@ tj = Person.new("Thomas", "Jefferson")
 print tj.to_s
 
 {% endhighlight %}
+
+<hr/>
 
 # Grading
 
@@ -357,6 +364,8 @@ letter_grade(average)
 pass_fail(average)
 
 {% endhighlight %}
+
+<hr/>
 
 # [Room 101](https://en.wikipedia.org/wiki/Ministries_of_Nineteen_Eighty-Four#Room_101)
 
