@@ -289,7 +289,7 @@ def letter_grade(average-grade)
 		puts 'Grade: C"
 	elseif average_grade >= 80 && average_grade <= 89
 		puts "Grade: B"
-	elsif average_grade == 90
+	elsif average_grade >= 90
 		puts "Grade: A'
 	
 end
