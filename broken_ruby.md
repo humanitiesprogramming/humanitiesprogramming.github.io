@@ -69,7 +69,7 @@ Broken:
 
 {% highlight ruby %}
 
-dickens = ["Charles Dickens," "1870"]
+dickens = ["Charles Dickens", "1870"]
 thackeray = {"William Thackeray", "1863"}
 trollope = {'Anthony Trollope', '1882'}
 hopkins = ["Gerard Manley Hopkins" => "1889"]
