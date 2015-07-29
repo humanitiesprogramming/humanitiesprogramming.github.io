@@ -50,7 +50,7 @@ up your server (`bin/rails server`) and see if you see anything different at
 
 Twitter Bootstrap makes use of JavaScript to help with a few
 interactions. Let's add that library in. Again, in the
-`app/views/layouts/application.html.erb` file, just before the `</body>`
+`app/views/layouts/application.html.erb` file, just before the end tag for the`<body>`
 element, add these new `footer` and `script` elements.
 
 {% highlight rhtml %}
