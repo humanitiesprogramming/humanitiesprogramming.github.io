@@ -19,11 +19,12 @@ Many errors in code written by developers at all levels boil down to just a few 
 If you get stuck, try the following to help you figure out what is going on:
 
 1.  Print out variable values at different points in the program to make sure they return what you expect.
-2.  Read the error output in the terminal. It tries to be helpful, but it will often not quite point you towards the problem. It can at least give you a ballpark location in the code and some things to look for.
-3.  Get sections of the code working (see step one) so that you can narrow your search for the problem. irb can help with this: try playing in this environment to debug sections.
-4.  Read the ruby documentation for the methods you are employing.
-5.  Comment throughout your code to make sure you understand what every step is doing. This will help you pinpoint problems.
-6.  Ask for help!
+2.  Make sure the coloring in your text editor looks like you expect it to.
+3.  Read the error output in the terminal. It tries to be helpful, but it will often not quite point you towards the problem. It can at least give you a ballpark location in the code and some things to look for.
+4.  Get sections of the code working (see step one) so that you can narrow your search for the problem. irb can help with this: try playing in this environment to debug sections.
+5.  Read the ruby documentation for the methods you are employing.
+6.  Comment throughout your code to make sure you understand what every step is doing. This will help you pinpoint problems.
+7.  Ask for help!
 
 <hr/>
 
