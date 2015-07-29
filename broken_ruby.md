@@ -7,12 +7,24 @@ javascript:
   - /assets/js/hint.js
 ---
 
-These exercises will help you practice debugging your code. There are no problems: only solutions waiting to be found. If you get stuck, try the following to help you figure out what is going on:
+# Common Code Errors and How to Find Them  
+
+Many errors in code written by developers at all levels boil down to just a few common types of problems:
+
+1.  Syntax: check brackets, if/elsif/else statements, braces, commas, parentheses, quotation marks, etc. The computer needs syntax to be exactly right in order for it to run your programs: it cannot make any assumptions about what you might mean. So it cannot, for example, infer "Wednesday" from "Wendesday." Make sure you are using [ruby syntax](http://ruby-doc.org/docs/ruby-doc-bundle/Manual/man-1.4/syntax.html).
+2.  Variables: make sure your variable names are consistent and that they are defined before you use them for the first time. Name them in ways that convey their use so that others (and you!) remember what they are meant to do. 
+
+
+If you get stuck, try the following to help you figure out what is going on:
 
 1.  Print out variable values at different points in the program to make sure they return what you expect.
 2.  Read the error output in the terminal. It tries to be helpful, but it will often not quite point you towards the problem. It can at least give you a ballpark location in the code and some things to look for.
 3.  Get sections of the code working (see step one) so that you can narrow your search for the problem.
-4.  Ask for help!
+4.  Read the ruby documentation for the methods you are employing.
+5.  Comment throughout your code to make sure you understand what every step is doing. This will help you pinpoint problems.
+6.  Ask for help!
+
+These exercises will help you practice debugging your code. There are no problems: only solutions waiting to be found. 
 
 <hr/>
 
