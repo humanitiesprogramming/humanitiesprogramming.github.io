@@ -26,7 +26,7 @@ a name (e.g. **scriba**).
 
 ## Add the GitHub Remote
 
-In the terminal, add a new remote for your repo.
+In the terminal, add a new remote for your repo (leave off the brackets around your username).
 
 {% highlight console %}
 $ cd ~/projects/scriba
