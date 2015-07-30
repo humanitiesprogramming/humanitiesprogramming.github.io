@@ -167,7 +167,7 @@ files. First, let's install `imagemagick` with `homebrew`.
 $ brew install imagemagick
 {% endhighlight %}
 
-Now we need to add the `mini_magick` gem to the `Gemfile`.
+Now we need to add the `mini_magick` gem to the `Gemfile`. Remember: only lines that begin with `$` are meant to be typed in the terminal.
 
 {% highlight ruby %}
 gem 'mini_magick', '~> 3.7.0'
