@@ -218,7 +218,7 @@ Now create a new transcription and add a new file. If you open the
 created file.
 
 {% highlight console %}
-$ ls -la public/uploads/transcription/picture/2/
+$ ls -la public/uploads/transcription/picture/1/
 {% endhighlight %}
 
 Awesome, now we have access to the additional features from CarriewWave
@@ -315,4 +315,3 @@ on Github and looking at workflow for managing these kinds of projects.
 [carrierwave]: https://github.com/carrierwaveuploader/carrierwave
 [paperclip]: https://github.com/thoughtbot/paperclip
 [imagemagick]: http://www.imagemagick.org/
-
