@@ -1,7 +1,7 @@
 # Site settings
 title: Introduction to Humanities Programming
 description: "An introduction to Humanities Programming course materials for the Humanities Intensive Learning and Teaching (HILT) program."
-baseurl: "https://humanitiesprogramming.github.io/intro-to-dh-programming"
+baseurl: "https://humanitiesprogramming.github.io/"
 url: "https://humanitiesprogramming.github.io/"
 
 # build settings
