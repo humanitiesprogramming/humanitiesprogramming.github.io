@@ -36,11 +36,3 @@ description: Course Syllabus
       <li>Application Design and Deployment</li>
     </ul>
   </div>
-  <div id="day-five">
-    <h2>Day 5</h2>
-    <ul>
-      <li>Contributing to Open Source</li>
-    </ul>
-  </div>
-
-</div>
