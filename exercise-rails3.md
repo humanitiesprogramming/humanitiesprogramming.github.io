@@ -119,11 +119,12 @@ table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
 {% endhighlight %}
 
-If you refresh your the page of transcrions ([http://localhost:3000/transcriptions][t]),
+If you refresh your the page of transcriptions ([http://localhost:3000/transcriptions][t]),
 you should see something that looks much better.
 
 ![Bootstrap Header]({{ "/assets/img/exercises/rails-three/bootstrap-header-update.png" | prepend: site.baseurl }}){: .img-responsive}
 
+There are still some problems though. Notice how username came out looking a bit wonky? Can you figure out how to fix that?
 
 ## Git
 
