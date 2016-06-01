@@ -18,7 +18,7 @@ We're going to use Rails' scaffolding functionality as a starting point
 for this application. This will generate all the necessary code for our
 **CRUD** operations (Create, Read, Update, and Delete).
 
-For **scripta** we need to have a `title`, `user_name`, `description`, `picture`, and
+For **scriba** we need to have a `title`, `user_name`, `description`, `picture`, and
 `transcription` field. The `title`, `user_name`, and `picture` fields will be a
 **string** and the `description` and `transcription` will be a **text**
 data type.
