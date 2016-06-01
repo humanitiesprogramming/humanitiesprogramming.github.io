@@ -14,8 +14,7 @@ necessarily look very nice. Since we have to look at this, now is a good
 time to get a bit further into implementing an updated view from the
 **View** layer using Ruby's built-in ERB templating language.
 
-Don't tell the instructors in the **Introduction to Web Development and
-Design Principals**, but we're going to use a shortcut in our design and
+Don't tell the instructors in your local web design course, but we're going to use a shortcut in our design and
 layout with the [Twitter Bootstrap](http://getbootstrap.com/) CSS
 framework not only to make things look a lot better, but also to give us a
 version of the application that works as well on mobile devices as it
