@@ -256,8 +256,7 @@ framework provides. In many projects, the design process takes as much (if not
 more) time to get to a point where the front-end is thought through to ensure
 users can perform the intended actions of an application with little (or no)
 help from you, the developer. If you're interested in this component of the
-software lifecycle, I would encourage you to consider taking the
-[Introduction to Web Development and Design Principals][design] course.
+software lifecycle, I would encourage you to consider taking a course in web development and design principles. Sometimes we even have them at [HILT](http://www.dhtraining.org/hilt/course/introduction-to-web-development-design-and-principles/)!
 
 [design]: http://www.dhtraining.org/hilt/course/introduction-to-web-development-design-and-principles/
 
