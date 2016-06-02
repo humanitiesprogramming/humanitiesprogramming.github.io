@@ -18,7 +18,7 @@ languages.
 
 ## Setup
 
-For this, we need to follow the [Heroku Quickstart Guide][quickstart].
+For this, we need to follow the [Heroku Quickstart Guide][quickstart]'s instructions to install the Heroku toolbelt and login from the command line.
 
 ## Prepping Scriba
 
@@ -35,9 +35,11 @@ fun, you can do it through the console. Remember what the **echo** command does?
 {% highlight console %}
 $ echo "public/uploads" >> .gitignore
 $ echo "tmp" >> .gitignore
-$ echo "logs" >> .gitignore
+$ echo "longer" >> .gitignore
 $ git commit -am "Ignore files not needed for deployment"
 {% endhighlight %}
+
+Open .gitignore in your text editor after all is said and done. Notice anything? Most of these files were probably already included in the .gitignore file that rails generated for you. This won't cause any problems, but you might want to clean out the extra lines.
 
 ### Database Configuration
 
@@ -58,6 +60,8 @@ group :production do
   gem 'pg'
 end
 {% endhighlight %}
+
+This tells our application to use one database in development and another in production (when it is running up on Heroku). These sorts of nuances can be very useful when you want to test and run different things while debugging and developing than on your live site.
 
 ### 12 Factor
 
@@ -104,7 +108,9 @@ Git remote heroku added
 {% endhighlight %}
 
 In my case, my app is named **shielded-temple-5358**. Part of this setup is
-that we have a new git remote named *heroku*. Now we can push the **master**
+that we have a new git remote named *heroku*. To see what remotes you have for your project, remember that you can type **git remote -v**.
+
+Now we can push the **master**
 branch to this remote.
 
 {% highlight console %}
