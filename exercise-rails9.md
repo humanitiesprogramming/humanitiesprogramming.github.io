@@ -63,6 +63,7 @@ has been created, or a current item has been updated). Open
 `app/views/transcription/show.html.erb` and replace with the following:
 
 {% highlight rhtml %}
+
 <% unless notice.nil? %>
 <div class="row">
   <div class="col-md-12">
@@ -95,6 +96,8 @@ has been created, or a current item has been updated). Open
   </div>
 
   <div class="col-md-6">
+    <h3>User name</h3>
+    <%= @transcription.user_name %>
     <h3>Transcription</h3>
     <%= simple_format @transcription.transcription %>
   </div>
@@ -104,6 +107,7 @@ has been created, or a current item has been updated). Open
   <%= link_to 'Edit', edit_transcription_path(@transcription), class: "btn btn-primary" %>
   <%= link_to 'Back', transcriptions_path, class: "btn btn-success" %>
 </div>
+
 {% endhighlight %}
 
 Ok, hands off the keyboard. What is going on here? What is `simple_format`?
