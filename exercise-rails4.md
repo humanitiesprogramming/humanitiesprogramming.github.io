@@ -150,7 +150,10 @@ We need to update it to read like this:
 <%= image_tag(@transcription.picture_url, :width => 600) if @transcription.picture.present? %>
 {% endhighlight %}
 
-Now if you refresh your browser, does the image show up? Hint: are you looking at the right page? A 'show' view only refers to a single item in the database. 
+Now if you refresh your browser, does the image show up? 
+
+Hint: are you looking at the right page? A 'show' view only refers to a single item in the database. 
+
 Do we have
 access to any additional sizes of images (e.g. thumbnails)?
 
