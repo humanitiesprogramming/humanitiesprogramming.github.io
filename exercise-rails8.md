@@ -68,7 +68,7 @@ read like this:
 {% endhighlight %}
 
 Now reload the page (you don't need to restart your rails server). Did the
-changes get applied?
+changes get applied? If you're unsure you can check out browser extensions like [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm) to help you get a more nuanced read on your fonts.
 
 ## SCSS Variables
 

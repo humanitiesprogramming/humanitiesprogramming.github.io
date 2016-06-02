@@ -212,7 +212,7 @@ If you reload your page (and are logged in), you should now see the gravatar
 associated with the email for that user.
 
 Feel free to play around with the placement of the image, but do you notice
-anything you might like to change about the image?
+anything you might like to change about the image? How can you adjust the CSS here to make things look more aesthetically pleasing and usable?
 
 ## What time is it?
 

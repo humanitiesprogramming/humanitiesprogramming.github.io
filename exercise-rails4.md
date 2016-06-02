@@ -219,7 +219,7 @@ slight changes to the file, so read these carefully.
 
 Now create a new transcription and add a new file. If you open the
 `public/uploads/` directory, you should see two files in the latest
-created file.
+created file. (If you have already uploaded photos, the number in the file path will change depending on the number of the photos uploaded. Second photo will be two, etc.)
 
 {% highlight console %}
 $ ls -la public/uploads/transcription/picture/1/
@@ -237,8 +237,10 @@ method, but pass the `:thumb` symbol to retrieve the thumbnail version.
 <% @transcriptions.each do |transcription| %>
   <tr>
     <td><%= transcription.title %></td>
-    <td><%= transcription.description %></td>
+    <td><%= transcription.user_name %></td>
     <td><%= image_tag transcription.picture_url(:thumb) if transcription.picture.present? %></td>
+    <td><%= transcription.description %></td>
+    <td><%= transcription.transcription %></td>
     <td><%= link_to 'Show', transcription %></td>
     <td><%= link_to 'Edit', edit_transcription_path(transcription) %></td>
     <td><%= link_to 'Destroy', transcription, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -248,7 +250,7 @@ method, but pass the `:thumb` symbol to retrieve the thumbnail version.
 
 Start your server back up (if it's not running) and see what happens.
 Are you seeing thumbnails for new items? What do you notice when you
-upload an image?
+upload an image? Are you seeing thumbnails for older items? Why not?
 
 > **Note**: In development you may, from time-to-time, need to reset
 > your database and clear out test data. The easiest way to do this is
