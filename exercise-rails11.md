@@ -30,7 +30,7 @@ things we need to do to make this work better.
 We need to tell git to ignore certain files. Specifically files that are
 updated though the server (e.g. the log files and image uploads). For this we
 need to edit a special file `.gitignore`. You can do this in an editor, or for
-fun, you can do it through the console.
+fun, you can do it through the console. Remember what the *echo* command does? What about *>>*?
 
 {% highlight console %}
 $ echo "public/uploads" >> .gitignore
