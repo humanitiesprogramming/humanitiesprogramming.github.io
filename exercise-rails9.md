@@ -139,6 +139,12 @@ Let's take a look at the `form` partial for transcriptions. Open
         <%= f.label :title %><br>
         <%= f.text_field :title, class: "form-control", placeholder: "Document Title" %>
       </div>
+
+      <div class="field">
+        <%= f.label :user_name %><br>
+        <%= f.text_field :user_name, class: "form-control", placeholder: "User name" %>
+      </div>
+
       <div class="form-group">
         <%= f.label :description %><br>
         <%= f.text_area :description, class: "form-control", placeholder: "Document Description" %>
