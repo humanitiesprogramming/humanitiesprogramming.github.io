@@ -1,7 +1,7 @@
 ---
 layout: exercise
 title: Rails App
-description: Phase Twelve - Continious Integration
+description: Phase Twelve - Continuous Integration
 permalink: /exercises/rails-thirteen/
 javascript:
   - /assets/js/catchup.js

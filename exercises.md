@@ -35,5 +35,5 @@ description: Course Exercises
 * [Exercise Ten: Adding User Comments]({{ "/exercises/rails-ten/" | prepend: site.baseurl }})
 * [Exercise Eleven: Deploying to Heroku]({{ "/exercises/rails-eleven/" | prepend: site.baseurl }})
 * [Exercise Twelve: Testing with RSpec]({{ "/exercises/rails-twelve/" | prepend: site.baseurl }})
-* [Exercise Thirteen: Continious Integration]({{ "/exercises/rails-thirteen/" | prepend: site.baseurl }})
+* [Exercise Thirteen: Continuous Integration]({{ "/exercises/rails-thirteen/" | prepend: site.baseurl }})
 

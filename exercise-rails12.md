@@ -159,7 +159,7 @@ Finished in 0.05028 seconds (files took 1.15 seconds to load)
 
 ## Summary
 
-A very common way (once you've gotten use to the syntax of tests) is actually to write a test *before* you write any code. Think of this as writing an
+A very common way (once you've gotten used to the syntax of tests) is actually to write a test *before* you write any code. Think of this as writing an
 outline like you would for a paper. You outline what you expect to cover in
 your paper, then go and write the actual paper. This same technique goes for
 software, but you have the additional benefit of having written a rhubric to
