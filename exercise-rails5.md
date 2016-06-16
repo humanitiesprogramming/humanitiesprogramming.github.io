@@ -123,7 +123,7 @@ defines what to do. We don't need to do anything, but we still need to define
 this. Simply add this code to `app/controllers/pages_controller`.
 
 {% highlight ruby %}
-def credits
+def credit
 end
 {% endhighlight %}
 
