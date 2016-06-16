@@ -48,6 +48,7 @@ external-javascript:
     <div class="col-lg-3">
       <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
         <h4>Julianne McCobin</h4>
+        <p><a href="https://twitter.com/jmccobin" class="fa fa-twitter">@jmmcobin</a></p>
     </div>
     <div class="col-lg-3">
       <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
