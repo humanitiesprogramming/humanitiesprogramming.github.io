@@ -165,7 +165,7 @@ doesn't do this directly, but provides access to two systems that do,
 `RMagick` and `MiniMagick`. For CarrierWave, `MiniMagick` is
 recommended, so we'll use that. This does require a system library named
 [imagemagick][imagemagick] which is a Linux-based interface for working with image
-files. First, let's install `imagemagick` with `homebrew`.
+files. First, let's install `imagemagick` with `homebrew`. If you don't have homebrew installed, download it [here](http://brew.sh/) using the command line.
 
 {% highlight console %}
 $ brew install imagemagick
