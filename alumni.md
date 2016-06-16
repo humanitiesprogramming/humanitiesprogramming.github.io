@@ -9,6 +9,77 @@ external-javascript:
   - //vjs.zencdn.net/4.7/video.js
 
 ---
+
+<div id="blue">
+  <div class="container">
+    <div class="row centered">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h4>2016 Class</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="dg">
+  <div class="container w">
+  <div class="row centered">
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+        <h4>Ye Seul Byeon</h4>
+    </div>  
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+        <h4>Persephone Braham</h4>
+        <p><a href="https://twitter.com/savetheamazons" class="fa fa-twitter">@savetheamazons</a></p>
+    </div>
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+        <h4>Hannah Chapman</h4>
+        <p><a href="https://twitter.com/hannahjchapman" class="fa fa-twitter">@hannahjchapman</a></p>
+    </div>
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+        <h4>Neal Curtis</h4>
+        <p><a href="https://twitter.com/nealifur" class="fa fa-twitter">@nealifur</a></p>
+    </div>
+</div>
+
+<div class="row centered">
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+        <h4>Julianne McCobin</h4>
+    </div>
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+        <h4>Elizabeth Melick</h4>
+    </div>
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+        <h4>Ashley Sanders</h4>
+        <p><a href="https://twitter.com/throughthe_veil" class="fa fa-twitter">@throughthe_veil</a></p>
+    </div>
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+        <h4>Nabeel Siddiqui</h4>
+        <p><a href="https://twitter.com/nabsiddiqui" class="fa fa-twitter">@nabsiddiqui</a></p>
+    </div>
+</div>
+
+<div class="row centered">
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+        <h4>Joseph Stadolnik</h4>
+    </div>
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+        <h4>Emily Stenberg</h4>
+    </div>
+    <div class="col-lg-3">
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+        <h4>Madeline Zehnder</h4>
+        <p><a href="https://twitter.com/madelinezehnder" class="fa fa-twitter">@madelinezehnder</a></p>
+    </div>
+</div>
 <div id="blue">
   <div class="container">
     <div class="row centered">
