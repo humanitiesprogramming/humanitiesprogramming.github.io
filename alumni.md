@@ -28,7 +28,7 @@ external-javascript:
         <h4>Ye Seul Byeon</h4>
     </div>  
     <div class="col-lg-3">
-      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+      <img class="img-circle" src="{{ "/assets/img/PB.jpg" | prepend: site.baseurl }}" width="110" height="110" alt=""/>
         <h4>Persephone Braham</h4>
         <p><a href="https://twitter.com/savetheamazons" class="fa fa-twitter">@savetheamazons</a></p>
     </div>
