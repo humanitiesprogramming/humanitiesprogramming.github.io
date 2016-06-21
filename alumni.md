@@ -38,7 +38,7 @@ external-javascript:
         <p><a href="https://twitter.com/hannahjchapman" class="fa fa-twitter">@hannahjchapman</a></p>
     </div>
     <div class="col-lg-3">
-      <img class="img-circle" src="{{ "assets/img/Neal.jpeg" | prepend: site.baseurl }}" width="110" height="110" alt=""/>
+      <img class="img-circle" src="{{ "/assets/img/Neal.jpeg" | prepend: site.baseurl }}" width="110" height="110" alt=""/>
         <h4>Neal Curtis</h4>
         <p><a href="https://twitter.com/nealifur" class="fa fa-twitter">@nealifur</a></p>
     </div>
