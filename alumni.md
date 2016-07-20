@@ -76,7 +76,7 @@ external-javascript:
         <h4>Emily Stenberg</h4>
     </div>
     <div class="col-lg-3">
-      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+      <img class="img-circle" src="{{ "/assets/img/Madeline.jpg" | prepend: site.baseurl }}" width="110" height="110" alt=""/>
         <h4>Madeline Zehnder</h4>
         <p><a href="https://twitter.com/madelinezehnder" class="fa fa-twitter">@madelinezehnder</a></p>
     </div>
