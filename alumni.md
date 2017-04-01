@@ -95,7 +95,7 @@ external-javascript:
   <div class="container w">
   <div class="row centered">
     <div class="col-lg-3">
-      <img class="img-circle" src="https://pbs.twimg.com/profile_images/618010944325689344/1e3xhaVo_400x400.jpg" width="110" height="110" alt=""/>
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
         <h4>Bryan Brown</h4>
         <p><a href="https://twitter.com/bryjbrown" class="fa fa-twitter">@bryjbrown</a></p>
     </div>
@@ -172,7 +172,7 @@ external-javascript:
     </div>
 
     <div class="col-lg-3">
-      <img class="img-circle" src="https://pbs.twimg.com/profile_images/533445700579643392/rCznV6WO_400x400.jpeg" width="110" height="110" alt=""/>
+      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
         <h4>Jordan Ryan</h4>
         <p><a href="https://twitter.com/jordanblairryan" class="fa fa-twitter">@jordanblairryan</a></p>
     </div>
@@ -239,7 +239,7 @@ external-javascript:
       </div>
       <div class="row centered">
         <div class="col-lg-3">
-          <img class="img-circle" src="https://pbs.twimg.com/profile_images/576197939808202754/dxR70Rtg_400x400.jpeg" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
           <h4>Abby Schreiber</h4>
           <p><a href="http://twitter.com/abschreiber" class="fa fa-twitter">@abschreiber</a><br><a href="https://github.com/abschreiber" class="fa fa-github">abschreiber</a></p>
         </div>
@@ -266,7 +266,7 @@ external-javascript:
       </div>
       <div class="row centered">
         <div class="col-lg-3">
-          <img class="img-circle" src="https://pbs.twimg.com/profile_images/378800000705543740/79c0556bc61edfe72b9561376c9854c9_400x400.jpeg" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
           <h4>Ethan Reed</h4>
           <p><a href="https://twitter.com/reedeth" class="fa fa-twitter">@reedeth</a><br><a href="https://github.com/reedeth" class="fa fa-github">reedeth</a></p>
         </div>
@@ -284,7 +284,7 @@ external-javascript:
         </div>
 
         <div class="col-lg-3">
-          <img class="img-circle" src="https://pbs.twimg.com/profile_images/614615829888565248/zX8g_F1b.jpg" width="110" height="110" alt=""/>
+          <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
           <h4>Angela Galvan</h4>
           <p>
             <a href="https://twitter.com/galvan_as" class="fa fa-twitter">@galvan_as</a><br/>
@@ -358,7 +358,7 @@ external-javascript:
         </p>
       </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="https://pbs.twimg.com/profile_images/1182685833/Photo_65_400x400.jpg" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
         <h4>Colette Lettie</h4>
         <p><a href="https://twitter.com/librarylettie" class="fa fa-twitter">@librarylettie</a><br/>
         <a href="https://github.com/csl1" class="fa fa-github">csl1</a>
@@ -372,7 +372,7 @@ external-javascript:
         </p>
       </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="https://pbs.twimg.com/profile_images/1366124675/Avatar_400x400.jpg" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
         <h4>Alex Galarza</h4>
         <p><a href="https://twitter.com/galarzaalex" class="fa fa-twitter">@galarzaalex</a><br/>
         <a href="https://github.com/galarzaalex" class="fa fa-github">galarzaalex</a>
@@ -395,14 +395,14 @@ external-javascript:
         </p>
       </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="https://pbs.twimg.com/profile_images/1273134424/madmen_icon_400x400.jpg" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
         <h4>Caitlin Wells</h4>
         <p><a href="https://twitter.com/wellscai" class="fa fa-twitter">@wellscai</a><br/>
         <a href="https://github.com/wellscai" class="fa fa-github">wellscai</a>
         </p>
       </div>
       <div class="col-lg-3">
-        <img class="img-circle" src="https://pbs.twimg.com/profile_images/1565583212/506px-Donquixote_400x400.JPG" width="110" height="110" alt=""/>
+        <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
         <h4>Cory Duclos</h4>
         <p><a href="https://twitter.com/coryduclos" class="fa fa-twitter">@coryduclos</a><br/>
         <a href="https://github.com/coryduclos" class="fa fa-github">coryduclos</a>
