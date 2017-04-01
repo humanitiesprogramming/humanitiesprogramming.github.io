@@ -24,7 +24,7 @@ external-javascript:
   <div class="container w">
   <div class="row centered">
     <div class="col-lg-3">
-      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+      <img class="img-circle" src="{{ "/assets/img/110by110.jpg" | prepend: site.baseurl }}" width="110" height="110" alt=""/>
         <h4>Ye Seul Byeon</h4>
     </div>  
     <div class="col-lg-3">
@@ -33,7 +33,7 @@ external-javascript:
         <p><a href="https://twitter.com/savetheamazons" class="fa fa-twitter">@savetheamazons</a></p>
     </div>
     <div class="col-lg-3">
-      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+      <img class="img-circle" src="{{ "/assets/img/hannahsmall.jpg" | prepend: site.baseurl }}" width="110" height="110" alt=""/>
         <h4>Hannah Chapman</h4>
         <p><a href="https://twitter.com/hannahjchapman" class="fa fa-twitter">@hannahjchapman</a></p>
     </div>
@@ -76,7 +76,7 @@ external-javascript:
         <h4>Emily Stenberg</h4>
     </div>
     <div class="col-lg-3">
-      <img class="img-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_2_400x400.png" width="110" height="110" alt=""/>
+      <img class="img-circle" src="{{ "/assets/img/Madeline.jpg" | prepend: site.baseurl }}" width="110" height="110" alt=""/>
         <h4>Madeline Zehnder</h4>
         <p><a href="https://twitter.com/madelinezehnder" class="fa fa-twitter">@madelinezehnder</a></p>
     </div>
