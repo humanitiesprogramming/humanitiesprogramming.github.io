@@ -20,7 +20,7 @@ description: Course Exercises
 ## Ruby
 * [Ruby Exercises One]({{ "/exercises/ruby-one/" | prepend: site.baseurl }})
 * [Ruby Exercises Two]({{ "/exercises/ruby-two/" | prepend: site.baseurl }})
-* [Debugging Exercises]({{ "/exercises/broken_ruby/" | prepend: site.baseurl }})
+* [Debugging Exercises]({{ "/exercises/ruby_debugging/" | prepend: site.baseurl }})
 
 ## Rails
 * [Exercise One: Creating a New App]({{ "/exercises/rails-one/" | prepend: site.baseurl }})
@@ -36,4 +36,3 @@ description: Course Exercises
 * [Exercise Eleven: Deploying to Heroku]({{ "/exercises/rails-eleven/" | prepend: site.baseurl }})
 * [Exercise Twelve: Testing with RSpec]({{ "/exercises/rails-twelve/" | prepend: site.baseurl }})
 * [Exercise Thirteen: Continuous Integration]({{ "/exercises/rails-thirteen/" | prepend: site.baseurl }})
-
