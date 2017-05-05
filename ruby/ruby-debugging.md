@@ -2,7 +2,7 @@
 layout: page
 title: Ruby Debugging Exercises
 description: Ruby Debugging Exercises
-permalink: /exercises/broken_ruby/
+permalink: /exercises/ruby-debugging/
 javascript:
   - /assets/js/hint.js
 ---
@@ -12,7 +12,7 @@ javascript:
 Many errors in code written by developers at all levels boil down to just a few common types of problems:
 
 1.  Syntax: check brackets, if/elsif/else statements, braces, commas, parentheses, quotation marks, etc. The computer needs syntax to be exactly right in order for it to run your programs: it cannot make any assumptions about what you might mean. So it cannot, for example, infer "Wednesday" from "Wendesday." Make sure you are using [ruby syntax](http://ruby-doc.org/docs/ruby-doc-bundle/Manual/man-1.4/syntax.html).
-2.  Variables: make sure your variable names are consistent and that they are defined before you use them for the first time. Name them in ways that convey their use so that others (and you!) remember what they are meant to do. 
+2.  Variables: make sure your variable names are consistent and that they are defined before you use them for the first time. Name them in ways that convey their use so that others (and you!) remember what they are meant to do.
 3.  Functions: make sure that you know how your functions work. What kinds of things do they return? A string? An array? A hash?
 
 
@@ -28,7 +28,7 @@ If you get stuck, try the following to help you figure out what is going on:
 
 <hr/>
 
-These exercises will help you practice debugging your code. There are no problems: only solutions waiting to be found. 
+These exercises will help you practice debugging your code. There are no problems: only solutions waiting to be found.
 
 # Pirates
 
@@ -92,8 +92,8 @@ Fixed:
 
 {% highlight ruby %}
 
-# Create a collection of these authors and 
-# the year they kicked the bucket; 
+# Create a collection of these authors and
+# the year they kicked the bucket;
 # print the collection in the following format:
 
 # Charles Dickens died in 1870.
@@ -134,9 +134,9 @@ Broken:
 
 # A time traveller has suddenly appeared in your classroom!
 
-# Create a variable representing the traveller's 
-# year of origin (e.g., year = 2000) 
-# and greet our strange visitor with a different message 
+# Create a variable representing the traveller's
+# year of origin (e.g., year = 2000)
+# and greet our strange visitor with a different message
 # if he is from the distant past (before 1900),
 # the present era (1900-2020) or from the far future (beyond 2020).
 
@@ -157,9 +157,9 @@ Fixed:
 
 # A time traveller has suddenly appeared in your classroom!
 
-# Create a variable representing the traveller's 
-# year of origin (e.g., year = 2000) 
-# and greet our strange visitor with a different message 
+# Create a variable representing the traveller's
+# year of origin (e.g., year = 2000)
+# and greet our strange visitor with a different message
 # if he is from the distant past (before 1900),
 # the present era (1900-2020) or from the far future (beyond 2020).
 
@@ -187,9 +187,9 @@ Broken:
 {% highlight ruby %}
 
 
-# Write a simple class that defines a person 
-# with attributes of first_name, last_name 
-# and has a method signature of to_s which 
+# Write a simple class that defines a person
+# with attributes of first_name, last_name
+# and has a method signature of to_s which
 # prints the object as "Jefferson, Thomas".
 
 
@@ -198,11 +198,11 @@ classy Person
 	def initial(fname lname)
 		@first_name = firstname
 		@last_name == lname
-	
+
 
 	def to_s
 		@last_name +," " + @first_name
-	
+
 end
 
 tj = Person.new("Thomas", "Jefferson")
@@ -221,10 +221,10 @@ class Person
 		@first_name = fname
 		@last_name = lname
 	end
-	
+
 	def to_s
 		@last_name + ", " + @first_name
-	end	
+	end
 
 end
 
@@ -291,7 +291,7 @@ def letter_grade(average-grade)
 		puts "Grade: B"
 	elsif average_grade >= 90
 		puts "Grade: A'
-	
+
 end
 
 def pass_fail(average)
@@ -369,7 +369,7 @@ end
 def pass_fail(average)
 	if average < 59
 		puts "Student is failing"
-	else 
+	else
 		puts "Student is passing."
 	end
 end
@@ -489,7 +489,7 @@ Fixed:
 
 {% highlight ruby %}
 # Just one solution - let us know if you have other fixes.
-# Note - we haven't actually learned several of the methods 
+# Note - we haven't actually learned several of the methods
 # and syntactical tricks in this exercise. Google them!
 
 module Ex25
@@ -545,7 +545,7 @@ puts "You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs
 poem = "<<STARTED
 \tThe lovely world
 \twith logic so firmly planted
-\tcannot discern 
+\tcannot discern
 \tthe needs of love
 \tnor comprehend passion from intuitio
 \tand requires an explanation
@@ -557,7 +557,7 @@ puts poem
 puts "--------------"
 
 
-five = 5 
+five = 5
 puts "This should be five: #{five}"
 
 def secret_formula(started)
