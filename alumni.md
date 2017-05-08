@@ -10,6 +10,9 @@ external-javascript:
 
 ---
 
+
+
+
 <div id="blue">
   <div class="container">
     <div class="row centered">
@@ -425,3 +428,33 @@ external-javascript:
    </div>
 
 </div>
+
+<div id="blue">
+  <div class="container">
+    <div class="row centered">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h4>Instructors</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="dg">
+    <div class="container w">
+      <div class="row centered">
+
+        <div class="col-lg-6">
+          <h4>Wayne Graham</h4>
+          <img class="img-circle" src="{{ "/assets/img/wayne-crop.jpg" | prepend: site.baseurl }}" width="110" height="110" alt="Wayne Graham">
+          <p>Currently Technical Director, Council on Library and Information Resources. Formerly head of the R&amp;D team at the University of Virginia's <a
+            href="http://scholarslab.org">Scholars’ Lab</a>. Studied US Colonial
+          History at the <a href="http://www.wm.edu/as/history/">College of
+            William and Mary</a> and wrote a couple of books on <a
+            href="https://www.apress.com/index.php/author/author/view/id/2276">developing
+            applications for the Facebook platform</a>. Research interests are
+          in computer graphics, augmented reality, architectural history, quantitative
+          and digital methodology, as well as frontier studies. Wayne piloted the course and taught it from 2013-2015.</p>
+        </div>
+      </div>
+    </div>
+  </div>
