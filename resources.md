@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Resources
-description: Course Resources
 ---
 
 ## Class Resources

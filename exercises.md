@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Exercises
-description: Course Exercises
+title: Course Exercises
 ---
 
 ## Command Line
