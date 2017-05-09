@@ -28,9 +28,9 @@ permalink: /syllabus/
   <div id="day-three">
     <h2>Day Three: Python in Practice</h2>
     <ul>
+      <li>Working with CSV</li>
       <li>Getting data from API's</li>
       <li>Intro to Web Scraping</li>
-      <li>Working with CSV</li>
     </ul>
   </div>
   <div id="day-four">

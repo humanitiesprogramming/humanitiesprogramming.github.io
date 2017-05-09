@@ -411,4 +411,6 @@ a:after {
     background: #ff7878;
 }
 
-
+img{
+    max-width: 100%;
+}
