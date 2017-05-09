@@ -17,7 +17,7 @@ title: Course Exercises
 * [Create a Github domain for your account]({{ "/exercises/github/" | prepend: site.baseurl }})
 * [Add Keys to Github](https://help.github.com/articles/generating-ssh-keys)
 
-## Archived 2013-16
+## 2013-16
 
 ### Ruby
 * [Ruby Exercises One]({{ "/exercises/ruby-one/" | prepend: site.baseurl }})
