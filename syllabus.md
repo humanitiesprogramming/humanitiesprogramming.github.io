@@ -6,38 +6,42 @@ permalink: /syllabus/
 
 <div class="syllabus">
   <div id="day-one">
-    <h2>Day One</h2>
+    <h2>Day One: Basics</h2>
     <ul>
       <li><a href="{{"/assets/slides/hilt-intro.pdf" | prepend: site.baseurl }}">Introduction</a></li>
       <li>Introducing the Command line</li>
       <li>HTML and CSS basics</li>
-    </ul>
-  </div>
-  <div id="day-two">
-    <h2>Day Two</h2>
-    <ul>
       <li>Introduction to <code>git</code></li>
       <li>Introduction to <a href="https://github.com">Github</a></li>
-      <li>Introduction to <a href= "{{ "/assets/img/php_kitten.jpg" | prepend: site.baseurl }}">Programming Concepts</a></li>
       <li>Deploying simple pages</li>
     </ul>
   </div>
-  <div id="day-three">
-    <h2>Day Three: Ruby</h2>
+  <div id="day-two">
+    <h2>Day Two: Python Syntax and Concepts</h2>
     <ul>
+      <li>Introduction to <a href= "{{ "/assets/img/php_kitten.jpg" | prepend: site.baseurl }}">Programming Concepts</a></li>
       <li><a href="{{ "/assets/slides/hilt-programming-i.pdf" | prepend: site.baseurl }}">Programming Concepts I</a></li>
       <li><a href="{{ "/assets/slides/hilt-programming-ii.pdf" | prepend: site.baseurl" }}">Programming Concepts II</a></li>
       <li><a href="{{ "/assets/slides/hilt-programming-iii.pdf" | prepend: site.baseurl }}">Programming Concepts III</a></li>
     </ul>
   </div>
-  <div id="day-four">
-    <h2>Day Four: Ruby and Rails</h2>
+  <div id="day-three">
+    <h2>Day Three: Python in Practice</h2>
     <ul>
-      <li>Application Design and Deployment</li>
+      <li>Getting data from API's</li>
+      <li>Intro to Web Scraping</li>
+      <li>Working with CSV</li>
+    </ul>
+  </div>
+  <div id="day-four">
+    <h2>Day Four: Python in Practice 2</h2>
+    <ul>
+      <li>Visualizing and Basic Text Analysis</li>
     </ul>
   </div>
 
 <h2>Archived Syllabi</h2>
+
 <ul>
   <li>
     <a href="{{ "/syllabi/rails" | prepend: site.base_url }}">Humanities Programming with Ruby on Rails</a> (2013-2016)

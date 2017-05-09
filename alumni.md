@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Digital Humanities Programming
-description: Alumni from the Digital Humanities Programming Course
 permalink: /alumni/
 css:
   - //vjs.zencdn.net/4.7/video-js.css
