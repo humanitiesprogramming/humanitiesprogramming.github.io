@@ -15,9 +15,8 @@ title: Resources
 * [HTML/CSS]({{ "/assets/slides/html.pdf" | prepend:site.baseurl }})
 * [Course Slides](https://github.com/humanitiesprogramming/slides)
 * [Working with CSV]()
-* [Getting Data from API's]()
 * [Intro to Web Scraping]()
-
+* [Getting Data from API's]()
 
 ### 2013-2016
 
