@@ -2,3 +2,4 @@ _site
 node_modules/
 env/
 DPyLA/
+python/notebooks/.env
