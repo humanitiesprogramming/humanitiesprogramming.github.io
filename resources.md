@@ -1,18 +1,29 @@
 ---
 layout: page
 title: Resources
-description: Course Resources
 ---
 
 ## Class Resources
+
+### 2017
+
+* [Command Line Tutorial]({{ "/resources/command-line-tutorial/" | prepend:site.baseurl }})
+* [Git Tutorial]({{ "/resources/git-lesson" }})
+* [GitHub Cheatsheet]({{ "/resources/github-cheatsheet" }})
+* [GitHub Troubleshooting]({{ "/resources/github-troubleshooting" }})
+* [Git Cheatsheet]({{ "/resources/git-cheatsheet" | prepend:site.baseurl }})
+* [HTML/CSS]({{ "/assets/slides/html.pdf" | prepend:site.baseurl }})
+* [Course Slides](https://github.com/humanitiesprogramming/slides)
+* [Working with CSV]()
+* [Intro to Web Scraping]()
+* [Getting Data from API's]()
+
+### 2013-2016
 
 * [Ruby Cheatsheet]({{ "/resources/ruby-cheatsheet/" | prepend: site.baseurl }})
 * [Ruby Style Guide]({{ "/resources/style-guide/" | prepend: site.baseurl }})
 * [Ruby Rules]({{ "/resources/ruby-rules/" | prepend: site.baseurl }})
 * [Rails Beginner Cheatsheet](http://www.pragtob.info/rails-beginner-cheatsheet/)
-* [Command Line]({{ "/assets/slides/cli.pdf" | prepend:site.baseurl }})
-* [HTML/CSS]({{ "/assets/slides/html.pdf" | prepend:site.baseurl }})
-* [Git]({{ "/assets/slides/git.pdf" | prepend:site.baseurl }})
 
 <div class="bibliography">
 

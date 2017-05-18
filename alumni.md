@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Digital Humanities Programming
-descrption: Alumni from the Digital Humanities Programming Course
 permalink: /alumni/
 css:
   - //vjs.zencdn.net/4.7/video-js.css
@@ -9,9 +8,6 @@ external-javascript:
   - //vjs.zencdn.net/4.7/video.js
 
 ---
-
-
-
 
 <div id="blue">
   <div class="container">
@@ -179,14 +175,8 @@ external-javascript:
         <h4>Jordan Ryan</h4>
         <p><a href="https://twitter.com/jordanblairryan" class="fa fa-twitter">@jordanblairryan</a></p>
     </div>
-
-
   </div>
 
-
-
-  </div>
-</div>
 
 
 <div id="blue">
@@ -341,7 +331,7 @@ external-javascript:
 </div>
 
 
-<div id="r">
+<div id="blue">
   <div class="container">
     <div class="row centered">
       <div class="col-lg-8 col-lg-offset-2">
@@ -422,14 +412,12 @@ external-javascript:
       <div class="col-lg-3">
         <img class="img-circle" src="https://avatars0.githubusercontent.com/u/3216380?v=3&s=460" width="110" height="110" alt=""/>
         <h4>Elizabeth Cornell</h4>
-        <a href="https://github.com/ecornell1" class="fa fa-github">ecornell1</a>
+        <p><a href="https://github.com/ecornell1" class="fa fa-github">ecornell1</a>
         </p>
       </div>
    </div>
 
-</div>
-
-<div id="blue">
+<div id="r">
   <div class="container">
     <div class="row centered">
       <div class="col-lg-8 col-lg-offset-2">
@@ -439,22 +427,21 @@ external-javascript:
   </div>
 </div>
 
-<div id="dg">
-    <div class="container w">
-      <div class="row centered">
+<div class="container w">
+  <div class="row centered">
 
-        <div class="col-lg-6">
-          <h4>Wayne Graham</h4>
-          <img class="img-circle" src="{{ "/assets/img/wayne-crop.jpg" | prepend: site.baseurl }}" width="110" height="110" alt="Wayne Graham">
-          <p>Currently Technical Director, Council on Library and Information Resources. Formerly head of the R&amp;D team at the University of Virginia's <a
-            href="http://scholarslab.org">Scholars’ Lab</a>. Studied US Colonial
-          History at the <a href="http://www.wm.edu/as/history/">College of
-            William and Mary</a> and wrote a couple of books on <a
-            href="https://www.apress.com/index.php/author/author/view/id/2276">developing
-            applications for the Facebook platform</a>. Research interests are
-          in computer graphics, augmented reality, architectural history, quantitative
-          and digital methodology, as well as frontier studies. Wayne piloted the course and taught it from 2013-2015.</p>
-        </div>
-      </div>
+    <div class="col-lg-6">
+      <h4>Wayne Graham</h4>
+      <img class="img-circle" src="{{ "/assets/img/wayne-crop.jpg" | prepend: site.baseurl }}" width="110" height="110" alt="Wayne Graham">
+      <p>Currently Technical Director, Council on Library and Information Resources. Formerly head of the R&amp;D team at the University of Virginia's <a
+        href="http://scholarslab.org">Scholars’ Lab</a>. Studied US Colonial
+      History at the <a href="http://www.wm.edu/as/history/">College of
+        William and Mary</a> and wrote a couple of books on <a
+        href="https://www.apress.com/index.php/author/author/view/id/2276">developing
+        applications for the Facebook platform</a>. Research interests are
+      in computer graphics, augmented reality, architectural history, quantitative
+      and digital methodology, as well as frontier studies. Wayne piloted the course and taught it from 2013-2015.</p>
     </div>
   </div>
+</div>
+</div>
