@@ -14,10 +14,10 @@ title: Resources
 * [Git Cheatsheet]({{ "/resources/git-cheatsheet" | prepend:site.baseurl }})
 * [HTML/CSS]({{ "/assets/slides/html.pdf" | prepend:site.baseurl }})
 * [Course Slides](https://github.com/humanitiesprogramming/slides)
-* [Working with CSV]()
-* [Intro to Web Scraping]()
-* [Getting Data from API's]()
-
+* [Working with CSV](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-csv.ipynb)
+* [Intro to Web Scraping](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/intro-to-scraping.ipynb)
+* [Getting Data from API's](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-apis.ipynb)
+* [Basic Text Analysis and Visualization](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/text-analysis.ipynb)
 ### 2013-2016
 
 * [Ruby Cheatsheet]({{ "/resources/ruby-cheatsheet/" | prepend: site.baseurl }})
@@ -68,6 +68,3 @@ title: Resources
     <li>37 Signals, <a href="http://gettingreal.37signals.com/">Getting Real</a></li>
   </ul>
 </div>
-
-
-
