@@ -22,7 +22,7 @@ title: Course Exercises
 ### Ruby
 * [Ruby Exercises One]({{ "/exercises/ruby-one/" | prepend: site.baseurl }})
 * [Ruby Exercises Two]({{ "/exercises/ruby-two/" | prepend: site.baseurl }})
-* [Debugging Exercises]({{ "/exercises/ruby_debugging/" | prepend: site.baseurl }})
+* [Debugging Exercises]({{ "/exercises/ruby-debugging/" | prepend: site.baseurl }})
 
 ### Rails
 * [Exercise One: Creating a New App]({{ "/exercises/rails-one/" | prepend: site.baseurl }})
