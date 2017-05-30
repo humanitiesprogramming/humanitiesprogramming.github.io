@@ -17,6 +17,12 @@ title: Course Exercises
 * [Create a Github domain for your account]({{ "/exercises/github/" | prepend: site.baseurl }})
 * [Add Keys to Github](https://help.github.com/articles/generating-ssh-keys)
 
+### Python
+* [Working with CSV](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-csv.ipynb)
+* [Intro to Web Scraping](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/intro-to-scraping.ipynb)
+* [Getting Data from API's](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-apis.ipynb)
+* [Basic Text Analysis and Visualization](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/text-analysis.ipynb)
+
 ## 2013-16
 
 ### Ruby
