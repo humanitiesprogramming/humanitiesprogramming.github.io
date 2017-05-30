@@ -9,7 +9,7 @@ javascript:
 
 # Printing to the Screen
 Store your street address, city, state, and zip code in variables (or
-even better, a **hash**!), then print them in the usual format:
+even better, a **dictionary**!), then print them in the usual format:
 
 Name<br/>
 Street<br/>
@@ -19,16 +19,16 @@ City, State, Zip
 
 {% highlight ruby %}
 address = {
-  "name" => "Thomas Jefferson",
-  "street" => "931 Thomas Jefferson Parkway",
-  "city" => "Charlottesville",
-  "state" => "Virginia",
-  "zip" => 22902
+  "name": "Thomas Jefferson",
+  "street": "931 Thomas Jefferson Parkway",
+  "city": "Charlottesville",
+  "state": "Virginia",
+  "zip": "22902"
 }
 
-puts address['name']
-puts address['street']
-puts "#{address['city']}, #{address['state']} #{address['zip']}"
+print(address['name'])
+print(address['street'])
+print(address['city'] + ", " + address['state'] + " " + address['zip'])
 {% endhighlight %}
 
 <hr/>
@@ -55,7 +55,7 @@ in_days = in_hours / 24
 # there are about 365 days in a year
 in_years = in_days / 365
 
-puts in_years
+print(in_years)
 
 {% endhighlight %}
 
@@ -75,7 +75,11 @@ Anthony Trollope, 1882<br/>
 Gerard Manley Hopkins, 1889
 
 {% highlight ruby %}
-authors = {"Charles Dickens" => "1870", "William Thackeray" => "1863", "Anthony Trollope" => "1882", "Gerard Manley Hopkins" => "1889"}
+authors = {
+  "Charles Dickens": "1870",
+  "William Thackeray": "1863",
+  "Anthony Trollope": "1882",
+  "Gerard Manley Hopkins": "1889"}
 
 authors.each do |author, year|
   puts author.to_s + " died in " + year.to_s
@@ -118,7 +122,7 @@ Write a program that tests whether someone is a pirate or not.  As we all know, 
 * **Arrr! How are ye?**
 * **Hellow, friend.**
 
-**Hint**: `string_variable["some text"]` equals "`some text`" if those characters exist in 
+**Hint**: `string_variable["some text"]` equals "`some text`" if those characters exist in
 `string_variable` and otherwise equals `nil`.
 
 {% highlight ruby %}
@@ -139,7 +143,7 @@ end
 # Longest word (not too hard)
 Print out the longest word in "The quick brown fox jumped over the lazy dogs" and its length.
 
-##Hints 
+##Hints
 * `my_string.length` equals the length of a string.
 * `my_long_string.split(" ").each` will break the string up by spaces.
 
@@ -320,7 +324,7 @@ end
 
 puts 'sum of even numbered fibonacci numbers is ' + sum.to_s
 
-# Using more advanced syntax 
+# Using more advanced syntax
 
 x, y, sum = 1, 1, 0
 while sum < 1000000
@@ -354,5 +358,3 @@ puts "Sum is #{sum}."
 # Use this fact to build a solution
 
 {% endhighlight %}
-
-
