@@ -287,13 +287,15 @@ MAX = 4000000
 
 fib_seq = [1, 2]
 sum = 2
-while fib_seq[-1] <= MAX
-  next_fib = fib_seq[-1] + fib_seq[-2]
-  fib_seq.push(next_fib)
-  sum += next_fib if next_fib.even?
-end
 
-puts "Sum of even members of Fibonacci sequence less than 4,000,000: #{sum}."
+while fib_seq[-1] <= MAX:
+    next_fib = fib_seq[-1] + fib_seq[-2]
+    fib_seq.append(next_fib)
+    if next_fib % 2 == 0:
+        sum += next_fib
+
+print("Sum of even members of Fibonacci sequence less than 4,00,000: %d") % sum
+
 
 
 # Another way
