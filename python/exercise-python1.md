@@ -94,7 +94,7 @@ A time traveler has suddenly appeared in your classroom!
 
 Create a variable representing the traveler's year of origin (e.g., year = 2000) and greet our strange visitor with a different message if he is from the distant past (before 1900), the present era (1900-2020), or from the far future (beyond 2020).
 
-If you want to get really fancy, try writing a line of code that would ask your user "What year is this time traveler from?", then print the appropriate response according to their answer.
+If you want to get really fancy, try writing a line of code that would ask your user "What year is this time traveler from?", then print the appropriate response according to their answer. (Hint: try looking here for tools! https://docs.python.org/3/tutorial/controlflow.html)
 
 {% highlight ruby %}
 
