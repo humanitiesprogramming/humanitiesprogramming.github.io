@@ -9,7 +9,7 @@ javascript:
 
 # Printing to the Screen
 Store your street address, city, state, and zip code in variables (or
-even better, a **dictionary**!), then print them in the usual format:
+even better, a **hash**!), then print them in the usual format:
 
 Name<br/>
 Street<br/>
@@ -19,16 +19,16 @@ City, State, Zip
 
 {% highlight ruby %}
 address = {
-  "name": "Thomas Jefferson",
-  "street": "931 Thomas Jefferson Parkway",
-  "city": "Charlottesville",
-  "state": "Virginia",
-  "zip": "22902"
+  "name" => "Thomas Jefferson",
+  "street" => "931 Thomas Jefferson Parkway",
+  "city" => "Charlottesville",
+  "state" => "Virginia",
+  "zip" => 22902
 }
 
-print(address['name'])
-print(address['street'])
-print(address['city'] + ", " + address['state'] + " " + address['zip'])
+puts address['name']
+puts address['street']
+puts "#{address['city']}, #{address['state']} #{address['zip']}"
 {% endhighlight %}
 
 <hr/>
@@ -55,7 +55,7 @@ in_days = in_hours / 24
 # there are about 365 days in a year
 in_years = in_days / 365
 
-print(in_years)
+puts in_years
 
 {% endhighlight %}
 
@@ -75,11 +75,7 @@ Anthony Trollope, 1882<br/>
 Gerard Manley Hopkins, 1889
 
 {% highlight ruby %}
-authors = {
-  "Charles Dickens": "1870",
-  "William Thackeray": "1863",
-  "Anthony Trollope": "1882",
-  "Gerard Manley Hopkins": "1889"}
+authors = {"Charles Dickens" => "1870", "William Thackeray" => "1863", "Anthony Trollope" => "1882", "Gerard Manley Hopkins" => "1889"}
 
 authors.each do |author, year|
   puts author.to_s + " died in " + year.to_s
