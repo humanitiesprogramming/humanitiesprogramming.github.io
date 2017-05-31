@@ -261,14 +261,13 @@ Write a program that will calculate the population of Fibonaccia after 10 years,
 **Hint**: `population = [0,10]`
 
 {% highlight ruby %}
-years = 1000
+years = [100]
 population = [0,10]
 
-years.times do |p|
-  population.push(population[-1] + population[-2])
-end
+for i in range(years):
+    population.append(population[-1] + population[-2])
 
-puts population
+print(population)
 {% endhighlight %}
 
 <hr/>
