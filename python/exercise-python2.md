@@ -1,8 +1,8 @@
 ---
 layout: exercise
-title: Second Ruby Exercises
-description: Your second ruby exercises
-permalink: /exercises/ruby-two/
+title: Second Python Exercises
+description: Your second python exercises
+permalink: /exercises/python-two/
 javascript:
   - /assets/js/hint.js
 ---
@@ -44,7 +44,7 @@ following examples:
 
 {% highlight ruby %}
 def divide(x, y)
-  if(y == 0) 
+  if(y == 0)
     y = x
   end
   return x / y
