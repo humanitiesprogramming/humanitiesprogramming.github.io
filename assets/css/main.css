@@ -415,3 +415,15 @@ a:after {
 img{
     max-width: 100%;
 }
+
+.justified{
+  text-align: justify !important;
+}
+
+.img-circle{
+  margin: 15px;
+}
+
+.course-summary{
+  padding-top: 25px;
+}
