@@ -119,7 +119,7 @@ Write a program that tests whether someone is a pirate or not.  As we all know, 
 ## Tests:
 
 * **Arrr! How are ye?**
-* **Hellow, friend.**
+* **Hello, friend.**
 
 **Hint**: `string_variable["some text"]` equals "`some text`" if those characters exist in
 `string_variable` and otherwise equals `nil`.
@@ -127,13 +127,11 @@ Write a program that tests whether someone is a pirate or not.  As we all know, 
 {% highlight ruby %}
 answers = ["Arrr! How are ye?", "Hello, friend."]
 
-answers.each do |answer|
-  if answer['Arrr!']
-     puts "Go away, scurvy sea dog"
-  else
-     puts "Welcome!"
-  end
-end
+for answer in answers:
+    if "Arrr!" in answer:
+        print("Go away, scurvy sea dog!")
+    else:
+        print("Welcome!")
 
 {% endhighlight %}
 
