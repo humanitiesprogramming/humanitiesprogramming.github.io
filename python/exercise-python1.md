@@ -119,7 +119,7 @@ Write a program that tests whether someone is a pirate or not.  As we all know, 
 ## Tests:
 
 * **Arrr! How are ye?**
-* **Hellow, friend.**
+* **Hello, friend.**
 
 **Hint**: `string_variable["some text"]` equals "`some text`" if those characters exist in
 `string_variable` and otherwise equals `nil`.
@@ -127,13 +127,11 @@ Write a program that tests whether someone is a pirate or not.  As we all know, 
 {% highlight ruby %}
 answers = ["Arrr! How are ye?", "Hello, friend."]
 
-answers.each do |answer|
-  if answer['Arrr!']
-     puts "Go away, scurvy sea dog"
-  else
-     puts "Welcome!"
-  end
-end
+for answer in answers:
+    if "Arrr!" in answer:
+        print("Go away, scurvy sea dog!")
+    else:
+        print("Welcome!")
 
 {% endhighlight %}
 
@@ -143,8 +141,8 @@ end
 Print out the longest word in "The quick brown fox jumped over the lazy dogs" and its length.
 
 ##Hints
-* `my_string.length` equals the length of a string.
-* `my_long_string.split(" ").each` will break the string up by spaces.
+* `len(my_string)` equals the length of a string.
+* `list_of_words = my_long_string.split()` will break the string up by spaces into a list.
 
 What about "The quick brown fox jumps over the lazy dogs"?  How might we find all the longest words?
 
@@ -153,13 +151,13 @@ sentence = "The quick brown fox jumped over the lazy dogs"
 
 longest = ""
 
-sentence.split(" ").each do |word|
-   if word.length > longest.length
-      longest = word
-   end
-end
+words = sentence.split()
 
-puts "The word '" + longest + "' is " + longest.length.to_s + " characters long."
+for word in words:
+    if len(word) > len(longest):
+        longest = word
+
+print("The word '" + longest + "' is ", len(longest), " characters long.")
 
 {% endhighlight %}
 
