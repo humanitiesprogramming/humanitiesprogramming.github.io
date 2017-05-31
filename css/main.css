@@ -164,3 +164,10 @@ img{
     max-width: 400px;
 }
 
+header.site-header{
+  padding-bottom: 11px;
+}
+
+#blue p{
+  padding-bottom: 0px;
+}
