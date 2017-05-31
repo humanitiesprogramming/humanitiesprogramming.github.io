@@ -216,37 +216,34 @@ avg = (e1 + e2 + e3) / 3
 # option 2 to calculate the grade average
 grades = [50, 51, 0]
 sum = 0
-grades.each do |g|
-  sum = sum + g
-end
+for grade in grades:
+  sum = sum + grade
 
-avg = sum / grades.length
+avg = sum / len(grades)
 
-if avg >= 90
-  grade = "A"
-elsif avg >= 80 && avg < 90
-  grade = "B"
-elsif avg > 69 && avg < 80
-  grade = "C"
-elsif avg >= 69 && avg <= 69
-  grade = "D"
-else
-  grade = "F"
-end
+if avg >= 90:
+    letter_grade = "A"
+elif avg >= 80 and avg < 90:
+    letter_grade = "B"
+elif avg > 69 and avg < 80:
+    letter_grade = "C"
+elif avg <= 69 and avg >= 65:
+    letter_grade = "D"
+else:
+    letter_grade = "F"
 
-grades.each do |g|
-  puts "Exam: " + g.to_s
-end
+for grade in grades:
+    print("Exam: " + str(grade))
 
-puts "Average: " + avg.to_s
+print("Average: " + str(avg))
 
-puts "Grade: " + grade
+print("Grade: " + letter_grade)
 
-if grade == "F"
-  puts "Student is failing"
-else
-  puts "Sudent is passing"
-end
+if letter_grade is "F":
+    print "Student is failing."
+else:
+    print "Student is passing."
+
 
 
 {% endhighlight %}
