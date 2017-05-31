@@ -10,7 +10,7 @@ In this exercise we will be creating a new `git` repository **remote** at
 
 ## Create a New Respository
 
-1. Navigate your web browser to [http://github.com/new][new-repo].
+1. Navigate your web browser to [https://github.com/new][new-repo].
 2. For the **Repository Name**, enter `username.github.io`. Use your
    **actual username**, *or this will not work*!
 3. Make the repository **Public**.

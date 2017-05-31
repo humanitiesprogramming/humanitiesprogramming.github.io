@@ -225,8 +225,6 @@ heroku (if you don't have your own IT staff) include:
 
 * [OpenShift](https://www.openshift.com/)
 * [Ninefold](https://ninefold.com/)
-* [Shelly Cloud](https://shellycloud.com/documentation/quick_start)
-* [anynines](https://shellycloud.com/documentation/quick_start)
 * [TruckerIO](http://developers.trucker.io/Getting-Started)
 
 [heroku]: http://heroku.com

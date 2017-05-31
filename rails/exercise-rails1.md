@@ -108,7 +108,7 @@ application.
 </tr>
 <tr>
 <td>config/</td>
-<td>Configure your application's routes, database, and more. This is covered in more detail in <a href="configuring.html">Configuring Rails Applications</a>.</td>
+<td>Configure your application's routes, database, and more. This is covered in more detail in <a href="/exercises/rails-five/">Configuring Rails Applications</a>.</td>
 </tr>
 <tr>
 <td>config.ru</td>
@@ -144,7 +144,7 @@ application.
 </tr>
 <tr>
 <td>test/</td>
-<td>Unit tests, fixtures, and other test apparatus. These are covered in <a href="testing.html">Testing Rails Applications</a>.</td>
+<td>Unit tests, fixtures, and other test apparatus. These are covered in <a href="/exercises/rails-twelve/">Testing Rails Applications</a>.</td>
 </tr>
 <tr>
 <td>tmp/</td>
@@ -179,4 +179,3 @@ doesn't do much (yet), but is a fully functioning Rails application. In
 the next module we'll talk a bit about what the pieces of a Rails
 application are and how to start making the application do what we need
 it to.
-

@@ -40,15 +40,13 @@ title: Resources
 
   <h3>Tutorials</h3>
   <ul>
-    <li><a href="http://docs.webplatform.org/wiki/html/tutorials">HTML Tutorials</a></li>
-    <li><a href="http://docs.webplatform.org/wiki/css/tutorials">CSS Tutorials</a></li>
     <li><a href="http://rubykoans.com/">Ruby Koans</a></li>
     <li><a href="http://rubylearning.com/">RubyLearning</a></li>
     <li><a href="http://tryruby.org/">Try Ruby</a></li>
     <li><a href="http://railsforzombies.org/">Rails for Zombies</a></li>
     <li><a href="http://railscasts.com/">Railscasts</a></li>
     <li><a href="http://www.rubytapas.com/">Ruby Tapas</a></li>
-    <li><a href="http://https://try.github.io">Try git</a></li>
+    <li><a href="http://try.github.io">Try git</a></li>
     <li><a href="http://www.pinterest.com/pvnrtmol/ruby-and-rails-resources/">Ruby and Rails Resources</a></li>
     <li><a href="http://www.pinterest.com/eanakashima/learn-the-front-end/">Learn the Front-End</a></li>
     <li><a href="http://jasonheppler.org/2010/12/10/the-rubyist-historian-the-series/">The Rubyist Historian</a></li>
