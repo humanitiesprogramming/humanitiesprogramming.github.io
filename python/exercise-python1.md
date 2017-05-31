@@ -90,25 +90,24 @@ for author, date in authors.items():
 
 # Branching
 
-A time traveller has suddenly appeared in your classroom!
+A time traveler has suddenly appeared in your classroom!
 
-Create a variable representing the traveller's year of origin (e.g., year = 2000) and greet our strange visitor with a different message if he is from the distant past (before 1900), the present era (1900-2020), or from the far future (beyond 2020).
+Create a variable representing the traveler's year of origin (e.g., year = 2000) and greet our strange visitor with a different message if he is from the distant past (before 1900), the present era (1900-2020), or from the far future (beyond 2020).
+
+If you want to get really fancy, try writing a line of code that would ask your user "What year is this time traveler from?", then print the appropriate response according to their answer.
 
 {% highlight ruby %}
 
 year = 1899
-# if you want to get really fancy, you can grab today's date from Ruby
-# see http://www.ruby-doc.org/core/classes/Time.html#M000368
-# e.g. year = Time.now.year
+# if you chose to get fancy, the input request might look like this:
+# year = int(input("What year is this time traveler from? "))
 
-
-if year <= 1900
-  puts "Welcome from the distant past!"
-elsif year > 1900 && year < 2020
-  puts "Welcome from the present!"
-elsif year >= 2020
-  puts "Welcome from the far future!"
-end
+if year <= 1900:
+    print ("Welcome from the distant past!")
+elif year > 1900 and year < 2020:
+    print ("Welcome from the present!")
+else:
+    print ("Welcome from the far future!")
 
 {% endhighlight %}
 
