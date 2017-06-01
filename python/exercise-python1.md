@@ -83,7 +83,7 @@ authors = {
 }
 
 for author, date in authors.items():
-    print "%s" % author + " died in " + "%s." % date
+    print("%s" % author + " died in " + "%s." % date)
 {% endhighlight %}
 
 <hr/>
