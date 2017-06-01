@@ -7,6 +7,8 @@ javascript:
   - /assets/js/hint.js
 ---
 
+[Python Cheatsheet](/resources/python-cheatsheet/)
+
 # Basic Methods
 
 ## Multiply (Easy)

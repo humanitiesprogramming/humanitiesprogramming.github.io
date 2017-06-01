@@ -7,6 +7,8 @@ javascript:
   - /assets/js/hint.js
 ---
 
+[Python Cheatsheet](/resources/python-cheatsheet/)
+
 # Printing to the Screen
 Store your street address, city, state, and zip code in variables (or
 even better, a **dictionary**!), then print them in the usual format:
