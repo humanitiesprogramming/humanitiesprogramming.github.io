@@ -21,7 +21,7 @@ following examples:
 * 900, 32
 * 29999, 0
 
-{% highlight ruby %}
+{% highlight python %}
 def multiply(x, y):
   return(x * y)
 
@@ -41,7 +41,7 @@ following examples:
 * 0, 4
 * 900, 32
 
-{% highlight ruby %}
+{% highlight python %}
 def divide(x, y):
   if(y == 0):
     y = x
@@ -58,7 +58,7 @@ print(divide(900, 32))
 # Print Name
 Write a method that takes a parameter (name) and greets that user.
 
-{% highlight ruby %}
+{% highlight python %}
 def greet(name):
   return("Hello %s, you rock!" % name)
 
@@ -72,7 +72,7 @@ print(greet("phybernightmare"))
 Write a method that evaluates two numbers and returns the smallest. If the
 numbers are the same, it should return a message stating so.
 
-{% highlight ruby %}
+{% highlight python %}
 def smallest_number(x, y):
   smallest = x
 
@@ -97,7 +97,7 @@ Write a method that accepts a string and returns the characters in reverses orde
 
 **Hint**: Look at the Python documentation.
 
-{% highlight ruby %}
+{% highlight python %}
 def reverse(string):
   return(string[::-1])
 
@@ -116,7 +116,7 @@ Write a method that uses a `while` loop to count from 1 to 1000 and print the
 number of the current iteration to the screen. (That is, the first time
 through, the loop should print "1"; "2" the next time through; and so forth.)
 
-{% highlight ruby %}
+{% highlight python %}
 def count(limit):
   counter = 0
   while counter <= limit:
@@ -132,7 +132,7 @@ count(1000)
 
 As we talked about in class, there is no "until" loop in Python. However, While loops can provide similar results. Write a method that uses an `while` loop to print each number from 0 to 5.
 
-{% highlight ruby %}
+{% highlight python %}
 def count(limit):
   counter = 0
   while counter <= limit:
@@ -147,7 +147,7 @@ count(5)
 
 Write a method that uses a `for` loop to print each number from 1 to 10.
 
-{% highlight ruby %}
+{% highlight python %}
 def count(limit):
   counter = 0
   for i in range(limit + 1)
@@ -159,29 +159,13 @@ count(10)
 
 <hr/>
 
-## Times Loop
-
-Write a method that uses a `times` loop to print each number from 0 to 10.
-
-{% highlight ruby %}
-def count(limit)
-  limit.times do |counter|
-    puts counter
-  end
-end
-
-count(11)
-{% endhighlight %}
-
-<hr/>
-
 # Classes
 
 Write a simple class that defines a person with attributes of
 `first_name`, `last_name` and has a method signature of `to_s` which
 prints the object as "Jefferson, Thomas".
 
-{% highlight ruby %}
+{% highlight python %}
 class Person
 
   def initialize(fname, lname)
