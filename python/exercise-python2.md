@@ -59,11 +59,10 @@ print(divide(900, 32))
 Write a method that takes a parameter (name) and greets that user.
 
 {% highlight ruby %}
-def greet name
-  return "Hello #{name}, you rock!"
-end
+def greet(name):
+  return("Hello %s, you rock!" % name)
 
-puts greet "phybernightmare"
+print(greet("phybernightmare"))
 {% endhighlight %}
 
 <hr/>
