@@ -135,11 +135,9 @@ As we talked about in class, there is no "until" loop in Python. However, While 
 {% highlight ruby %}
 def count(limit):
   counter = 0
-  while True:
+  while counter <= limit:
     print(counter)
     counter += 1
-    if counter > 5:
-      break
 
 count(5)
 {% endhighlight %}
