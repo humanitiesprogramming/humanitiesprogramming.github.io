@@ -95,17 +95,14 @@ print(smallest_number(400,2))
 
 Write a method that accepts a string and returns the characters in reverses order.
 
-**Hint**: Look at the Ruby documentation.
+**Hint**: Look at the Python documentation.
 
 {% highlight ruby %}
-def reverse(string)
-  # use the built in method for reversing strings
-  # see http://ruby-doc.org/core/classes/String.html#M001170
-  string.reverse
-end
+def reverse(string):
+  return(string[::-1])
 
 test_string = "Praxis Program"
-puts reverse(test_string)
+print(reverse(test_string))
 
 {% endhighlight %}
 
