@@ -128,18 +128,18 @@ count(1000)
 {% endhighlight %}
 <hr/>
 
-## Until Loop
+## "Until" Loop
 
-Write a method that uses an `until` loop to print each number from 0 to 5.
+As we talked about in class, there is no "until" loop in Python. However, While loops can provide similar results. Write a method that uses an `while` loop to print each number from 0 to 5.
 
 {% highlight ruby %}
-def count(limit)
+def count(limit):
   counter = 0
-  until counter > limit
-    puts counter
+  while True:
+    print(counter)
     counter += 1
-  end
-end
+    if counter > 5:
+      break
 
 count(5)
 {% endhighlight %}
