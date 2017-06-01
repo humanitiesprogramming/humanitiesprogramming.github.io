@@ -42,16 +42,15 @@ following examples:
 * 900, 32
 
 {% highlight ruby %}
-def divide(x, y)
-  if(y == 0)
+def divide(x, y):
+  if(y == 0):
     y = x
-  end
-  return x / y
-end
+  else:
+    return(x / y)
 
-puts divide(4,2)
-puts divide(0, 4)
-puts divide(900, 32)
+print(divide(4, 2))
+print(divide(0, 4))
+print(divide(900, 32))
 {% endhighlight %}
 
 <hr/>
