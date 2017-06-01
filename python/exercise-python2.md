@@ -117,14 +117,11 @@ number of the current iteration to the screen. (That is, the first time
 through, the loop should print "1"; "2" the next time through; and so forth.)
 
 {% highlight ruby %}
-def count(limit)
+def count(limit):
   counter = 0
-  # note that do is optional with the while loop
-  while counter <= limit
-    puts counter
+  while counter <= limit:
+    print(counter)
     counter += 1
-  end
-end
 
 count(1000)
 
