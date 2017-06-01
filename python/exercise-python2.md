@@ -163,24 +163,22 @@ Write a simple class that defines a person with attributes of
 prints the object as "Jefferson, Thomas".
 
 {% highlight python %}
-class Person
+class Person:
+    def __init__(self, fname, lname):
+        self.first_name = fname
+        self.last_name = lname
 
-  def initialize(fname, lname)
-    @first_name = fname
-    @last_name = lname
-  end
+    def to_s(self):
+        print(self.last_name + ", " + self.first_name)
 
-  def to_s
-    @last_name + ", " + @first_name
-  end
-end
 
-tj = Person.new("Thomas", "Jefferson")
-puts tj # note, puts calls to_s if it is availabe
+tj = Person("Thomas", "Jefferson")
+tj.to_s()
+
 {% endhighlight %}
 <hr/>
 
 # Can't Get Enough?
-Can't get enough? Work through the [Learn Ruby the Hard
-Way](http://ruby.learncodethehardway.org/book/) exercises and/or
-implement [the last programming exercises]({{ "/exercises/ruby-one/" | prepend: site.baseurl }}) as Objects.
+Can't get enough? Work through the [Learn Python the Hard
+Way](https://learncodethehardway.org/python/) exercises and/or
+implement [the last programming exercises]({{ "/exercises/python-one/" | prepend: site.baseurl }}) as Objects.
