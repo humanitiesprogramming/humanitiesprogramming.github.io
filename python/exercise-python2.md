@@ -73,20 +73,19 @@ Write a method that evaluates two numbers and returns the smallest. If the
 numbers are the same, it should return a message stating so.
 
 {% highlight ruby %}
-def smallest_number(x, y)
+def smallest_number(x, y):
   smallest = x
 
-  if x == y
-    smallest = "They are the same"
-  elsif y < x
+  if x == y:
+    smallest = "They are the same."
+  elif y < x:
     smallest = y
-  end
+  elif x < y:
+    smallest = x
 
-  smallest
+  return(smallest)
 
-end
-
-puts smallest_number(400,2)
+print(smallest_number(400,2))
 
 {% endhighlight %}
 
