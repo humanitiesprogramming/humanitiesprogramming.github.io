@@ -22,13 +22,12 @@ following examples:
 * 29999, 0
 
 {% highlight ruby %}
-def multiply(x, y)
-  return x * y
-end
+def multiply(x, y):
+  return(x * y)
 
-puts multiply(4,2)
-puts multiply(0, 4)
-puts multiply(900, 32)
+print(multiply(4, 2))
+print(multiply(0, 4))
+print(multiply(900, 32))
 {% endhighlight %}
 <hr/>
 
