@@ -5,7 +5,7 @@ description: Cheatsheet for Python syntax
 permalink: /resources/python-cheatsheet/
 ---
 
-# Ruby Cheatsheet
+# Python Cheatsheet
 
 
 ## Variables
@@ -36,11 +36,11 @@ Place `if`, `elif`, and `else` on separate lines. Each logic line must end in a 
 
 {% highlight python %}
 if number == 5:
-  puts "Success"
+  print("Success")
 elif number == 7:
-  puts "Praxis FTW"
+  print("Praxis FTW")
 else:
-  puts "FAIL"
+  print("FAIL")
 {% endhighlight %}
 
 ## Operators
@@ -66,11 +66,9 @@ Methods can return values which can be assigned to a variable. The function must
 {% highlight python %}
 def make_positive(number):
   if number < 0:
-    -number
-  return number
-end
+    return -number
 
-puts make_positive(-5)
+print(make_positive(-5))
 {% endhighlight %}
 
 ## Dictionaries
@@ -81,7 +79,7 @@ Dictionaries hold objects and are referenced by their `key` assignment.
 dictionary = {}
 other_dictionary = {"VA": "Virginia", "NC": "North Carolina"}
 
-len(hash)
+len(other_dictionary)
 
 other_dictionary.keys()
 other_dictionary['VA']
