@@ -150,12 +150,11 @@ count(5)
 Write a method that uses a `for` loop to print each number from 1 to 10.
 
 {% highlight ruby %}
-def count(limit)
+def count(limit):
   counter = 0
-  for counter in (1..limit)
-    puts counter
-  end
-end
+  for i in range(limit + 1)
+    print(counter)
+    counter += 1
 
 count(10)
 {% endhighlight %}
