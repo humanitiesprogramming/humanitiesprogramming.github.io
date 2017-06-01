@@ -7,9 +7,6 @@ javascript:
   - /assets/js/hint.js
 ---
 
-[Ruby Cheatsheet]({{ "/resources/ruby-cheatsheet/" | prepend: site.baseurl }})
-
-
 # Basic Methods
 
 ## Multiply (Easy)

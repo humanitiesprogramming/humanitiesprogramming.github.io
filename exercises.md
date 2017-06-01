@@ -18,6 +18,8 @@ title: Course Exercises
 * [Add Keys to Github](https://help.github.com/articles/generating-ssh-keys)
 
 ### Python
+* [Python Exercises One](/exercises/python-one/)
+* [Python Exercises Two](/exercises/python-two/)
 * [Working with CSV](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-csv.ipynb)
 * [Intro to Web Scraping](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/intro-to-scraping.ipynb)
 * [Getting Data from API's](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-apis.ipynb)
