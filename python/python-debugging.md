@@ -233,6 +233,7 @@ Broken:
 # 70-79	C
 # 60-69	D
 # 0-59	F
+
 # Exams: 89, 90, 90
 # Average: 90
 # Grade: A
@@ -241,52 +242,43 @@ Broken:
 # Exams: 50, 51, 0
 # Average: 33
 # Grade: F
-# Student if fails
+# Student iis failing.
 
+exam_one = int(input("Input exam grade one: "))
 
-put "Input exam grade one:"
-exam_one = gets.chomp().toi
+exam_two = input("Input exam grade two: "))
 
-puts 'Input exam grade two:'
-exam_two = gets.chomp(.to_s
+exam_3 = str(input("Input exam grade three: "))
 
-puts "Input exam grade three:"
-exam_3 = gets.chomp().to_i
+grades = [exam_one exam_two exam_three]
+sum = 0
+for grade in grade:
+  sum = sum + grade
 
-def list_grade(exam_one exam_two exam_three)
-	puts "Exams: #exam_one}, #{exam_two}, {exam_three}"
-end
+avg = sum / len(grdes)
 
-def average_grade(exam_one, exam_two, exam_three)
-	average == (exam_one + exam_two + exam_three) / 3)
-end
-average = avrage_grade(exam_one, exam_two, exam_three).to_i
+if avg >= 90:
+    letter_grade = "A"
+elif avg >= 80 and avg < 90
+    letter_grade = "B"
+elif avg > 69 and avg < 80:
+    letter_grade = "C'
+elif avg <= 69 and avg >= 65:
+    letter_grade = "D"
+elif:
+    letter_grade = "F"
 
-def letter_grade(average-grade)
-	if average_grade < 59
-		puts "Grade: F"
-	elseif average_grade >= 60 && average_grade <= 69
-		puts "Grade: D"
-	elsif average_grade > 70 & average_grade <= 79
-		puts 'Grade: C"
-	elseif average_grade >= 80 && average_grade <= 89
-		puts "Grade: B"
-	elsif average_grade >= 90
-		puts "Grade: A'
+for grade in grades:
+    print("Exam: " + str(grade))
 
-end
+    print("Average: " + str(avg))
 
-def pass_fail(average)
-	if average < 59
-		puts "Student is failing.
-	else puts "Student is passing."
-	end
-end
+    print("Grade: " + letter_grade)
 
-list_grade(exam_one, exam_two, exam_three)
-puts "Average": #{average}"		
-lettergrade(average)			
-pass_fail(average)
+if letter-grade is "F":
+    print "Student is failing."
+else:
+    print "Student is passing."
 
 {% endhighlight %}
 
@@ -304,6 +296,7 @@ Fixed:
 # 70-79	C
 # 60-69	D
 # 0-59	F
+
 # Exams: 89, 90, 90
 # Average: 90
 # Grade: A
@@ -312,54 +305,44 @@ Fixed:
 # Exams: 50, 51, 0
 # Average: 33
 # Grade: F
-# Student if fails
+# Student is failing.
 
 
-puts "Input exam grade one:"
-exam_one = gets.chomp().to_i
+exam_one = int(input("Input exam grade one: "))
 
-puts "Input exam grade two:"
-exam_two = gets.chomp().to_i
+exam_two = int(input("Input exam grade two: "))
 
-puts "Input exam grade three:"
-exam_three = gets.chomp().to_i
+exam_three = int(input("Input exam grade three: "))
 
-def list_grade(exam_one, exam_two, exam_three)
-	puts "Exams: #{exam_one}, #{exam_two}, #{exam_three}"
-end
+grades = [exam_one, exam_two, exam_three]
+sum = 0
+for grade in grades:
+  sum = sum + grade
 
-def average_grade(exam_one, exam_two, exam_three)
-	average = ((exam_one + exam_two + exam_three) / 3)
-end
+avg = sum / len(grades)
 
-average = average_grade(exam_one, exam_two, exam_three).to_i
+if avg >= 90:
+    letter_grade = "A"
+elif avg >= 80 and avg < 90:
+    letter_grade = "B"
+elif avg > 69 and avg < 80:
+    letter_grade = "C"
+elif avg <= 69 and avg >= 65:
+    letter_grade = "D"
+else:
+    letter_grade = "F"
 
-def letter_grade(average_grade)
-	if average_grade < 59
-		puts "Grade: F"
-	elsif average_grade >= 60 && average_grade <= 69
-		puts "Grade: D"
-	elsif average_grade > 70 && average_grade <= 79
-		puts 'Grade: C'
-	elsif average_grade >= 80 && average_grade <= 89
-		puts "Grade: B"
-	else average_grade == 90
-		puts "Grade: A"
-	end
-end
+for grade in grades:
+    print("Exam: " + str(grade))
 
-def pass_fail(average)
-	if average < 59
-		puts "Student is failing"
-	else
-		puts "Student is passing."
-	end
-end
+print("Average: " + str(avg))
 
-list_grade(exam_one, exam_two, exam_three)
-puts "Average: #{average}"		
-letter_grade(average)			
-pass_fail(average)
+print("Grade: " + letter_grade)
+
+if letter_grade is "F":
+    print("Student is failing.")
+else:
+    print("Student is passing.")
 
 {% endhighlight %}
 
