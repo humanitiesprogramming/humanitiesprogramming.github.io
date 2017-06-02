@@ -64,22 +64,15 @@ Broken:
 
 {% highlight ruby %}
 
-dickens = ["Charles Dickens," "1870"]
-thackeray = {"William Thackeray", "1863"}
-trollope = {'Anthony Trollope', '1882'}
-hopkins = ["Gerard Manley Hopkins" => "1889"]
+authrs = {
+    "Charles Dickens": "1870",
+    "William Thackeray": "1863",
+    "Anthony Trollope": "1882",
+    "Gerard Manley Hopkins": "1889"
 
-def died(array)
-	name = array[2]
-	year = array[1]
-	puts  "#name died in {year}."
-
-puts died(Dickens)
-puts died(thackeray)
-put died(trollop)
-puts died(hopkins)
-
-end
+for author date in authors.items{}:
+    print "%s" % authors + " died in " + "%d." % Date
+}
 
 {% endhighlight %}
 
@@ -100,22 +93,15 @@ Fixed:
 
 
 
-dickens = ["Charles Dickens", "1870"]
-thackeray = ["William Thackeray", "1863"]
-trollope = ['Anthony Trollope', '1882']
-hopkins = ["Gerard Manley Hopkins", "1889"]
+authors = {
+    "Charles Dickens": "1870",
+    "William Thackeray": "1863",
+    "Anthony Trollope": "1882",
+    "Gerard Manley Hopkins": "1889"
+}
 
-def died(array)
-	name = array[0]
-	year = array[1]
-	puts  "#{name} died in #{year}."
-
-end
-
-puts died(dickens)
-puts died(thackeray)
-puts died(trollope)
-puts died(hopkins)
+for author, date in authors.items():
+    print("%s" % author + " died in " + "%s." % date)
 
 {% endhighlight %}
 
