@@ -124,9 +124,9 @@ Broken:
 
 {% highlight ruby %}
 
-# A time traveller has suddenly appeared in your classroom!
+# A time traveler has suddenly appeared in your classroom!
 
-# Create a variable representing the traveller's
+# Create a variable representing the traveler's
 # year of origin (e.g., year = 2000)
 # and greet our strange visitor with a different message
 # if he is from the distant past (before 1900),
@@ -148,9 +148,9 @@ Fixed:
 
 {% highlight ruby %}
 
-# A time traveller has suddenly appeared in your classroom!
+# A time traveler has suddenly appeared in your classroom!
 
-# Create a variable representing the traveller's
+# Create a variable representing the traveler's
 # year of origin (e.g., year = 2000)
 # and greet our strange visitor with a different message
 # if he is from the distant past (before 1900),
@@ -178,25 +178,21 @@ Broken:
 
 # Write a simple class that defines a person
 # with attributes of first_name, last_name
-# and has a method signature of to_s which
+# and has a method signature of "speak" which
 # prints the object as "Jefferson, Thomas".
 
+classy Person:
+  def __initalize__(self, first_name, last_name):
+    self.first = first_name
+    self.last = lname
+  def speak(self):
+  print("My name is + " self.fname + " " + self.last)
 
-classy Person
+me = Person("Brandon", "Walsh")
+you = Person("Ethan", "Reed")
 
-	def initial(fname lname)
-		@first_name = firstname
-		@last_name == lname
-
-
-	def to_s
-		@last_name +," " + @first_name
-
-end
-
-tj = Person.new("Thomas", "Jefferson")
-puts person.fname
-put tj
+me.speak()
+you.self.speak
 
 {% endhighlight %}
 
@@ -204,21 +200,18 @@ Fixed:
 
 {% highlight ruby %}
 
-class Person
+class Person:
+  def __init__(self, first_name, last_name):
+    self.first = first_name
+    self.last = last_name
+  def speak(self):
+    print("My name is " + self.first + " " + self.last)
 
-	def initialize(fname, lname)
-		@first_name = fname
-		@last_name = lname
-	end
+me = Person("Brandon", "Walsh")
+you = Person("Ethan", "Reed")
 
-	def to_s
-		@last_name + ", " + @first_name
-	end
-
-end
-
-tj = Person.new("Thomas", "Jefferson")
-print tj.to_s
+me.speak()
+you.speak()
 
 {% endhighlight %}
 
@@ -240,6 +233,7 @@ Broken:
 # 70-79	C
 # 60-69	D
 # 0-59	F
+
 # Exams: 89, 90, 90
 # Average: 90
 # Grade: A
@@ -248,52 +242,43 @@ Broken:
 # Exams: 50, 51, 0
 # Average: 33
 # Grade: F
-# Student if fails
+# Student iis failing.
 
+exam_one = int(input("Input exam grade one: "))
 
-put "Input exam grade one:"
-exam_one = gets.chomp().toi
+exam_two = input("Input exam grade two: "))
 
-puts 'Input exam grade two:'
-exam_two = gets.chomp(.to_s
+exam_3 = str(input("Input exam grade three: "))
 
-puts "Input exam grade three:"
-exam_3 = gets.chomp().to_i
+grades = [exam_one exam_two exam_three]
+sum = 0
+for grade in grade:
+  sum = sum + grade
 
-def list_grade(exam_one exam_two exam_three)
-	puts "Exams: #exam_one}, #{exam_two}, {exam_three}"
-end
+avg = sum / len(grdes)
 
-def average_grade(exam_one, exam_two, exam_three)
-	average == (exam_one + exam_two + exam_three) / 3)
-end
-average = avrage_grade(exam_one, exam_two, exam_three).to_i
+if avg >= 90:
+    letter_grade = "A"
+elif avg >= 80 and avg < 90
+    letter_grade = "B"
+elif avg > 69 and avg < 80:
+    letter_grade = "C'
+elif avg <= 69 and avg >= 65:
+    letter_grade = "D"
+elif:
+    letter_grade = "F"
 
-def letter_grade(average-grade)
-	if average_grade < 59
-		puts "Grade: F"
-	elseif average_grade >= 60 && average_grade <= 69
-		puts "Grade: D"
-	elsif average_grade > 70 & average_grade <= 79
-		puts 'Grade: C"
-	elseif average_grade >= 80 && average_grade <= 89
-		puts "Grade: B"
-	elsif average_grade >= 90
-		puts "Grade: A'
+for grade in grades:
+    print("Exam: " + str(grade))
 
-end
+    print("Average: " + str(avg))
 
-def pass_fail(average)
-	if average < 59
-		puts "Student is failing.
-	else puts "Student is passing."
-	end
-end
+    print("Grade: " + letter_grade)
 
-list_grade(exam_one, exam_two, exam_three)
-puts "Average": #{average}"		
-lettergrade(average)			
-pass_fail(average)
+if letter-grade is "F":
+    print "Student is failing."
+else:
+    print "Student is passing."
 
 {% endhighlight %}
 
@@ -311,6 +296,7 @@ Fixed:
 # 70-79	C
 # 60-69	D
 # 0-59	F
+
 # Exams: 89, 90, 90
 # Average: 90
 # Grade: A
@@ -319,261 +305,43 @@ Fixed:
 # Exams: 50, 51, 0
 # Average: 33
 # Grade: F
-# Student if fails
+# Student is failing.
 
 
-puts "Input exam grade one:"
-exam_one = gets.chomp().to_i
+exam_one = int(input("Input exam grade one: "))
 
-puts "Input exam grade two:"
-exam_two = gets.chomp().to_i
+exam_two = int(input("Input exam grade two: "))
 
-puts "Input exam grade three:"
-exam_three = gets.chomp().to_i
+exam_three = int(input("Input exam grade three: "))
 
-def list_grade(exam_one, exam_two, exam_three)
-	puts "Exams: #{exam_one}, #{exam_two}, #{exam_three}"
-end
+grades = [exam_one, exam_two, exam_three]
+sum = 0
+for grade in grades:
+  sum = sum + grade
 
-def average_grade(exam_one, exam_two, exam_three)
-	average = ((exam_one + exam_two + exam_three) / 3)
-end
+avg = sum / len(grades)
 
-average = average_grade(exam_one, exam_two, exam_three).to_i
+if avg >= 90:
+    letter_grade = "A"
+elif avg >= 80 and avg < 90:
+    letter_grade = "B"
+elif avg > 69 and avg < 80:
+    letter_grade = "C"
+elif avg <= 69 and avg >= 65:
+    letter_grade = "D"
+else:
+    letter_grade = "F"
 
-def letter_grade(average_grade)
-	if average_grade < 59
-		puts "Grade: F"
-	elsif average_grade >= 60 && average_grade <= 69
-		puts "Grade: D"
-	elsif average_grade > 70 && average_grade <= 79
-		puts 'Grade: C'
-	elsif average_grade >= 80 && average_grade <= 89
-		puts "Grade: B"
-	else average_grade == 90
-		puts "Grade: A"
-	end
-end
+for grade in grades:
+    print("Exam: " + str(grade))
 
-def pass_fail(average)
-	if average < 59
-		puts "Student is failing"
-	else
-		puts "Student is passing."
-	end
-end
+print("Average: " + str(avg))
 
-list_grade(exam_one, exam_two, exam_three)
-puts "Average: #{average}"		
-letter_grade(average)			
-pass_fail(average)
+print("Grade: " + letter_grade)
 
-{% endhighlight %}
-
-<hr/>
-
-# [Room 101](https://en.wikipedia.org/wiki/Ministries_of_Nineteen_Eighty-Four#Room_101)
-
-Broken:
-
-{% highlight ruby %}
-
-module Ex2
-
-  # This function will break up words for us.
-  def Ex25.brak_words(stuff
-    words = stuff.split(' ')
-    return word
-  end
-
-  # Sorts the words.
-  def Ex25.sortwords(words)
-    return words.sort
-  end
-
-  # Prints the first word after popping it off.
-  df Ex25.print_first_word(words)
-    word = words.pop(1)
-    puts wor
-  end
-
-  # Prints the last word after popping it off.
-  def Ex25:print_last_word(words)
-    word = words.pop
-    put word
-  end
-
-  # Takes in a full sentence and returns the sorted words.
-  def Ex25.sort_sentence(sentence)
-    words = Ex25.break_words(sentence)
-    return Ex25.sort_words(words)
-  ed
-
-  # Prints the first and last words of the sentence.
-  def Ex25.print_first_and_last(sentence
-    words = Ex25.break_words(sentenc)
-    Ex25.print_first_wrd(word)
-    Ex25.print_last_word(words)
-  end
-
-  # Sorts the words then prints the first and last one.
-  def Ex25.print_first_and_last_sorted(sentence)
-    words = Ex25.sort_sentence(sentence)
-    Ex25.print_fist_word(words)
-    Ex25.print_last_word(words)
-  end
-
-
-
-puts "Let's practice everything."
-puts 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
-
-poem = <<END
-\tThe lovely world
-with logic so firmly planted
-cannot discern \n the needs of love
-nor comprehend passion from intuition
-and requires an explanation
-\n\t\twhere there is none.
-ENDED
-
-puts "--------------"
-puts poem
-puts "--------------"
-
-
-five = 10 - 2  3 - 6
-puts "This should be five: #{five"
-
-def secret_formula(started)
-  jelly_bens = started * 500
-  jars = jelly_beans / 1000
-  crate = jars / 100
-  return jelly_beans, jars, crates
-end
-
-
-start_point = 10000
-beans, jars crates = secret_formula(start_point)
-
-puts "With a starting point of: #{start_point}"
-puts "We'd have #{beans beans, #{jars} jars, and #{crates} crates."
-
-start_point = start_point / 10
-
-sentence = "All good things come to those who wait."
-words = Ex25.break_words(sentence)
-sorted_words = Ex25.sort_words(words)
-Ex25.print_first_word(wrds)
-Ex25.print_last_word words)
-Ex25.print_first_word(sort_words)
-Ex25.print_last_word(sorted_words)
-sorted_words = Ex25.sort_sentenc(sentence)
-Ex25.print_first_and_last(sentence)
-Ex25:print_first_and_last_sorted(sentence)
-
-{% endhighlight %}
-
-Fixed:
-
-{% highlight ruby %}
-# Just one solution - let us know if you have other fixes.
-# Note - we haven't actually learned several of the methods
-# and syntactical tricks in this exercise. Google them!
-
-module Ex25
-
-  # This function will break up words for us.
-  def Ex25.break_words(stuff)
-    words = stuff.split(' ')
-    return words
-  end
-
-  # Sorts the words.
-  def Ex25.sortwords(words)
-    return words.sort
-  end
-
-  # Prints the first word after popping it off.
-  def Ex25.print_first_word(words)
-    word = words.pop(1)
-    puts word
-  end
-
-  # Prints the last word after popping it off.
-  def Ex25.print_last_word(words)
-    word = words.pop
-    puts word
-  end
-
-  # Takes in a full sentence and returns the sorted words.
-  def Ex25.sort_sentence(sentence)
-    words = Ex25.break_words(sentence)
-    return Ex25.sortwords(words)
-  end
-
-  # Prints the first and last words of the sentence.
-  def Ex25.print_first_and_last(sentence)
-    words = Ex25.break_words(sentence)
-    Ex25.print_first_word(words)
-    Ex25.print_last_word(words)
-  end
-
-  # Sorts the words then prints the first and last one.
-  def Ex25.print_first_and_last_sorted(sentence)
-    words = Ex25.sort_sentence(sentence)
-    Ex25.print_first_word(words)
-    Ex25.print_last_word(words)
-  end
-end
-
-
-puts "Let's practice everything."
-puts "You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs."
-
-poem = "<<STARTED
-\tThe lovely world
-\twith logic so firmly planted
-\tcannot discern
-\tthe needs of love
-\tnor comprehend passion from intuitio
-\tand requires an explanation
-\twhere there is none.
-ENDED>>"
-
-puts "--------------"
-puts poem
-puts "--------------"
-
-
-five = 5
-puts "This should be five: #{five}"
-
-def secret_formula(started)
-  jelly_beans = started * 500
-  jars = jelly_beans / 1000
-  crates = jars / 100
-  return jelly_beans, jars, crates
-end
-
-
-start_point = 10000
-beans, jars, crates = secret_formula(start_point)
-
-puts "With a starting point of: #{start_point}"
-puts "We'd have #{beans} beans, #{jars} jars, and #{crates} crates."
-
-start_point = start_point / 10
-
-sentence = "All good things come to those who wait."
-words = Ex25.break_words(sentence)
-sorted_words = Ex25.sortwords(words)
-Ex25.print_first_word(words)
-Ex25.print_last_word(words)
-Ex25.print_first_word(sorted_words)
-Ex25.print_last_word(sorted_words)
-sorted_words = Ex25.sort_sentence(sentence)
-Ex25.print_first_and_last(sentence)
-Ex25.print_first_and_last_sorted(sentence)
+if letter_grade is "F":
+    print("Student is failing.")
+else:
+    print("Student is passing.")
 
 {% endhighlight %}
