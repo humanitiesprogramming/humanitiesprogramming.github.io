@@ -64,6 +64,17 @@ Broken:
 
 {% highlight ruby %}
 
+# Create a collection of these authors and
+# the year they kicked the bucket;
+# print the collection in the following format:
+
+# Charles Dickens died in 1870.
+
+# Charles Dickens, 1870
+# William Thackeray, 1863
+# Anthony Trollope, 1882
+# Gerard Manley Hopkins, 1889
+
 authrs = {
     "Charles Dickens": "1870",
     "William Thackeray": "1863",
@@ -121,14 +132,15 @@ Broken:
 # if he is from the distant past (before 1900),
 # the present era (1900-2020) or from the far future (beyond 2020).
 
-puts "Greetings! What is your year of origin?'
-origin == gets.chomp().to_i
-if origin < 1900
-	puts 'That's the past!'
-elseif origin > 1900 && origin < 2020
-	puts "That's the present!"
-elsif
-	puts "That's the future!"
+year == int.input("Greetings! What is your year of origin? '))
+
+if year <= 1900
+    print ('Woah, that's the past!')
+elif year > 1900 && year < 2020:
+    print ("That's totally the present!")
+elif:
+    print ("Far out, that's the future!!")
+
 
 {% endhighlight %}
 
@@ -144,18 +156,14 @@ Fixed:
 # if he is from the distant past (before 1900),
 # the present era (1900-2020) or from the far future (beyond 2020).
 
-puts "Greetings! What is your year of origin?"
-origin = gets.chomp().to_i
+year = int(input("Greetings! What is your year of origin? "))
 
-if origin < 1900
-	puts "That's the past!"
-
-elsif origin > 1900 && origin < 2020
-	puts "That's the present!"
-
-else
-	puts "That's the future!"
-end
+if year <= 1900:
+    print ("Woah, that's the past!")
+elif year > 1900 and year < 2020:
+    print ("That's totally the present!")
+else:
+    print ("Far out, that's the future!!")
 
 {% endhighlight %}
 
