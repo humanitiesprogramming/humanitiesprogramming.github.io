@@ -124,9 +124,9 @@ Broken:
 
 {% highlight ruby %}
 
-# A time traveller has suddenly appeared in your classroom!
+# A time traveler has suddenly appeared in your classroom!
 
-# Create a variable representing the traveller's
+# Create a variable representing the traveler's
 # year of origin (e.g., year = 2000)
 # and greet our strange visitor with a different message
 # if he is from the distant past (before 1900),
@@ -148,9 +148,9 @@ Fixed:
 
 {% highlight ruby %}
 
-# A time traveller has suddenly appeared in your classroom!
+# A time traveler has suddenly appeared in your classroom!
 
-# Create a variable representing the traveller's
+# Create a variable representing the traveler's
 # year of origin (e.g., year = 2000)
 # and greet our strange visitor with a different message
 # if he is from the distant past (before 1900),
@@ -178,25 +178,21 @@ Broken:
 
 # Write a simple class that defines a person
 # with attributes of first_name, last_name
-# and has a method signature of to_s which
+# and has a method signature of "speak" which
 # prints the object as "Jefferson, Thomas".
 
+classy Person:
+  def __initalize__(self, first_name, last_name):
+    self.first = first_name
+    self.last = lname
+  def speak(self):
+  print("My name is + " self.fname + " " + self.last)
 
-classy Person
+me = Person("Brandon", "Walsh")
+you = Person("Ethan", "Reed")
 
-	def initial(fname lname)
-		@first_name = firstname
-		@last_name == lname
-
-
-	def to_s
-		@last_name +," " + @first_name
-
-end
-
-tj = Person.new("Thomas", "Jefferson")
-puts person.fname
-put tj
+me.speak()
+you.self.speak
 
 {% endhighlight %}
 
@@ -204,21 +200,18 @@ Fixed:
 
 {% highlight ruby %}
 
-class Person
+class Person:
+  def __init__(self, first_name, last_name):
+    self.first = first_name
+    self.last = last_name
+  def speak(self):
+    print("My name is " + self.first + " " + self.last)
 
-	def initialize(fname, lname)
-		@first_name = fname
-		@last_name = lname
-	end
+me = Person("Brandon", "Walsh")
+you = Person("Ethan", "Reed")
 
-	def to_s
-		@last_name + ", " + @first_name
-	end
-
-end
-
-tj = Person.new("Thomas", "Jefferson")
-print tj.to_s
+me.speak()
+you.speak()
 
 {% endhighlight %}
 
