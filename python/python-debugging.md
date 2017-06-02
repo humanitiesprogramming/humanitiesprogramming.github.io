@@ -36,13 +36,11 @@ Broken:
 
 {% highlight ruby %}
 
-put "Hello!
-greeting = gets.chomp()
-if answer["Arrr!"]
-	puts "Go away, pirate."
-
-elsif
-	puts "Greetings, hater of pirates!"
+greeting = input("Hello, possible pirate! What's the password?)
+if greeting in ["Arrr!"):
+	print("Go away, pirate.")
+elif
+print("Greetings, hater of pirates!")
 
 {% endhighlight %}
 
@@ -50,14 +48,11 @@ Fixed:
 
 {% highlight ruby %}
 
-puts "Hello!"
-greeting = gets.chomp()
-if greeting["Arrr!"]
-	puts "Go away, pirate."
-
-elsif
-	puts "Greetings, hater of pirates!"
-end
+greeting = input("Hello, possible pirate! What's the password? ")
+if greeting in ["Arrr!"]:
+	print("Go away, pirate.")
+else:
+	print("Greetings, hater of pirates!")
 
 {% endhighlight %}
 
