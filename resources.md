@@ -18,6 +18,7 @@ title: Resources
 * [Intro to Web Scraping](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/intro-to-scraping.ipynb)
 * [Getting Data from API's](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-apis.ipynb)
 * [Basic Text Analysis and Visualization](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/text-analysis.ipynb)
+
 ### 2013-2016
 
 * [Ruby Cheatsheet]({{ "/resources/ruby-cheatsheet/" | prepend: site.baseurl }})

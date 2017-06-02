@@ -20,9 +20,9 @@ permalink: /syllabus/
     <h2>Day Two: Python Syntax and Concepts</h2>
     <ul>
       <li>Introduction to <a href= "{{ "/assets/img/php_kitten.jpg" | prepend: site.baseurl }}">Programming Concepts</a></li>
-      <li><a href="{{ "/assets/slides/hilt-programming-i.pdf" | prepend: site.baseurl }}">Programming Concepts I</a></li>
-      <li><a href="{{ "/assets/slides/hilt-programming-ii.pdf" | prepend: site.baseurl" }}">Programming Concepts II</a></li>
-      <li><a href="{{ "/assets/slides/hilt-programming-iii.pdf" | prepend: site.baseurl }}">Programming Concepts III</a></li>
+      <li><a href="https://github.com/humanitiesprogramming/slides/blob/master/2017/python/Python%20Programming%20Concepts%20I.pptx?raw=true">Programming Concepts I</a></li>
+      <li><a href="https://github.com/humanitiesprogramming/slides/blob/master/2017/python/Python%20Programming%20Concepts%20II.pptx?raw=true">Programming Concepts II</a></li>
+      <li><a href="https://github.com/humanitiesprogramming/slides/blob/master/2017/python/Python%20Programming%20Concepts%20III.pptx?raw=true">Programming Concepts III</a></li>
     </ul>
   </div>
   <div id="day-three">
