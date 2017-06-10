@@ -431,3 +431,19 @@ img{
 .w{
   padding-bottom: 35px;
 }
+
+div#dg{
+  padding-top: 0px;
+}
+
+div.col-lg-3 p{
+  padding-bottom: 0px;
+}
+
+.w{
+  padding-bottom: 0px;
+}
+
+div#dg{
+  padding-bottom: 0px;
+}
