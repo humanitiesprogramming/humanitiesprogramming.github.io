@@ -451,3 +451,15 @@ div#dg{
 iframe{
   padding-top: 35px;
 }
+
+@media only screen and (max-width: 485px){
+  #headerwrap h1{
+    font-size: 36px;
+  }
+  #headerwrap h2{
+  font-size: 26px;
+  }
+  a.navbar-brand.site-title{
+  font-size: 17px !important;
+  }
+}
