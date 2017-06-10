@@ -436,8 +436,8 @@ div#dg{
   padding-top: 0px;
 }
 
-div.col-lg-3 p{
-  padding-bottom: 0px;
+div.col-lg-3 p, div.col-lg-6 p{
+  margin-bottom: 35px;
 }
 
 .w{
@@ -446,4 +446,8 @@ div.col-lg-3 p{
 
 div#dg{
   padding-bottom: 0px;
+}
+
+iframe{
+  padding-top: 35px;
 }
