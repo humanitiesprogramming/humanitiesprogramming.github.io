@@ -15,3 +15,4 @@ exclude: ["README.md", "Gruntfile.js", "changelog.md", "Gemfile", "Gemfile.lock"
 
 gems:
   - jekyll-sitemap
+  - jekyll-gist
