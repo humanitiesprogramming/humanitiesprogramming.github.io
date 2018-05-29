@@ -15,13 +15,13 @@ permalink: /syllabus/
   
 ## Day Two: Python Syntax and Concepts
 
-  * <a href="https://github.com/humanitiesprogramming/slides/blob/master/2017/python/Python%20Programming%20Concepts%20I.pptx?raw=true">Programming Concepts I</a>
-  * <a href="https://github.com/humanitiesprogramming/slides/blob/master/2017/python/Python%20Programming%20Concepts%20II.pptx?raw=true">Programming Concepts II</a>
+  * <a href="https://github.com/humanitiesprogramming/slides/blob/master/2018/python/Python%20Programming%20Concepts%20I.pptx?raw=true">Programming Concepts I</a>
+  * <a href="https://github.com/humanitiesprogramming/slides/blob/master/2018/python/Python%20Programming%20Concepts%20II.pptx?raw=true">Programming Concepts II</a>
 
 
 ## Day Three: Python in Practice
   
-  * <a href="https://github.com/humanitiesprogramming/slides/blob/master/2017/python/Python%20Programming%20Concepts%20III.pptx?raw=true">Programming Concepts III</a>
+  * <a href="https://github.com/humanitiesprogramming/slides/blob/master/2018/python/Python%20Programming%20Concepts%20III.pptx?raw=true">Programming Concepts III</a>
   * Case Study Together - "Working with CSV"
 
 ## Day Four: Python in Practice 2
