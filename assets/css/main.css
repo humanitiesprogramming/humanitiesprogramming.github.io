@@ -467,3 +467,18 @@ iframe{
 .container.w.bump{
   padding-bottom: 35px;
 }
+/* 
+experiment with column spacing for alumni - problem is that not all columns are same dimensions since some don't have content
+*/
+/* @media (min-width: 800px){
+  .col-lg-3 {
+      width: 25%;
+      float: left;
+  }
+}
+@media (min-width: 400px) and (max-width: 800px){
+  .col-lg-3 {
+      width: 50%;
+      float: left;
+  } */
+}
