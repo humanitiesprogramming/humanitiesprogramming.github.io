@@ -1,5 +1,5 @@
 ---
-layout: exercise
+layout: page
 title: Command Line
 description: Command line exercises
 permalink: /exercises/command-line/
