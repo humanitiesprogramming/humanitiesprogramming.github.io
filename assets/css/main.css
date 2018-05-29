@@ -463,3 +463,7 @@ iframe{
   font-size: 17px !important;
   }
 }
+
+.container.w.bump{
+  padding-bottom: 35px;
+}
