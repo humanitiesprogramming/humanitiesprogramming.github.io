@@ -1,5 +1,5 @@
 ---
-layout: exercise
+layout: page
 title: Github Pages
 description: Create a simple Github User repository
 permalink: /exercises/github/

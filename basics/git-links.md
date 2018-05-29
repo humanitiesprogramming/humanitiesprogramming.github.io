@@ -2,7 +2,7 @@
 layout: page
 title: Links for Git Materials
 description: Links for Git Materials
-permalink: /exercises/git_links/
+permalink: /exercises/git-links/
 ---
 
 # Git Links

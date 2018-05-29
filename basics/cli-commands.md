@@ -2,7 +2,7 @@
 layout: page
 title: Command Line Commands Covered
 description: Command Line Commands Covered
-permalink: /exercises/cli_commands/
+permalink: /exercises/cli-commands/
 ---
 
 # Command Line Cheatsheet
