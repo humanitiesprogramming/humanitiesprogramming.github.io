@@ -2,7 +2,7 @@
 layout: page
 title: Course Exercises
 ---
-## 2017
+## 2017 - 
 
 ### Command Line
 * [Command Line Exercises]({{ "/exercises/command-line/" | prepend: site.baseurl }})

@@ -1,23 +1,30 @@
 ---
 layout: page
 title: Resources
+permalink: /resources/
 ---
 
 ## Class Resources
 
-### 2017
+### Current
 
 * [Command Line Tutorial]({{ "/resources/command-line-tutorial/" | prepend:site.baseurl }})
-* [Git Tutorial]({{ "/resources/git-lesson" }})
+* [Git Tutorial w/o HTML/CSS]({{ "/resources/insert-link-here" }})
 * [GitHub Cheatsheet]({{ "/resources/github-cheatsheet" }})
 * [GitHub Troubleshooting]({{ "/resources/github-troubleshooting" }})
 * [Git Cheatsheet]({{ "/resources/git-cheatsheet" | prepend:site.baseurl }})
-* [HTML/CSS]({{ "/assets/slides/html.pdf" | prepend:site.baseurl }})
 * [Course Slides](https://github.com/humanitiesprogramming/slides)
 * [Working with CSV](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-csv.ipynb)
-* [Intro to Web Scraping](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/intro-to-scraping.ipynb)
 * [Getting Data from API's](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-apis.ipynb)
 * [Basic Text Analysis and Visualization](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/text-analysis.ipynb)
+
+## Archive of Past Course Resources
+
+### 2017
+
+* [HTML/CSS]({{ "/assets/slides/html.pdf" | prepend:site.baseurl }})
+* [Git Tutorial w/ HTML/CSS]({{ "/resources/git-lesson" }})
+* [Intro to Web Scraping](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/intro-to-scraping.ipynb)
 
 ### 2013-2016
 
