@@ -70,7 +70,7 @@ included web server with this command:
 $ bin/rails server
 {% endhighlight %}
 
-Open your web browser to [http://localhost:3000](http://localhost:3000).
+Open your web browser to http://localhost:3000.
 You should see something along these lines.
 
 ![Welcome Abort]({{ "/assets/img/exercises/rails-one/rails-default.png" | prepend: site.baseurl }})

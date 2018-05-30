@@ -52,11 +52,11 @@ server up and see what happened.
 $ bin/rails server
 {% endhighlight %}
 
-Now open your browser to [http://localhost:3000](http://localhost:3000).
+Now open your browser to http://localhost:3000.
 
 What happened? Nothing has changed.
 
-Ok, we'll fix that later, but now point your browser to [http://localhost:3000/transcriptions](http://localhost:3000/transcriptions). You should see something like the following:
+Ok, we'll fix that later, but now point your browser to http://localhost:3000/transcriptions. You should see something like the following:
 
 ![Transcriptions]({{ "/assets/img/exercises/rails-two/transcriptions-scaffold.png" | prepend: site.baseurl }}){: .img-responsive}
 

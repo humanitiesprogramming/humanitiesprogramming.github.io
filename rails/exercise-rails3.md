@@ -43,7 +43,7 @@ Now find the main `yield` section and surround it with a
 
 If you're like me, you're impatient and want to see what changed. Start
 up your server (`bin/rails server`) and see if you see anything different at
-[http://localhost:3000/transcriptions/][t].
+http://localhost:3000/transcriptions/.
 
 ## JavaScript
 
@@ -99,7 +99,7 @@ element and before the `div.container`.
 
 {% gist waynegraham/50d282f4ea72f56e2c7b %}
 
-Fire up your browser now and look at [http://localhost:3000/transcriptions][t].
+Fire up your browser now and look at http://localhost:3000/transcriptions.
 Does it look correct?
 
 ![Bootstrap Header]({{ "/assets/img/exercises/rails-three/bootstrap-header.png" | prepend: site.baseurl }}){: .img-responsive}
@@ -119,7 +119,7 @@ table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
 {% endhighlight %}
 
-If you refresh your the page of transcriptions ([http://localhost:3000/transcriptions][t]),
+If you refresh your the page of transcriptions http://localhost:3000/transcriptions,
 you should see something that looks much better.
 
 ![Bootstrap Header]({{ "/assets/img/exercises/rails-three/bootstrap-header-update.png" | prepend: site.baseurl }}){: .img-responsive}
@@ -167,4 +167,4 @@ $ git commit -m "Removed generated scaffold styles"
 
 > If you start the server up again, and look at the [transcriptions][t], does this look any different?
 
-[t]: http://localhost:3000/transcriptions
+

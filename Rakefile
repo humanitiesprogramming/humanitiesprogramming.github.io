@@ -15,8 +15,7 @@ task :default do
     :ssl_verifyhost => 0 },
     :url_ignore => ['http://diss.herokuapp.com',
                     'http://developers.trucker.io/Getting-Started',
-                    'http://localhost:3000',
-                    'http://localhost:3000/about']
+                  ]
   }
   HTMLProofer.check_directory("./_site", options).run
   puts "Jekyll successfully built"

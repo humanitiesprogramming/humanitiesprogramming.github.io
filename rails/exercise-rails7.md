@@ -106,7 +106,7 @@ defaults are fine, but just make a mental note that this is configurable.
 ## Create a User
 
 Start your Rails server (`bin/rails server`) and navigate to
-[http://localhost:3000/users/sign_up](http://localhost:3000/users/sign_up) and create
+http://localhost:3000/users/sign_up and create
 a new user for your application.
 
 What happens?

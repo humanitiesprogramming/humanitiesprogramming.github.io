@@ -11,7 +11,7 @@ In this module, we will refine the routes, or how the URLs in the
 application act, as well as create a static page that contains info
 about the **Scriba** application.
 
-If you look at the [http://localhost:3000][t] webpage (with your server
+If you look at the http://localhost:3000 webpage (with your server
 running of course), what do you see? Instead of that file, let's tell
 Rails to serve out our `transcriptions#index` view.
 
@@ -92,7 +92,7 @@ element.
 {% endhighlight %}
 
 Now if your server is still running, you can get to the new page at
-[http://localhost:3000/pages/about](http://localhost:3000/pages/about).
+http://localhost:3000/pages/about.
 
 ## Better Routes
 When we ran the generator for the controller, one of the things it did for us
@@ -109,7 +109,7 @@ get 'about', to: 'pages#about'
 {% endhighlight %}
 
 Restart your server, you should be able to see the same page at
-[http://localhost:3000/about](http://localhost:3000/about).
+http://localhost:3000/about.
 
 ## But we forgot the credits page...
 
@@ -149,5 +149,3 @@ necessarily need to be stored in a database. We used both the rails generator
 and did this manually. You also learned a bit more about how routes work and
 also how to create custom routes to make the URLs of your application easier to
 "guess" by users.
-
-[t]: http://localhost:3000/
