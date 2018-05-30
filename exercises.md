@@ -21,10 +21,16 @@ title: Course Exercises
 * [Python Exercises One](/exercises/python-one/)
 * [Python Exercises Two](/exercises/python-two/)
 * [Python Debugging Exercises](/exercises/python-debugging/)
-* [Working with CSV](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-csv.ipynb)
-* [Intro to Web Scraping](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/intro-to-scraping.ipynb)
-* [Getting Data from API's](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-apis.ipynb)
-* [Basic Text Analysis and Visualization](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/text-analysis.ipynb)
+* Course Case Studies  
+  * [Working with CSV](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-csv.ipynb)
+  * [Getting Data from the DPLA API](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-apis.ipynb)
+  * [Basic Text Analysis and Visualization](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/text-analysis.ipynb)
+  * [Intro to Web Scraping](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/intro-to-scraping.ipynb)
+* LC Labs Case Studies
+  * [LC Labs - Extracting location data from the loc.gov API for geovisualization](https://github.com/charlie-moffett/data-exploration/blob/master/Extracting%20location%20data%20for%20geovisualization.ipynb)
+  * [LC Labs - Accessing images from the loc.gov JSON API for image analysis](https://github.com/LibraryOfCongress/data-exploration/blob/master/Accessing%20images%20for%20analysis.ipynb)
+  * [LC Labs - Cats or dogs? External An example of exploring the Chronicling America API](https://labs.loc.gov/lc-for-robots/)
+
 
 ## 2013-16
 
