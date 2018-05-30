@@ -224,7 +224,6 @@ ways to deploy an application, but it's not the only way. Similar services to
 heroku (if you don't have your own IT staff) include:
 
 * [OpenShift](https://www.openshift.com/)
-* [Ninefold](https://ninefold.com/)
 * [TruckerIO](http://developers.trucker.io/Getting-Started)
 
 [heroku]: http://heroku.com

@@ -3,6 +3,8 @@ rvm:
 - 2.2
 install:
 - bundle install
+script:
+ - bundle exec rake
 deploy:
   provider: pages
   skip_cleanup: true
