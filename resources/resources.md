@@ -9,7 +9,7 @@ permalink: /resources/
 ### Current
 
 * [Command Line Tutorial]({{ "/resources/command-line-tutorial/" | prepend:site.baseurl }})
-* [Git Tutorial w/o HTML/CSS]({{ "/resources/insert-link-here" }})
+* [Git Tutorial w/o HTML/CSS]({{ "/resources/git-lesson-without-html-and-css" }})
 * [GitHub Cheatsheet]({{ "/resources/github-cheatsheet" }})
 * [GitHub Troubleshooting]({{ "/resources/github-troubleshooting" }})
 * [Git Cheatsheet]({{ "/resources/git-cheatsheet" | prepend:site.baseurl }})
@@ -28,7 +28,7 @@ permalink: /resources/
 ### 2017
 
 * [HTML/CSS]({{ "/assets/slides/html.pdf" | prepend:site.baseurl }})
-* [Git Tutorial w/ HTML/CSS]({{ "/resources/git-lesson" }})
+* [Git Tutorial w/ HTML/CSS]({{ "/resources/git-lesson-with-html-and-css" }})
 * [Intro to Web Scraping](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/intro-to-scraping.ipynb)
 
 ### 2013-2016

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Git Lesson
-permalink: /resources/git-lesson/
+permalink: /resources/git-lesson-without-html-and-css/
 ---
 
 # Intro to Git

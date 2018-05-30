@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Course Syllabus
-permalink: /syllabus/
+permalink: /syllabi/python-2017
 ---
 
 Help! I'm a Humanist! - Humanities Programming with Python
