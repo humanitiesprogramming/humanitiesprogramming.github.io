@@ -5,15 +5,6 @@ install:
 - bundle install
 script:
  - bundle exec rake
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: _site
-  target_branch: master
-cache:
-  directories:
-  - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 sudo: required
 before_install:
   - sudo update-ca-certificates
