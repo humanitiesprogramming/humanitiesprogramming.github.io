@@ -1,5 +1,6 @@
 require 'html-proofer'
 
+
 task :default do
   puts "Running CI tasks..."
   # Runs the jekyll build command for production
