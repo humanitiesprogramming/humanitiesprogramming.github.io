@@ -21,7 +21,7 @@ permalink: /resources/
 * LC Labs Case Studies
   * [LC Labs - Extracting location data from the loc.gov API for geovisualization](https://github.com/charlie-moffett/data-exploration/blob/master/Extracting%20location%20data%20for%20geovisualization.ipynb)
   * [LC Labs - Accessing images from the loc.gov JSON API for image analysis](https://github.com/LibraryOfCongress/data-exploration/blob/master/Accessing%20images%20for%20analysis.ipynb)
-  * [LC Labs - Cats or dogs? External An example of exploring the Chronicling America API](https://labs.loc.gov/lc-for-robots/)
+  * [LC Labs - Cats or dogs? External An example of exploring the Chronicling America API](https://github.com/LibraryOfCongress/data-exploration/blob/master/ChronAm%20API%20Samples.ipynb)
 
 ## Archive of Past Course Resources
 
