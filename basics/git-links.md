@@ -5,7 +5,21 @@ description: Links for Git Materials
 permalink: /exercises/git-links/
 ---
 
-# Git Links
+# Git links 2018
+
+1. [First](https://humanitiesprogramming.github.io/assets/git-text-files/roses.txt)
+2.
+[Second](https://humanitiesprogramming.github.io/assets/git-text-files/roses2.txt)
+3.
+[Third](https://humanitiesprogramming.github.io/assets/git-text-files/roses3.txt)
+4.
+[Fourth](https://humanitiesprogramming.github.io/assets/git-text-files/roses4.txt)
+5.
+[Fifth](https://humanitiesprogramming.github.io/assets/git-text-files/roses4B.txt)
+6.
+[Sixth](https://humanitiesprogramming.github.io/assets/git-text-files/roses5.txt)
+
+# Git Links 2017
 
 1. [First](https://raw.githubusercontent.com/bmw9t/git_intro_hilt/d2c40e75cbe30e937e9c2253a8e80e21dca64ecb/index.html)
 2. [Second](https://raw.githubusercontent.com/bmw9t/git_intro_hilt/eaa721eab4aa01d7526c47d4da258f2556d0d1b6/index.html)

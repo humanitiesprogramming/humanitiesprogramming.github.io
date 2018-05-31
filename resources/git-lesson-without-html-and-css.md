@@ -46,7 +46,7 @@ You should get some feedback saying you initialized an empty repository. Success
 $ touch roses.txt
 {% endhighlight %}
 
-Now copy and paste [this](https://raw.githubusercontent.com/bmw9t/git_intro_hilt/d2c40e75cbe30e937e9c2253a8e80e21dca64ecb/index.html) text into that file.
+Now copy and paste [this](https://humanitiesprogramming.github.io/assets/git-text-files/roses.txt) text into that file.
 
 Truly, an amazing poem. Who could have crafted this work of untold genius?? Right. Let's paste it in, save it, and take a look at this new command:
 
@@ -75,7 +75,7 @@ Success! Now we have finished the process of committing, and the working area go
 
 *Note: in the actual workshop we draw on the board to track the progress of the directory. You can follow along at home!*
 
-Let's keep going. As it currently stands, our initial idea for a poem is just that: an initial idea. But now we've decided that we need to make a few edits to really capture the epic *feel* of what we were going for. This poem needs multiple stanzas. And allusions to other poets! So copy and paste from [this link](https://raw.githubusercontent.com/bmw9t/git_intro_hilt/eaa721eab4aa01d7526c47d4da258f2556d0d1b6/index.html) into the same file, overwriting all the old stuff.
+Let's keep going. As it currently stands, our initial idea for a poem is just that: an initial idea. But now we've decided that we need to make a few edits to really capture the epic *feel* of what we were going for. This poem needs multiple stanzas. And allusions to other poets! So copy and paste from [this link](https://humanitiesprogramming.github.io/assets/git-text-files/roses2.txt) into the same file, overwriting all the old stuff.
 
 Where are we in the workflow? We've modified. What happens next? We stage. How do we do that?
 
@@ -91,7 +91,7 @@ $ git commit -m "Added some style."
 
 Now we modify the tree on the board with another dot.
 
-Now our next edit. Totally new vision for this poem, punctuation-wise. Also getting rid of a few things. Copy the text from [here](https://raw.githubusercontent.com/bmw9t/git_intro_hilt/4a9bea32b32b3008039fe4b31e472de486017ca4/bio_corrected.html
+Now our next edit. Totally new vision for this poem, punctuation-wise. Also getting rid of a few things. Copy the text from [here](https://humanitiesprogramming.github.io/assets/git-text-files/roses3.txt
 ).
 
 Before we move on, let's learn a new command. Some of the changes here are more subtle, so let's say that we want to know what they are.
@@ -118,7 +118,7 @@ $ git log --graph
 
 One thing to note here is that the log tells us what we've done in reverse order.
 
-One last thing at this point. We want the poem to be longer, but don't feel like writing anything new for now. So copy the text [here](https://raw.githubusercontent.com/bmw9t/git_intro_hilt/8879c3cb7b81da491ba9bd8eccf253d43f532578/index.html
+One last thing at this point. We want the poem to be longer, but don't feel like writing anything new for now. So copy the text [here](https://humanitiesprogramming.github.io/assets/git-text-files/roses4.txt
 ).
 
 You tell me what to do. Yep - same pattern. Edit, add, commit
@@ -149,7 +149,7 @@ $ git checkout indent
 
 Now we are no longer in the main world. We are in the land of indentations.
 
-Copy and paste this material onto that [same file](https://raw.githubusercontent.com/bmw9t/git_intro_hilt/30c9050817d6317bf9343a812cc7f39203400167/index.html
+Copy and paste this material onto that [same file](https://humanitiesprogramming.github.io/assets/git-text-files/roses4B.txt
 ) again.
 
 Now we move through our standard workflow: edit, add, commit. But what happens to the tree. How would we represent that here graphically?
@@ -167,7 +167,7 @@ Maybe we want to sit with that feature for a while. In the meantime, we've been 
 $ git checkout master
 {% endhighlight %}
 
-And add [this content](https://raw.githubusercontent.com/bmw9t/git_intro_hilt/master/bio.html
+And add [this content](https://humanitiesprogramming.github.io/assets/git-text-files/roses5.txt
 ) to your roses.txt file.
 
 Standard workflow: edit, add, commit with a message. Once we've committed, we'll update the tree drawing.
