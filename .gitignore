@@ -5,3 +5,5 @@ DPyLA/
 python/notebooks/.env
 python/notebooks/.ipynb_checkpoints/
 .jekyll-metadata
+python/notebooks/csvs/practice.csv
+.DS_Store
