@@ -18,7 +18,7 @@ we have a file!
 full code at /resources/coding-2018.py
 
 =====
-filename="../eyre.txt"
+filename="/eyre.txt"
 
 with open(filename, 'r') as our_file:
     text = our_file.read()
@@ -28,7 +28,7 @@ print(text[0:100])
 
 import nltk
 
-filename="../eyre.txt"
+filename="/eyre.txt"
 
 with open(filename, 'r') as our_file:
     text = our_file.read()
@@ -41,7 +41,7 @@ print(words[0:10])
 
 import nltk
 
-filename="../eyre.txt"
+filename="/eyre.txt"
 
 with open(filename, 'r') as our_file:
     text = our_file.read()
@@ -79,7 +79,7 @@ for word in words:
     clean_words.append(word.lower())
 print(clean_words[0:30])
 
-filename="../eyre.txt"
+filename="/eyre.txt"
 
 =====
 import nltk
@@ -99,7 +99,7 @@ def clean_tokens(raw_tokens):
 
 
 # the actual stuff
-filename="../eyre.txt"
+filename="/eyre.txt"
 text = open_file_and_get_text(filename)
 print(text[0:30])
 
@@ -128,7 +128,7 @@ def clean_tokens(raw_tokens):
 
 
 # the actual stuff
-filename="../eyre.txt"
+filename="/eyre.txt"
 text = open_file_and_get_text(filename)
 print(text[0:30])
 

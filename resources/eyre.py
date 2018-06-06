@@ -15,7 +15,7 @@ def clean_tokens(raw_tokens):
 
 
 # the actual stuff
-filename="../eyre.txt"
+filename="/eyre.txt"
 text = open_file_and_get_text(filename)
 print(text[0:30])
 
