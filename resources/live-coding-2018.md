@@ -4,8 +4,8 @@ title: Live Coding 2018
 permalink: /resources/live-coding-2018/
 ---
 ```
-curl https://humanitiesprogramming.github.io/eyre.txt
-curl https://humanitiesprogramming.github.io/eyre.txt > eyre.txt
+curl https://humanitiesprogramming.github.io/resources/eyre.txt
+curl https://humanitiesprogramming.github.io/resources/eyre.txt > eyre.txt
 
 what happened?
 
