@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Live Coding 2018
+permalink: /resources/live-coding-2018/
 ---
 ```
 curl https://raw.githubusercontent.com/humanitiesprogramming/scraping-corpus/master/5.txt
