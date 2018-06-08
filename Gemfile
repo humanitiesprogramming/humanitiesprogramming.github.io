@@ -1,9 +1,8 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'jekyll', '3.0.3'
+gem 'jekyll'
 #gem 'jekyll-sitemap'
-gem 'github-pages'
 #gem 'compass', '~> 1.0.0.alpha.19'
 gem "foreman"
 gem 'rouge'

@@ -1,0 +1,32 @@
+{% assign cohorts = site.data.cohorts | reverse %}
+{% assign students = site.data.students | sort: "name" %}
+
+{% for cohort in cohorts %}
+<div id="blue">
+  <div class="container">
+    <div class="row centered">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h4>{{ cohort.year }} Class</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="dg">
+  <div class="container w">
+  {% for student in students %}
+    {% if student.year == cohort.year %}
+      <div class="col-lg-3 student-alumni">
+          <h4>{{ student.name }}</h4>
+          {% if student.twitter %}
+          <p><a href="https://twitter.com/{{ student.twitter }}" class="fab fa-twitter">@{{ student.twitter }}</a><br>
+          {% endif %}
+          {% if student.github %}
+          <a href="https://github.com/{{ student.github }}" class="fab fa-github">{{ student.github }}</a>
+          {% endif %}
+        </p>
+      </div>
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>
+{% endfor %}

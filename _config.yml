@@ -8,8 +8,7 @@ url: ""
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-exclude: ["README.md", "Gruntfile.js", "changelog.md", "Gemfile", "Gemfile.lock", "node_modules", "bower_components", "scss", "config.rb", "package.json", "LICENSE"]
+exclude: ["env"]
 
-gems:
-  - jekyll-sitemap
+plugins:
   - jekyll-gist

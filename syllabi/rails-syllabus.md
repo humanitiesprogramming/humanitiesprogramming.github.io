@@ -30,7 +30,7 @@ This course focuses on introducing participants to humanities programming throug
     <h2>Day Three: Ruby</h2>
     <ul>
       <li><a href="{{ "/assets/slides/hilt-programming-i.pdf" | prepend: site.baseurl }}">Programming Concepts I</a></li>
-      <li><a href="{{ "/assets/slides/hilt-programming-ii.pdf" | prepend: site.baseurl" }}">Programming Concepts II</a></li>
+      <li><a href="{{ "/assets/slides/hilt-programming-ii.pdf" | prepend: site.baseurl }}">Programming Concepts II</a></li>
       <li><a href="{{ "/assets/slides/hilt-programming-iii.pdf" | prepend: site.baseurl }}">Programming Concepts III</a></li>
     </ul>
   </div>
