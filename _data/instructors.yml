@@ -1,0 +1,16 @@
+- name: Wayne Graham
+  bio: Currently Technical Director, Council on Library and Information Resources. Formerly head of the R&amp;D team at the University of Virginia's <a href="http://scholarslab.org">Scholars’ Lab</a>. Studied US Colonial History at the <a href="http://www.wm.edu/as/history/">College of William and Mary</a> and wrote <a href="https://www.apress.com/us/book/9781430241706#aboutAuthors">a couple of books</a> on <a href="https://www.apress.com/us/book/9781430209690#otherversion=9781430209706">developing applications for the Facebook platform</a>. Research interests are in computer graphics, augmented reality, architectural history, quantitative and digital methodology, as well as frontier studies. Wayne piloted the course and taught it from 2013-2015.
+  current: False
+  image_path: wayne-crop.jpg
+- name: Brandon Walsh
+  bio: Brandon Walsh is Head of Graduate Programs in the <a href="http://scholarslab.org">Scholars' Lab</a> in the University of Virginia Library. He received his PhD and MA from the Department of English at the University of Virginia, where he also held fellowships in the <a href="http://scholarslab.org">Scholars’ Lab</a>. His dissertation was on sound recordings in and out of modernist literature, though these days he thinks a lot about digital text analysis, open access publishing and resources, and digital pedagogy. Check out his <a href="http://walshbr.com">personal site</a> for more information about his various projects.
+  current: True
+  image_path: brandon-crop.jpg
+  twitter: walshbr
+  github: walshbr
+- name: Ethan Reed
+  bio: Ethan Reed is a doctoral candidate in English at the University of Virginia. He was a 2015-2015 Praxis Program Fellow in the <a href="http://scholarslab.org">Scholars' Lab</a>, where he was also lead developer for <a href="http://clockwork.scholarslab.org/">ClockWork</a>, a sonification project. During the 2017-2018 academic year he was a Graduate Fellow in Digital Humanities in the Scholars' Lab.
+  current: True
+  image_path: ethan-crop.jpg
+  twitter: reedeth
+  github: reedeth

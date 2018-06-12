@@ -468,5 +468,33 @@ iframe{
   padding-bottom: 35px;
 }
 .student-alumni{
-  min-height: 130px;
+  float:left;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 25%;
+  height: 130px;
+}
+
+@media only screen and (max-width: 1000px){
+  .student-alumni{
+    min-height: 130px;
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .student-alumni{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .student-alumni{
+    width: 100%;
+  }
+}
+
+.float-none{
+  float: none;
 }

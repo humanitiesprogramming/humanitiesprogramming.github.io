@@ -1,5 +1,5 @@
 {% assign cohorts = site.data.cohorts | reverse %}
-{% assign students = site.data.students | sort: "name" %}
+
 
 {% for cohort in cohorts %}
 <div id="blue">
@@ -11,21 +11,35 @@
     </div>
   </div>
 </div>
+
+{% if cohort.video %}
+<div class="container">
+  <div class="row centered">
+    <div class="col-md-12">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="{{ cohort.video }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  </div>
+{% endif %}
+
 <div id="dg">
   <div class="container w">
+  {% assign raw_students = site.data.students | sort: "last" %}
+  {% assign students = raw_students | where: "year",cohort.year %}
   {% for student in students %}
-    {% if student.year == cohort.year %}
-      <div class="col-lg-3 student-alumni">
-          <h4>{{ student.name }}</h4>
+      <div class="student-alumni">
+          <h4>{{ student.first }} {{ student.last }}</h4>
+          <p>
           {% if student.twitter %}
-          <p><a href="https://twitter.com/{{ student.twitter }}" class="fab fa-twitter">@{{ student.twitter }}</a><br>
+          <a href="https://twitter.com/{{ student.twitter }}" class="fab fa-twitter">@{{ student.twitter }}</a><br>
           {% endif %}
           {% if student.github %}
           <a href="https://github.com/{{ student.github }}" class="fab fa-github">{{ student.github }}</a>
           {% endif %}
         </p>
       </div>
-    {% endif %}
   {% endfor %}
   </div>
 </div>

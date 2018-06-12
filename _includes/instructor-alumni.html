@@ -1,0 +1,25 @@
+{% assign instructors = site.data.instructors | sort: "name" %}
+<div id="r">
+  <div class="container">
+    <div class="row centered">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h4>Instructors</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container w">
+  <div class="row centered">
+{% for instructor in instructors %}
+{% unless instructor.current %}
+    <div class="col-lg-6">
+      <h4>{{ instructor.name }}</h4>
+      <img class="img-circle" src="{{ "/assets/img/" | prepend: site.baseurl | append: instructor.image_path }}" width="110" height="110" alt="{{ instructor.name }}">
+      <p>{{ instructor.bio }}</p>
+    </div>
+  </div>
+{% endunless %}
+{% endfor %}
+</div>
+</div>

@@ -1,73 +1,391 @@
-- name: Bob Bolin
+- first: Isis
+  last: Campos
+  twitter: isisreneecampos
+  github: camposisis
+  year: 2018
+- first: Charlie
+  last: Goldberg
+  twitter: _reipublicae_
+  github: c-goldberg
+  year: 2018
+- first: Megan
+  last: Doherty
+  github: dohertym19
+  year: 2018
+- first: Ashley
+  last: Chang
+  github: afineyoungchang
+  year: 2018
+- first: Aylin
+  last: Malcolm
+  twitter: Malentendre
+  year: 2018
+- first: Hiroyo
+  last: Saito
+  twitter: hsaito
+  github: yamatohime
+  year: 2018
+- first: Leslie
+  last: Jones
+  github: lkjonessoc
+  year: 2018
+- first: Nakho
+  last: Kim
+  twitter: capcold
+  github: nakhokim
+  year: 2018
+- first: Natalia
+  last: Lopez
+  github: NatLopex
+  year: 2018
+- first: Marylise
+  last: Rilliard
+  github: MaryliseR
+  year: 2018
+- first: Mi Hyun 
+  last: Yoon
+  twitter: mihyun_yoon
+  github: yoonm
+  year: 2018
+- first: Emily
+  last: Esten
+  twitter: sheishistoric
+  github: sheishistoric
+  year: 2018
+- first: David
+  last: Witwer
+  github: WitwerD2018
+  year: 2018
+- first: Pauline
+  last: Carbonnel
+  github: PaulineCbl
+  year: 2018
+- first: Kitana
+  last: Ananda
+  twitter: kitana_eh
+  github: kitana-eh
+  year: 2018
+- first: Kara
+  last: McShane
+  twitter: karalmcshane
+  github: klmcshane
+  year: 2018
+- first: Suzanne
+  last: Raybuck
+  github: sraybuck
+  year: 2018
+- first: Jeffrey
+  last: Beck
+  github: Jeffreypbeck0227
+  year: 2018
+- first: Andrew
+  last: Near
+  github: nearhope
+  year: 2018
+- first: Kenneth
+  last: Sherwood
+  twitter: kwsherwood
+  github: kwsherwood
+  year: 2018
+- first: Bob
+  last: Bolin
   year: 2017
-- name: Matthew Breece
+- first: Matthew
+  last: Breece
   year: 2017
-- name: T.J. Bolt
+- first: T.J.
+  last: Bolt
   twitter: teejaybolt
   github: tjbolt
   year: 2017
-- name: Madeleine (Mickey) Casad
+- first: Madeleine (Mickey)
+  last: Casad
   github: casadm
   year: 2017
-- name: Mario Castro-Villarreal
-- name: Adriana Cásarez
-- name: Victoria Davis
+- first: Mario
+  last: Castro-Villarreal
+- first: Adriana
+  last: Cásarez
+- first: Victoria
+  last: Davis
   twitter: HumMediaProject
   year: 2017
-- name: Jared Eberle
+- first: Jared
+  last: Eberle
   twitter: jleberle
   github: jleberle
   year: 2017
-- name: Maria Victoria Fernandez
+- first: Maria Victoria
+  last: Fernandez
   github: fernandezmv
   year: 2017
-- name: Allyssa Guzman
+- first: Allyssa
+  last: Guzman
   twitter: allyssaguzman
   year: 2017
-- name: Jacquelyne Thoni Howard
+- first: Jacquelyne Thoni
+  last: Howard
   twitter: JQ7Howard
   github: JQ7Howard
   year: 2017
-- name: Molly Kalkstein
+- first: Molly
+  last: Kalkstein
   twitter: mwkalkstein
   github: mollykalkstein
   year: 2017
-- name: Tina Kelleher
+- first: Tina 
+  last: Kelleher
   year: 2017
-- name: Annie Killian
+- first: Annie
+  last: Killian
   year: 2017
-- name: Tamsyn Mahoney-Steel
+- first: Tamsyn
+  last: Mahoney-Steel
   twitter: TamsynMedieval
   github: tamsynms
   year: 2017
-- name: Michelle Mouton
+- first: Michelle
+  last: Mouton
   year: 2017
-- name: Anna Neatrour
+- first: Anna
+  last: Neatrour
   twitter: annaneat
   github: aneatrour
   year: 2017
-- name: Erin Pappas
+- first: Erin
+  last: Pappas
   twitter: erin_pappas
   github: pappasee
   year: 2017
-- name: Ryan Pasco
+- first: Ryan
+  last: Pasco
   twitter: rympasco
   year: 2017
-- name: Standa Pejša
+- first: Standa
+  last: Pejša
   twitter: standapejsa
   github: schapeyst
   year: 2017
-- name: Leah Powell
+- first: Leah
+  last: Powell
   year: 2017
-- name: Sarah Robey
+- first: Sarah
+  last: Robey
   twitter: saraherobey
   github: saraherobey
   year: 2017
-- name: Sarah Stanley
+- first: Sarah
+  last: Stanley
   twitter: sarcathtic
   github: scstanley7
   year: 2017
-- name: Kevin Winstead
+- first: Kevin
+  last: Winstead
   twitter: Kaerf1
   github: KCWins
   year: 2017
+- first: Ye Seul 
+  last: Byeon
+  github: yeseulbyeon
+  year: 2016
+- first: Persephone
+  last: Braham
+  year: 2016
+- first: Hannah 
+  last: Chapman
+  twitter: hannahjchapman
+  year: 2016
+- first: Neal
+  last: Curtis
+  twitter: nealifur
+  year: 2016
+- first: Julianne
+  last: McCobin
+  twitter: jmmcobin
+  year: 2016
+- first: Elizabeth
+  last: Melick
+  year: 2016
+- first: Ashley
+  last: Sanders
+  twitter: throughthe_veil
+  year: 2016
+- first: Nabeel
+  last: Siddiqui
+  twitter: nabsiddiqui
+  year: 2016
+- first: Joseph 
+  last: Stadolnik
+  year: 2016
+- first: Emily
+  last: Stenberg
+  year: 2016
+- first: Madeline
+  last: Zehnder
+  twitter: madelinezehnder
+  year: 2016
+- first: Bryan
+  last: Brown
+  twitter: bryjbrown
+  year: 2015
+- first: In Hye
+  last: Ha
+  year: 2015
+- first: Carolyn
+  last: Heitman
+  twitter: archaeohumanist
+  year: 2015
+- first: David
+  last: Sandor 
+  year: 2015
+- first: Jack
+  last: Hennes
+  twitter: hennesjack
+  year: 2015
+- first: Richard
+  last: Higgins
+  github: rshiggin
+  year: 2015
+- first: Siva Prashant
+  last: Kumar
+  year: 2015
+- first: Brendan
+  last: Mackie
+  twitter: mackieteacher
+  year: 2015
+- first: Scott
+  last: McGinnis
+  twitter: majining
+  year: 2015
+- first: Sara
+  last: Palmer
+  twitter: sarepal
+  year: 2015
+- first: Jordan
+  last: Ryan
+  twitter: jordanblairryan
+  year: 2015
+- first: Kevin
+  last: Smith
+  twitter: KevinG_Smith
+  year: 2014
+- first: Nora
+  last: Andrews
+  twitter: NorahLAndrews
+  year: 2014
+- first: Michelle
+  last: Tiedje
+  twitter: michelletiedje
+  year: 2014
+- first: Zoe
+  last: LeBlanc
+  twitter: Zoe_LeBlanc
+  github: ZoeLeBlanc
+  year: 2014
+- first: Abby
+  last: Schreiber
+  twitter: abschreiber
+  github: abschreiber
+  year: 2014
+- first: Steve
+  last: Anderson
+  twitter: sgahistory
+  year: 2014
+- first: Arden
+  last: Kirkland
+  twitter: ardeninred
+  year: 2014
+- first: Yuko
+  last: Nakamura
+  twitter: yukonakamura_
+  github: yukonak
+  year: 2014
+- first: Ethan
+  last: Reed
+  twitter: reedeth
+  github: reedeth
+  year: 2014
+- first: Andrew
+  last: Keener
+  twitter: keenera
+  year: 2014
+- first: Angela 
+  last: Galvan
+  twitter: panoptigoth
+  year: 2014
+- first: Ben
+  last: Dingle
+  twitter: bendigle
+  year: 2014
+- first: Jacob
+  last: Heil
+  twitter: dr_heil
+  github: jacobheil
+  year: 2014
+- first: Tatiana
+  last: Ausema
+  twitter: modernmatters
+  github: tausema
+  year: 2014
+- first: Lee
+  last: Zickel
+  twitter: bewmaynes
+  github: bewmaynes
+  year: 2014
+- first: Bradley
+  last: Nelson
+  twitter: bradleymnelson
+  year: 2014
+- first: Trevor
+  last: Berman
+  twitter: TGBerman
+  github: trevorberman
+  year: 2014
+- first: Steve
+  last: Henry
+  twitter: SHHHenry
+  github: spurioso
+  year: 2013
+- first: Colette
+  last: Lettie
+  twitter: librarylettie
+  github: csl1
+  year: 2013
+- first: Melissa
+  last: Dalgleish
+  twitter: meldalgleish
+  github: melissadalgleish
+  year: 2013
+- first: Alex
+  last: Galarza
+  twitter: galarzaalex
+  github: galarzaalex
+  year: 2013
+- first: Annie
+  last: Johnson
+  twitter: anniekjohn
+  github: anniekjohn
+  year: 2013
+- first: Kevin
+  last: Gunn
+  twitter: KevinBGunn
+  github: KevinGunn
+  year: 2013
+- first: Caitlin
+  last: Wells
+  twitter: wellscai
+  github: wellscai
+  year: 2013
+- first: Cory
+  last: Duclos
+  twitter: coryduclos
+  github: coryduclos
+  year: 2013
+- first: Susan
+  last: Henthorn
+  github: henthornsk
+  year: 2013
+- first: Elizabeth
+  last: Cornell
+  github: ecornell1
+  year: 2013

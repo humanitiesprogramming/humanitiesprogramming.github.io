@@ -20,26 +20,31 @@ layout: default
   </div>
 </div>
 
-<div id="dg">
+<div id="r">
   <div class="container">
     <div class="row centered">
-      <h3>Instructors</h3>
-
-      <div class="col-lg-6">
-        <h4>Brandon Walsh</h4>
-        <img class="img-circle" src="{{ "/assets/img/brandon-crop.jpg" | prepend: site.baseurl }}" width="110" height="110" alt="Brandon Walsh">
-        <p class="justified">Brandon Walsh is Head of Graduate Programs in the <a href="http://scholarslab.org">Scholars' Lab</a> in the University of Virginia Library. He received his PhD and MA from the Department of English at the University of Virginia, where he also held fellowships in the <a href="http://scholarslab.org">Scholars’ Lab</a>. His dissertation was on sound recordings in and out of modernist literature, though these days he thinks a lot about digital text analysis, open access publishing and resources, and digital pedagogy. Check out his <a href="http://walshbr.com">personal site</a> for more information about his various projects.</p>
-
-        <p><a href="https://twitter.com/walshbr"><i class="fab fa-twitter"></i> @walshbr</a> | <a href="https://github.com/walshbr"><i class="fab fa-github"></i> walshbr</a></p>
+      <div class="col-lg-8 col-lg-offset-2">
+        <h4>Instructors</h4>
       </div>
+    </div>
+  </div>
+</div>
 
-      <div class="col-lg-6">
-        <h4>Ethan Reed</h4>
-        <img class="img-circle" src="{{ "/assets/img/ethan-crop.jpg" | prepend: site.baseurl }}" width="110" height="110" alt="Ethan Reed">
-        <p class="justified">Ethan Reed is a doctoral candidate in English at the University of Virginia. He was a 2015-2015 Praxis Program Fellow in the <a href="http://scholarslab.org">Scholars' Lab</a>, where he was also lead developer for <a href="http://clockwork.scholarslab.org/">ClockWork</a>, a sonification project. During the 2017-2018 academic year he was a Graduate Fellow in Digital Humanities in the Scholars' Lab.</p>
-
-        <p><a href="http://twitter.com/reedeth"><i class="fab fa-twitter"></i>@reedeth</a> | <a href="http://github.com/reedeth"><i class="fab fa-github"></i> reedeth</a></p>
-      </div>
+<div id="dg">
+  <div class="container" style="padding-top: 16px;">
+    <div class="row centered">
+      {% assign instructors = site.data.instructors | sort: "name" | reverse %}
+      {% assign image_base = "/assets/img/" | prepend: site.baseurl %}
+      {% for instructor in instructors %}
+        {% if instructor.current %}
+          <div class="col-lg-6">
+            <h4>{{ instructor.name }}</h4>
+              <img class="img-circle" src="{{ image_base | append: instructor.image_path }}" width="110" height="110" alt="{{ instructor.name }}">
+              <p style="text-align:left;">{{ instructor.bio }}</p>
+              <p><a href="https://twitter.com/{{ instructor.twitter }}"><i class="fab fa-twitter"></i> @{{ instructor.twitter }}</a> | <a href="https://github.com/{{ instructor.github }}"><i class="fab fa-github"></i>{{ instructor.github }}</a></p>  
+            </div>            
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </div>
