@@ -6,7 +6,7 @@ permalink: /resources/
 
 ## Class Resources
 
-### Current
+### 2018-Current
 
 * [Command Line Tutorial]({{ "/resources/command-line-tutorial/" | prepend:site.baseurl }})
 * [Git Tutorial w/o HTML/CSS]({{ "/resources/git-lesson-without-html-and-css" }})
