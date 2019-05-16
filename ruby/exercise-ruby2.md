@@ -214,5 +214,5 @@ puts tj # note, puts calls to_s if it is availabe
 
 # Can't Get Enough?
 Can't get enough? Work through the [Learn Ruby the Hard
-Way](http://ruby.learncodethehardway.org/book/) exercises and/or
+Way](https://learncodethehardway.org/ruby/) exercises and/or
 implement [the last programming exercises]({{ "/exercises/ruby-one/" | prepend: site.baseurl }}) as Objects.
