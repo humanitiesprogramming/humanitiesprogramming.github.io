@@ -6,7 +6,7 @@ permalink: /resources/
 
 ## Class Resources
 
-### Current
+### 2018-Current
 
 * [Command Line Tutorial]({{ "/resources/command-line-tutorial/" | prepend:site.baseurl }})
 * [Git Tutorial w/o HTML/CSS]({{ "/resources/git-lesson-without-html-and-css" }})
@@ -69,7 +69,7 @@ permalink: /resources/
   <ul>
     <li>E. Holgaard, Smooth Coffeescript.</li>
     <li>Andy Hunt, Pragmatic Thinking and Learning: Refactor Your Wetware, The Pragmatic Programmers (2008).</li>
-    <li><a href="http://ruby.learncodethehardway.org/book/">Learn Ruby the Hard Way</a>.</li>
+    <li><a href="https://learncodethehardway.org/ruby/">Learn Ruby the Hard Way</a>.</li>
     <li>Marijn Haverbeke, <a href="http://eloquentjavascript.net/">Eloquent JavaScript</a>.</li>
     <li>Chris Pine, <a href="https://pine.fm/LearnToProgram/">Learn to Program</a>.</li>
     <li>Scott Chacon, <a href="http://git-scm.com/book">Pro Git</a>.</li>

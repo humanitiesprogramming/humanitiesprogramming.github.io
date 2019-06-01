@@ -14,16 +14,10 @@
   year: 2018
 - first: Ashley
   last: Chang
-  github: afineyoungchang
   year: 2018
 - first: Aylin
   last: Malcolm
   twitter: Malentendre
-  year: 2018
-- first: Hiroyo
-  last: Saito
-  twitter: hsaito
-  github: yamatohime
   year: 2018
 - first: Leslie
   last: Jones
@@ -125,7 +119,6 @@
   year: 2017
 - first: Jacquelyne Thoni
   last: Howard
-  twitter: JQ7Howard
   github: JQ7Howard
   year: 2017
 - first: Molly
@@ -197,7 +190,6 @@
   year: 2016
 - first: Neal
   last: Curtis
-  twitter: nealifur
   year: 2016
 - first: Julianne
   last: McCobin
@@ -262,7 +254,6 @@
   year: 2015
 - first: Jordan
   last: Ryan
-  twitter: jordanblairryan
   year: 2015
 - first: Kevin
   last: Smith
@@ -332,7 +323,6 @@
   year: 2014
 - first: Bradley
   last: Nelson
-  twitter: bradleymnelson
   year: 2014
 - first: Trevor
   last: Berman
@@ -361,8 +351,6 @@
   year: 2013
 - first: Annie
   last: Johnson
-  twitter: anniekjohn
-  github: anniekjohn
   year: 2013
 - first: Kevin
   last: Gunn

@@ -7,7 +7,7 @@ title: Course Exercises
 ### Command Line
 * [Command Line Exercises]({{ "/exercises/command-line/" | prepend: site.baseurl }})
 * [Commands Covered]({{ "/exercises/cli-commands" | prepend: site.baseurl }})
-* [Learn Command Line the Hard Way](http://cli.learncodethehardway.org/book/)
+* [Learn Command Line the Hard Way](https://learnpythonthehardway.org/python3/appendixa.html)
 
 ### Git
 * [TryGit](https://try.github.io)

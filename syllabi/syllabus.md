@@ -4,6 +4,8 @@ title: Course Syllabus 2018
 permalink: /syllabus/
 ---
 
+Note that what we have listed below is just a rough estimate. We'll speed up or slow down depending on how the class is doing. 
+
 ## Day One: Basics
 
 * <a href="{{"/assets/slides/hilt-intro.pdf" | prepend: site.baseurl }}">Introduction</a>
