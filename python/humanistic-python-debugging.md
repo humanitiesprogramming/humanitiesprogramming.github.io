@@ -127,9 +127,9 @@ mappings = ['colour':'color', amok:'amuck' 'advisor':'adviser']
 new_list = []
 for words in words:
 	if word in mapping
-		new_list.append(mappings[word])
+    new_list.append(mappings[word])
 	else:
-        		new_list.append(word)
+    new_list.append(word)
 
 print new_list
 
