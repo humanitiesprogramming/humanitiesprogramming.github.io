@@ -55,7 +55,7 @@ pages = 457
 words_per_page = 250
 number_of_pieces = 100
 
-each_chunk = (457 * 250)/10
+each_chunk = (457 * 250)/100
 print(each_chunk)
 
 {% endhighlight %}
