@@ -2,7 +2,7 @@
 layout: page
 title: Course Exercises
 ---
-## 2017 - 
+## 2017 -
 
 ### Command Line
 * [Command Line Exercises]({{ "/exercises/command-line/" | prepend: site.baseurl }})
@@ -21,6 +21,7 @@ title: Course Exercises
 * [Python Exercises One](/exercises/python-one/)
 * [Python Exercises Two](/exercises/python-two/)
 * [Python Debugging Exercises](/exercises/python-debugging/)
+* [Humanistic Python Debugging Exercises](/exercises/humanistic-python-debugging)
 * Course Case Studies  
   * [Working with CSV](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-csv.ipynb)
   * [Getting Data from the DPLA API](https://nbviewer.jupyter.org/github/humanitiesprogramming/humanitiesprogramming.github.io/blob/master/python/notebooks/working-with-apis.ipynb)
